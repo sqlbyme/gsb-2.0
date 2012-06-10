@@ -107,5 +107,9 @@ Seth Rosenblatt, <a href="http://download.cnet.com/Songbird/3000-2141_4-10500669
 
     <div class="clearfix"></div>
 </div><!--container -->
+
+<!-- include Google Analytics Tracking Code -->
+<?php include('includes/ga.php'); ?>
+<!-- End GA Include -->
 </body>
 </html>

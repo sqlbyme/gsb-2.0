@@ -19,5 +19,9 @@
 
 <body>
 <iframe width="560" height="315" src="http://www.youtube.com/embed/fj2l-emoW2g?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<!-- include Google Analytics Tracking Code -->
+<?php include('includes/ga.php'); ?>
+<!-- End GA Include -->
 </body>
 </html>

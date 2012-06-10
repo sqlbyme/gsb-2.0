@@ -86,5 +86,9 @@ ul#bullets li {
 
     <div class="clearfix"></div>
 </div><!--container -->
+
+<!-- include Google Analytics Tracking Code -->
+<?php include('includes/ga.php'); ?>
+<!-- End GA Include -->
 </body>
 </html>
