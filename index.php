@@ -81,8 +81,13 @@ jQuery(function(){
     <div id="bottom-content">
       <div id="video"><a href="video.php" class="nyroModal"><img src="images/video.jpg" width="178" height="100" alt="video" border="0" /></a></div>
         <div id="experience">
-          <a href="http://www.songbird.me/" class="button"><span>Experience Song Bird Now</span></a>
-          <p>Also free for <a href="desktop.php" class="pink">Desktop</a> &amp; <a href="mobile.php" class="pink">Mobile</a></p>
+          <a href="#" class="button"></a>
+          <div id="product">
+            <a href="http://www.songbird.me/" class="web"></a>
+            <a href="mobile.php" class="mobile"></a>
+            <a href="desktop.php" class="desktop"></a>
+          </div>
+          <!-- <p>Also free for <a href="desktop.php" class="pink">Desktop</a> &amp; <a href="mobile.php" class="pink">Mobile</a></p> -->
       </div>
     </div><!--bottom-content -->
   </div><!--main-content -->

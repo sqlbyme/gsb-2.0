@@ -23,7 +23,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: helvetica, arial;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -59,9 +59,6 @@ table {
 }
 a#logo span, #logo span, #experience span {
 	display: none;
-}
-#experience span.pink {
-	display:inline;	
 }
 #wrapper {
 	width: 1230px;
@@ -138,14 +135,14 @@ strong {
 #experience a.button {
 	display: block;
 	width: 603px;
-	height: 100px;
-	background: url(../images/experience.png) top left;
+	height: 60px;
+	background: url(../images/learn-603x120-sprite.png) top left;
 }
 #experience a.button:hover {
 	display: block;
 	width: 603px;
-	height: 100px;
-	background: url(../images/experience.png) bottom left;
+	height: 60px;
+	background: url(../images/learn-603x120-sprite.png) bottom left;
 }
 #experience {
 	float: left;
@@ -156,6 +153,63 @@ strong {
 	text-align: center;
 	font-size: 16px;
 	padding-top: 10px;
+}
+#product {
+	float: left;
+	display: inline;
+	width: 603px;
+	height: 36px;
+	margin-top: 4px;
+	margin-bottom: 25px;
+	background: url(../images/iconrow-base-603x36.png) top left;
+}
+#product a.web {
+	display: inline;
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 35px;
+	margin-left: 153px;
+	background: url(../images/icon-web-150x70-sprite.png) top left;
+}
+#product a.web:hover {
+	display: inline;
+	width: 150px;
+	height: 35px;
+	margin-left: 153px;
+	background: url(../images/icon-web-150x70-sprite.png) bottom left;
+}
+#product a.mobile {
+	position: relative;
+	float: left;
+	display: inline;
+	width: 150px;
+	height: 35px;
+	margin-left: auto;
+	background: url(../images/icon-mobile-150x70-sprite.png) top left;
+}
+#product a.mobile:hover {
+	display: inline;
+	width: 150px;
+	height: 35px;
+	margin-left: auto;
+	background: url(../images/icon-mobile-150x70-sprite.png) bottom left;
+}
+#product a.desktop {
+	display: inline;
+	float: left;
+	width: 150px;
+	height: 35px;
+	margin-left: auto;
+	background: url(../images/icon-desktop-150x70-sprite.png) top left;
+}
+#product a.desktop:hover {
+	display: inline;
+	float: left;
+	width: 150px;
+	height: 35px;
+	margin-left: auto;
+	background: url(../images/icon-desktop-150x70-sprite.png) bottom left;
 }
 #bottom-content {
 	margin: 0 auto;
