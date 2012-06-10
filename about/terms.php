@@ -14,11 +14,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Songbird</title>
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
 <meta name="viewport" content="width=1000">
 <style>
 ul#bullets li {
-	background:url(images/pink_bullet_lg.gif) no-repeat top left;
+	background:url(../images/pink_bullet_lg.gif) no-repeat top left;
 	list-style:none;
 	padding:0 0 0 15px;
 	font-size:14px;
@@ -30,10 +30,10 @@ ul#bullets li {
 <body class="sub">
 <div id="container">
 	<div id="header">
-    	<a href="index.php" id="logo"></a>
+    	<a href="../index.php" id="logo"></a>
         <div id="nav_about">
         	Information
-            <img src="images/divider.jpg" border="0" width="1" height="31" style="position:relative; top:10px; margin:0 0 0 45px">
+            <img src="../images/divider.jpg" border="0" width="1" height="31" style="position:relative; top:10px; margin:0 0 0 45px">
             <a href="eula.php">End User License Agreement</a>
             <a href="privacy.php">Privacy Policy</a>
             <a href="terms.php" class="active">Terms of Use</a>
@@ -288,13 +288,13 @@ ul#bullets li {
     </div><!--content -->
     <div class="clearfix"></div>
 
-<?php include('includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>
 
     <div class="clearfix"></div>
 </div><!--container -->
 
 <!-- include Google Analytics Tracking Code -->
-<?php include('includes/ga.php'); ?>
+<?php include('../includes/ga.php'); ?>
 <!-- End GA Include -->
 </body>
 </html>

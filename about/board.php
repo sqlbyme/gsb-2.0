@@ -14,10 +14,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Songbird</title>
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
 <meta name="viewport" content="width=1000">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.expander.min.js"></script>
+<script type="text/javascript" src="../js/jquery.expander.min.js"></script>
 <script>
 $(document).ready(function() {
   var opts = {collapseTimer: 4000};
@@ -54,10 +54,10 @@ a {color: #e6317e;}
 <body class="sub">
 <div id="container">
 	<div id="header">
-    	<a href="index.php" id="logo"></a>
+    	<a href="../index.php" id="logo"></a>
         <div id="nav_about">
         	About
-            <img src="images/divider.jpg" border="0" width="1" height="31" style="position:relative; top:10px; margin:0 0 0 45px">
+            <img src="../images/divider.jpg" border="0" width="1" height="31" style="position:relative; top:10px; margin:0 0 0 45px">
             <a href="overview.php">Overview</a>
             <a href="board.php" class="active">Board</a>
             <a href="press.php">Press</a>
@@ -165,13 +165,13 @@ a {color: #e6317e;}
     </div><!--content -->
     <div class="clearfix"></div>
 
-<?php include('includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>
 
     <div class="clearfix"></div>
 </div><!--container -->
 
 <!-- include Google Analytics Tracking Code -->
-<?php include('includes/ga.php'); ?>
+<?php include('../includes/ga.php'); ?>
 <!-- End GA Include -->
 </body>
 </html>
