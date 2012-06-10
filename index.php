@@ -66,7 +66,7 @@ jQuery(function(){
 
 <body>
 <div id="wrapper">
-	<div id="logo"><a href="http://nextstep-esolutions.com/Clients/songbird/"><span>Songbird</span></a></div>
+	<div id="logo"><a href="./index.php"><span>Songbird</span></a></div>
 	<div id="main-content">
         <div id="rotator">
             <div id="slides">
