@@ -1,0 +1,402 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#logo {
+	float: left;
+	width: 180px;
+	padding-top: 30px;
+}
+#logo a, a#logo {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: url(../images/logo.png) no-repeat;
+}
+a#logo span, #logo span, #experience span {
+	display: none;
+}
+#experience span.pink {
+	display:inline;	
+}
+#wrapper {
+	width: 1230px;
+	margin: 0 auto;
+	padding: 0;
+	background: url(../images/background.png) no-repeat center top;
+}
+body {
+	background: #dedede;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#rotator {
+	background: url(../images/headphones.png) no-repeat;
+	width: 500px;
+	padding: 63px 216px 0 236px;
+	height: 500px;
+}
+#main-content {
+	width: 944px;
+	float: left;
+}
+h1 {
+	font-size: 24px;
+	color: #e6317e;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0 0 5px 0;
+	padding:0;
+}
+.tagline p {
+	color: #040303;
+	font-size: 20px;	
+	letter-spacing: 1px;
+	text-align: center;
+	display: block;
+}
+.tagline {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-left: -25px;
+}
+#rotator h2 {
+	color: #e6317e;
+	font-size: 37px;
+}
+#rotator img {
+	text-align: center;
+}
+#video {
+	float: left;
+	width: 178px;
+	margin-right: 10px;	
+}
+p {
+	font-size: 14px;
+	color: #000000;
+}
+.clearfix {
+	clear:both;
+}
+
+/* Homepage */
+
+strong {
+	font-weight: bold;
+}
+.pink, p a, #ticker a.pink, a.pink, span.pink a {
+	color: #e6317e;
+	text-decoration: none;
+}
+#ticker a {
+	text-decoration: none;
+}
+#experience a.button {
+	display: block;
+	width: 603px;
+	height: 100px;
+	background: url(../images/experience.png) top left;
+}
+#experience a.button:hover {
+	display: block;
+	width: 603px;
+	height: 100px;
+	background: url(../images/experience.png) bottom left;
+}
+#experience {
+	float: left;
+	width: 603px;
+	margin-bottom: 25px;
+}
+#experience p {
+	text-align: center;
+	font-size: 16px;
+	padding-top: 10px;
+}
+#bottom-content {
+	margin: 0 auto;
+	width: 791px;
+}
+
+#ticker-inside {
+	text-align: right;
+ 	width: 1600px;
+}
+#ticker a {
+	color: #000000;
+}
+
+/* liScroll styles */
+
+.tickercontainer { /* the outer div with the black border */
+	width: 860px; 
+	height: 60px; 
+	margin: 0 auto; 
+	padding: 0;
+	overflow: hidden; 
+}
+.tickercontainer .mask { /* that serves as a mask. so you get a sort of padding both left and right */
+	position: relative;
+	left: 73px;
+	width: 860px;
+	overflow: hidden;
+}
+ul.newsticker { /* that's your list */
+	position: relative;
+	left: 860px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+ul.newsticker li {
+	float: left; /* important: display inline gives incorrect results when you check for elem's width */
+	margin: 0;
+	padding: 0;
+}
+
+/* Subpages */
+body.sub {
+	background:url(../images/bg_footer.jpg) no-repeat #ffffff center bottom;
+}
+#container {
+	margin:34px auto 0 auto;
+	width:950px;
+}
+#header {
+	clear:both;
+	height:100px;
+}
+a#web, a#mobile, a#desktop, #mobile_active, #desktop_active {
+	background:url(../images/icon_sprite.png) no-repeat;
+	float:left;
+	height:72px;
+	margin:16px 0 0 43px;
+}
+a#web {	
+	width:45px;
+	height:71px;
+}
+a:hover#web {
+	background-position:-300px 0;
+}
+a#mobile, #mobile_active {
+	width:54px;
+}
+a#mobile {
+	background-position:-48px 0;
+}
+#mobile_active, a:hover#mobile {
+	background-position:-105px 0;
+}
+a#desktop, #desktop_active {
+	width:66px;
+}
+a#desktop {
+	background-position:-162px 0;
+}
+#desktop_active, a:hover#desktop {
+	background-position:-231px 0;
+}
+
+#content {
+	color:#666666;
+	clear:both;
+	width:950px;
+	padding:0;
+	margin:0;
+	font-size:17px;
+	line-height:24px;
+}
+#left_column {
+	float:left;
+	margin:30px 30px 0 0;
+	width:610px;
+}
+#sidebar {
+	float:left;
+	margin:30px 0 0 0;
+	width:310px;
+	font-size:14px;
+}
+a#download {
+	background:url(../images/btn_download.png) no-repeat;
+	display:block;
+	height:59px;
+	margin:20px 0 0 0;
+	width:310px;
+}
+a:hover#download {
+	background-position:0 -59px;
+}
+#iphone {
+	background:#e6e7e9; 
+	padding:30px; 
+	width:250px;
+	font-size:13px;
+	line-height:15px;
+	margin:56px 0 0 0;
+}
+.three_column {
+	float:left;
+	width:310px;
+	font-size:14px;
+}
+body.sub #footer {
+	height:56px;
+	background:none;
+	width:950px;
+	margin:0 auto;	
+	color:#ffffff;
+	padding:300px 0 0 0;
+}
+#nav_about {
+	float:left;
+	color:#666666;
+	text-transform:uppercase;
+	font-size:14px;
+	height:21px;
+	margin:14px 0 0 45px;
+	padding:10px 0 0 0;
+}
+#nav_about a {
+	color:#999999;
+	text-decoration:none;
+	margin:0 0 0 45px;
+}
+#nav_about a:hover, #nav_about .active {
+	color:#e6317e;	
+}
+.press_item, .board_member {
+	font-size:14px;
+	line-height:24px;
+	padding:20px 0 20px 0;
+}
+.board_member {
+	padding:34px 0 34px 0 !important;
+}
+#left_column p {
+	margin:0 0 20px 0;
+	color:#666666;
+}
+a.view {
+	color:#e6317e;
+	text-decoration:none;
+}
+.more {
+	background:#ffffff;
+}
+.pink_border {
+	border-top:1px solid #e6317e;
+	margin-top:14px;
+}
+/* Footer */
+
+#footer {
+	background: #000000;
+	height: 56px;
+	width: 100%;
+	background-size: cover;
+	margin-top: 25px;
+}
+#footer a:link, #footer a:active, #footer a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #e6317e;
+	text-decoration:none;
+}
+#footer li, #footer ul {
+	margin-top: 0;
+	padding-top: 0;
+	padding: 0;
+	margin: 0;
+}
+#footer li {
+	display: inline;
+	font-size: 12px;
+	margin-left: 10px;
+	font-weight:lighter;
+}
+#footer ul {
+	padding-top: 20px;
+	float: left;
+}
+#footer p {
+	color: #ffffff;
+	font-size: 12px;
+	font-weight:lighter;
+	float: left;
+	padding-top: 22px;
+}
+#footer-content {
+	width: 1050px;
+	margin: 0 auto;
+	padding-left: 180px;
+	background: #000000;
+}
+a.facebook {
+	background: url(../images/social.png) top left;
+	width: 56px;
+	height: 56px;
+	display: block;
+	float: right;
+}
+a.facebook:hover {
+	background: url(../images/social.png) bottom left;
+}
+a.twitter {
+	background: url(../images/social.png) top right;
+	width: 56px;
+	height: 56px;
+	display: block;
+	float: right;
+}
+a.twitter:hover {
+	background: url(../images/social.png) bottom right;
+}

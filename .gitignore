@@ -1,0 +1,9 @@
+# Ignore MAC DS_Store
+.DS_Store
+
+# Ignore tmp dir
+/tmp/*
+
+# Ignore Log Files
+*.log 
+/log/*
