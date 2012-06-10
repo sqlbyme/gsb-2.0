@@ -7,3 +7,7 @@
 # Ignore Log Files
 *.log 
 /log/*
+
+# Ignore .htaccess and .htpasswd
+.htaccess
+.htpasswd
