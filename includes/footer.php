@@ -3,7 +3,7 @@
     <p>2012 &copy; All Rights Reserved &nbsp;&nbsp; | &nbsp;</p>
       <ul>
         <li><a href="../help/">Help</a></li>
-        <li><a href="#">Partners</a></li>
+        <li><a href="../partners/">Partners</a></li>
         <li><a href="#">Products</a></li>
         <li><a href="#">Support</a></li>
         <li><a href="../about/overview.php">About Us</a></li>
