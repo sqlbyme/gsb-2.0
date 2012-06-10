@@ -103,5 +103,8 @@ jQuery(function(){
 
 <div class="clearfix"></div>
 
+<!-- include Google Analytics Tracking Code -->
+<?php include('includes/ga.php'); ?>
+<!-- End GA Include -->
 </body>
 </html>
