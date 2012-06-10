@@ -292,7 +292,8 @@ body.sub #footer {
 	width:950px;
 	margin:0 auto;	
 	color:#ffffff;
-	padding:300px 0 0 0;
+	padding:240px 0 0 0;
+	border: none;
 }
 #nav_about {
 	float:left;

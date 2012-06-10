@@ -18,67 +18,67 @@
 <meta name="viewport" content="width=1000">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript">
-	$(function() {
-	  $("#mac").hide();
-	  $("#pc").hide();
-	  $("#mac_toggle").click(function () {
-	  	  $("#mac_toggle").css("color","#e6317e");
-		  $("#pc_toggle").css("color","#666666");
-		  $("#mac").show("fast");
-		  $("#pc").hide("fast");
-	  });
-	  $("#pc_toggle").click(function () {
-	  	  $("#pc_toggle").css("color","#e6317e");
-		  $("#mac_toggle").css("color","#666666");
-		  $("#pc").show("fast");
-		  $("#mac").hide("fast");
-	  });
-	});
+  $(function() {
+    $("#mac").hide();
+    $("#pc").hide();
+    $("#mac_toggle").click(function () {
+      $("#mac_toggle").css("color","#e6317e");
+      $("#pc_toggle").css("color","#666666");
+      $("#mac").show("fast");
+      $("#pc").hide("fast");
+    });
+    $("#pc_toggle").click(function () {
+      $("#pc_toggle").css("color","#e6317e");
+      $("#mac_toggle").css("color","#666666");
+      $("#pc").show("fast");
+      $("#mac").hide("fast");
+    });
+  });
 </script>
 <style>
 .requirements {	
-	position:absolute;
+  position:absolute;
 }
 #mac, #pc {
-	margin:24px 0 0 0;
-	position:absolute;
-	clear:both;
+  margin:24px 0 0 0;
+  position:absolute;
+  clear:both;
 }
 #pc li, #mac li {
-	background:url(images/pink_bullet.gif) no-repeat bottom left;
-	list-style:none;
-	padding:0 0 0 15px;
+  background:url(images/pink_bullet.gif) no-repeat bottom left;
+  list-style:none;
+  padding:0 0 0 15px;
 }
 a#mac_toggle, a#pc_toggle {
-	color:#666666;
-	text-decoration:none;
+  color:#666666;
+  text-decoration:none;
 }
 a:hover#mac_toggle, a:hover#pc_toggle {
-	color:#e6317e;
+  color:#e6317e;
 }
 </style>
 </head>
 
 <body class="sub">
 <div id="container">
-	<div id="header">
-    	<a href="index.php" id="logo"></a>
-        <a href="http://www.songbird.me/" id="web"></a>
-        <a href="mobile.php" id="mobile"></a>
-        <div id="desktop_active"></div>
-    </div>
-    <div id="content">
-    	<h1>Get SONGBIRD &amp; Get Going.</h1>
+  <div id="header">
+    <a href="index.php" id="logo"></a>
+    <a href="http://www.songbird.me/" id="web"></a>
+    <a href="mobile.php" id="mobile"></a>
+    <div id="desktop_active"></div>
+  </div>
+  <div id="content">
+    <h1>Get SONGBIRD &amp; Get Going.</h1>
         Download Songbird for your Mac or PC. Manage your music and videos, build playlists, browse, search, and sort. Then sync your music to your portable music player or phone. Songbird makes it simple.
         
         <div class="clearfix"></div>
         
         <div id="left_column">
-        	<img src="images/screenshots/desktop_1.jpg" width="600" height="427" border="0">
+          <img src="images/screenshots/desktop_1.jpg" width="600" height="427" border="0">
         </div>
         
         <div id="sidebar">
-        	Keep me up to date with SONGBIRD news, software updates, and the latest information on products and services.
+          Keep me up to date with SONGBIRD news, software updates, and the latest information on products and services.
             <input type="text" name="email"  value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Arial, Helvetica, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;">
             <a href="" id="download"></a>
             
@@ -115,17 +115,17 @@ a:hover#mac_toggle, a:hover#pc_toggle {
         <div class="clearfix"></div>
         
         <div class="three_column" style="margin:40px 10px 0 0;">
-        	<h1>Bring Tracks to Life</h1>
+          <h1>Bring Tracks to Life</h1>
             <img src="images/screenshots/desktop_2.jpg" width="310" height="200" style="margin:10px 0" border="0">
             MashTape scours the Web to bring you videos, photos and more for every song. 
         </div>
         <div class="three_column" style="margin:40px 10px 0 0;">
-        	<h1>Catch the Show</h1>
+          <h1>Catch the Show</h1>
             <img src="images/screenshots/desktop_3.jpg" width="310" height="200" style="margin:10px 0" border="0">
             Get notified and purchase tickets when your favorite bands come to town. 
         </div>
         <div class="three_column" style="margin:40px 0px 0 0;">
-        	<h1>Get Tracks to Go</h1>
+          <h1>Get Tracks to Go</h1>
             <img src="images/screenshots/desktop_4.jpg" width="310" height="200" style="margin:10px 0" border="0">
             Purchase albums and songs directly through Songbird from 7digital. 
         </div>
@@ -133,23 +133,11 @@ a:hover#mac_toggle, a:hover#pc_toggle {
         <div class="clearfix"></div>
         
     </div><!--content -->
-    <div class="clearfix"></div>
-    <div id="footer">
-        <p>2012 &copy; SONGBIRD All Rights Reserved &nbsp;&nbsp; | &nbsp;</p>
-            <ul>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Partners</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="overview.php">About</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms of Use</a></li>
-            </ul> 
-        <a class="facebook" href="http://www.facebook.com/Songbird?ref=search&sid=648331437.2719007091..1" target="_blank"></a><a class="twitter" href="https://twitter.com/#!/songbird" target="_blank"></a>       
-    </div>
-    <div class="clearfix"></div>
+<div class="clearfix"></div>
+
+  <?php include('includes/footer.php'); ?>
+
+<div class="clearfix"></div>
 </div><!--container -->
 </body>
 </html>
