@@ -337,11 +337,17 @@ a.view {
 /* Footer */
 
 #footer {
-	background: #000000;
+	position: relative;
+	clear: both;
+	margin: 0px 170px 0px;
+	width: 78%;
 	height: 56px;
-	width: 100%;
-	background-size: cover;
-	margin-top: 25px;
+	padding: 0px 0 0 0;
+	border: 1px solid #d4d4d4;
+	font-size: 11px;
+	background: #000000;
+	color: #828282;
+	text-align: center;
 }
 #footer a:link, #footer a:active, #footer a:visited {
 	color: #ffffff;
@@ -375,9 +381,9 @@ a.view {
 	padding-top: 22px;
 }
 #footer-content {
-	width: 1050px;
+	width: 850px;
 	margin: 0 auto;
-	padding-left: 180px;
+	/*padding-left: 180px;*/
 	background: #000000;
 }
 a.facebook {
