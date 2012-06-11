@@ -265,17 +265,17 @@ body.sub {
 	clear:both;
 	height:100px;
 }
-a#web, a#mobile, a#desktop, #mobile_active, #desktop_active {
+a#web, a#mobile, a#desktop, #mobile_active, #desktop_active, #web_active {
 	background:url(../images/icon_sprite.png) no-repeat;
 	float:left;
 	height:72px;
 	margin:16px 0 0 43px;
 }
-a#web {	
+a#web, #web_active {	
 	width:45px;
 	height:71px;
 }
-a:hover#web {
+#web_active, a:hover#web {
 	background-position:-300px 0;
 }
 a#mobile, #mobile_active {
