@@ -74,7 +74,7 @@ a:hover#mac_toggle, a:hover#pc_toggle {
         <div class="clearfix"></div>
         
         <div id="left_column">
-          <img src="../images/screenshots/desktop_1.jpg" width="600" height="427" border="0">
+          <img src="../images/screenshots/info_1.jpeg" width="600" height="427" border="0">
         </div>
         
         <div id="sidebar">
@@ -91,6 +91,21 @@ a:hover#mac_toggle, a:hover#pc_toggle {
         
         <div class="clearfix"></div>
         
+       <div class="three_column" style="margin:40px 10px 0 0;">
+        	<h1>Fresh Artist Content</h1>
+            <img src="../images/screenshots/info_2.jpeg" width="310" height="170" style="margin:10px 0" border="0">
+            Browse, sort and play your music the way you want. Create,edit and sort playlists. Search through all your music. 
+        </div>
+        <div class="three_column" style="margin:40px 10px 0 0;">
+        	<h1>Personal Recommendations</h1>
+            <img src="../images/screenshots/info_3.jpeg" width="310" height="170" style="margin:10px 0" border="0">
+            See which artists your friends are into. Quickly and easily ‘like’ any song and post to your wall. 
+        </div>
+        <div class="three_column" style="margin:40px 0px 0 0;">
+        	<h1>See Your Friends Music</h1>
+            <img src="../images/screenshots/info_4.jpeg" width="310" height="170" style="margin:10px 0" border="0">
+            Matching homescreen and lockscreen widgets with album art. Headset, bluetooth car audio and Last.fm support. 
+        </div>
  
         
         <div class="clearfix"></div>
