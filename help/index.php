@@ -33,10 +33,6 @@ ul#bullets li {
     	<a href="../index.php" id="logo"></a>
         <div id="nav_about">
         	Help
-            <img src="../images/divider.jpg" border="0" width="1" height="31" style="position:relative; top:10px; margin:0 0 0 45px">
-            <a href="#" class="active">#</a>
-            <a href="#">#</a>
-            <a href="#">#</a>
         </div>
     </div>
     <div id="content">
@@ -46,7 +42,7 @@ ul#bullets li {
 			    <span class="vagrounded-14">Ask a question, share an idea, or report a problem, and get help from the Songbird community.</span>
 			  </div>
 
-			  <div id="help-search">
+			 <!-- <div id="help-search">
 			    <div class="gsfn_content">
 			      <form id="gsfn_search_form" action="http://getsatisfaction.com/songbird" method="get" accept-charset="utf-8" onsubmit="gsfn_search(this); return false;">
 			        <div>
@@ -63,7 +59,7 @@ ul#bullets li {
 			      <div id="gsfn_search_results" style="height:auto;"></div>
 			      <div class="powered_by"><a href="http://getsatisfaction.com/"><img alt="Get Satisfaction" src="http://www.getsatisfaction.com/favicon.gif" /></a> <a href="http://getsatisfaction.com/songbird" onclick="urchinTracker('/help/search/powered-by');">Powered by Get Satisfaction</a></div>
 			    </div>
-			  </div>
+			  </div> -->
 
 				<div id="content-allwide" class="regcopy">
 					<h2><a href="http://getsatisfaction.com/songbird" onclick="urchinTracker('/help/recent-activity/title');">Recent Activity</a></h2>
