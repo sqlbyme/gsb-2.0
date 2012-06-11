@@ -1,3 +1,12 @@
+<!-- GA code to track outbound clicks -->
+<script type="text/javascript">
+  function recordOutboundLink(link, category, action) {
+    _gat._getTrackerByName()._trackEvent(category, action);
+    setTimeout('document.location = "' + link.href + '"', 100);
+  }
+</script>
+
+<!-- Include this script for Google Alalytics tracking for getsongbird.com -->
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
