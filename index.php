@@ -39,13 +39,17 @@
 <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
 <script type="text/javascript">
 $(function() {
+  
   $('#slides img:first').fadeIn(1000, function() {
     $('#slides').cycle({
-      autostop: 0,
-      pause: 1 
-    });
-  });
+	    autostop: 0,
+	    pause: 1
+	  });
+	});
 });
+
+
+
 $(function(){
     $("ul#ticker01").liScroll();
 });
@@ -62,10 +66,10 @@ jQuery(function(){
   <div id="main-content">
     <div id="rotator">
       <div id="slides">
-        <img src="images/slides/1.png" border="0" style="margin-left:24px">
-        <img src="images/slides/2.png" border="0" style="display:none">
-        <img src="images/slides/3.png" border="0" style="margin-left:20px; display:none">
-        <img src="images/slides/4.png" border="0" style="margin-left:24px; display: none">
+        <img src="images/slides/1.png" border="0" style="display: none;">
+        <img src="images/slides/2.png" border="0" style="display: none;">
+        <img src="images/slides/3.png" border="0" style="display: none;">
+        <img src="images/slides/4.png" border="0" style="display: none;">
       </div>
     </div><!--rotator -->
     <div id="bottom-content">
