@@ -42,17 +42,9 @@ $(function() {
   $('#slides img:first').fadeIn(1000, function() {
     $('#slides').cycle({
       autostop: 0,
-    end: function() {
-      $('#replay').click(function () {
-        $('#slides img:first').fadeIn(1000, function() {
-          $('#slides').cycle({
-            autostop: 1
-          });//end #slides
-        });//end img:first
-      });//end #replay
-    }//end end
+      pause: 1 
+    });
   });
-});
 });
 $(function(){
     $("ul#ticker01").liScroll();
@@ -73,9 +65,7 @@ jQuery(function(){
         <img src="images/slides/1.png" border="0" style="margin-left:24px">
         <img src="images/slides/2.png" border="0" style="display:none">
         <img src="images/slides/3.png" border="0" style="margin-left:20px; display:none">
-        <a href="#" id="replay" style="display:none; position:relative; z-index:0"><img src="images/slides/4.png" border="0" style="margin-left:24px; margin-top:185px; position:relative; z-index:0"></a>
-        <a href="#" id="replay" style="display:none; position:relative; z-index:0"><img src="images/slides/4.png" border="0" style="margin-left:24px; margin-top:185px; position:relative; z-index:0"></a>
-        <a href="#" id="replay" style="display:none; position:relative; z-index:0"><img src="images/slides/4.png" border="0" style="margin-left:24px; margin-top:185px; position:relative; z-index:0"></a>
+        <img src="images/slides/4.png" border="0" style="margin-left:24px; display: none">
       </div>
     </div><!--rotator -->
     <div id="bottom-content">
