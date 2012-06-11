@@ -71,9 +71,9 @@ function get_dl($platform = "", $arch = "unknown", $key = "url") {
 	}
 	else {
 		$dl['file'] = 'Songbird_' . $dl['version'] . '-' . $dl['build'] . '_' . $dl['platform'] . '-' . $dl['arch'] . '.' . $dl['suffix'];
-		//$dl['uri'] = 'installer/' . $dl['platform'] . '/' . $dl['arch'] . '/' . $dl['file'];
-		//$dl['url'] = S3::getAuthenticatedURL("download.songbirdnest.com", $dl['uri'], 300, false, false); 
-		$dl['url'] = 'http://download.songbirdnest.com/installer/' . $dl['platform'] . '/' . $dl['arch'] . '/' . $dl['file'];
+		$dl['uri'] = 'installer/' . $dl['platform'] . '/' . $dl['arch'] . '/' . $dl['file'];
+		$dl['url'] = S3::getAuthenticatedURL("download.songbirdnest.com", $dl['uri'], 300, false, false); 
+		//$dl['url'] = 'http://download.songbirdnest.com/installer/' . $dl['platform'] . '/' . $dl['arch'] . '/' . $dl['file'];
 	}
 	
 	return $dl[$key];
