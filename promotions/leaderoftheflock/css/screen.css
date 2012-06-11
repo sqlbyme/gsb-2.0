@@ -261,7 +261,11 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 	margin-bottom: 0;
 }
 .bigBottom {
-	margin-bottom: 4em;
+	margin-bottom: 50px;
+}
+
+.medBottom {
+	margin-bottom: 20px;
 }
 .smallBottom {
 	margin-bottom: 5px;
