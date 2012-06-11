@@ -18,7 +18,7 @@
 </head>
 
 <body>
-<iframe width="560" height="315" src="http://assets.getsongbird.com/video/gsb20.mov" frameborder="0" allowfullscreen></iframe>
+<iframe src="http://player.vimeo.com/video/43857414" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 <!-- include Google Analytics Tracking Code -->
 <?php include('includes/ga.php'); ?>
