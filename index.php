@@ -13,6 +13,12 @@
 <!--<![endif]-->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Effortless Music Discovery" />
+<meta name="keywords" content="songbird, songbird for Android, Android music player, songbird.me " />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="revisit-after" content="7 days" />
+
 <title>Songbird</title>
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 <link rel="stylesheet" href="js/nyroModal/styles/nyroModal.css" type="text/css" media="screen" />
@@ -62,7 +68,7 @@ jQuery(function(){
 
 <body>
 <div id="wrapper">
-  <div id="logo"><a href="./index.php"><span>Songbird</span></a></div>
+  <div id="logo"><a href="./index.php" onClick="recordOutboundLink(this, 'Logo Clicked', 'Link Location: Home Page');"><span>Songbird</span></a></div>
   <div id="main-content">
     <div id="rotator">
       <div id="slides">
@@ -73,13 +79,13 @@ jQuery(function(){
       </div>
     </div><!--rotator -->
     <div id="bottom-content">
-      <div id="video"><a href="video.php" class="nyroModal"><img src="images/video.jpg" width="178" height="100" alt="video" border="0" /></a></div>
+      <div id="video"><a href="video.php" onClick="recordOutboundLink(this, 'Video Clicked', 'Link Location: Home Page');" class="nyroModal"><img src="images/video.jpg" width="178" height="100" alt="video" border="0" /></a></div>
         <div id="experience">
-          <a href="/products/" class="button"></a>
+          <a href="/products/" class="button" onClick="recordOutboundLink(this, 'Learn More Clicked', 'Link Location: Home Page');"></a>
           <div id="product">
-            <a href="http://www.songbird.me/" class="web"></a>
-            <a href="/mobile/" class="mobile"></a>
-            <a href="/desktop/" class="desktop"></a>
+            <a href="http://www.songbird.me/" class="web" onClick="recordOutboundLink(this, 'Web Icon Clicked', 'Link Location: Home Page');return false;"></a>
+            <a href="/mobile/" class="mobile" onClick="recordOutboundLink(this, 'Mobile Icon Clicked', 'Link Location: Home Page');return false;"></a>
+            <a href="/desktop/" class="desktop" onClick="recordOutboundLink(this, 'Desktop Icon Clicked', 'Link Location: Home Page'); return false;"></a>
           </div>
       </div>
     </div><!--bottom-content -->
@@ -91,7 +97,7 @@ jQuery(function(){
 
 <ul id="ticker01">
   <li>
-    <strong>Songbird</strong> is giving away <strong>$1500</strong> to see your favorite music live! <a class="pink" href="promotions/leadtheflock/enter/">Click here</a> for info!</p></span>
+    <strong>Songbird</strong> is giving away <strong>$1500</strong> to see your favorite music live! <a class="pink" href="promotions/leadtheflock/enter/" onClick="recordOutboundLink(this, 'Promotion Clicked', 'Link Location: Home Page Ticker'); return false;">Click here</a> for info!</p></span>
   </li>
 </ul>    
 
