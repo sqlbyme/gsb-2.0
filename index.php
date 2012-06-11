@@ -92,7 +92,7 @@ jQuery(function(){
 
 <ul id="ticker01">
   <li>
-    <strong>Join in</strong> our "Lead the Flock" contest with <strong>big music prizes</strong> for playing. <a class="pink" href="promotions/leadtheflock/enter/">Click here</a> for info!</p></span>
+    <strong>Songbird</strong> is giving away <strong>$1000</strong> to see your favorite music live! <a class="pink" href="promotions/leadtheflock/enter/">Click here</a> for info!</p></span>
   </li>
 </ul>    
 
