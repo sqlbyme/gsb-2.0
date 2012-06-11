@@ -4,8 +4,8 @@
       <ul>
         <li><a href="../help/">Help</a></li>
         <li><a href="../partners/">Partners</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Support</a></li>
+        <li><a href="/products/">Products</a></li>
+        <li><a href="http://getsatisfaction.com/songbird">Support</a></li>
         <li><a href="../about/overview.php">About Us</a></li>
         <li><a href="#">Jobs</a></li>
         <li><a href="../about/eula.php">License</a></li>

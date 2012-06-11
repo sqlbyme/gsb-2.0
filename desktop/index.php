@@ -14,7 +14,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Songbird</title>
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
 <meta name="viewport" content="width=1000">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript">
@@ -45,7 +45,7 @@
   clear:both;
 }
 #pc li, #mac li {
-  background:url(images/pink_bullet.gif) no-repeat bottom left;
+  background:url(../images/pink_bullet.gif) no-repeat bottom left;
   list-style:none;
   padding:0 0 0 15px;
 }
@@ -62,9 +62,9 @@ a:hover#mac_toggle, a:hover#pc_toggle {
 <body class="sub">
 <div id="container">
   <div id="header">
-    <a href="index.php" id="logo"></a>
+    <a href="/" id="logo"></a>
     <a href="http://www.songbird.me/" id="web"></a>
-    <a href="mobile.php" id="mobile"></a>
+    <a href="/mobile/" id="mobile"></a>
     <div id="desktop_active"></div>
   </div>
   <div id="content">
@@ -74,7 +74,7 @@ a:hover#mac_toggle, a:hover#pc_toggle {
         <div class="clearfix"></div>
         
         <div id="left_column">
-          <img src="images/screenshots/desktop_1.jpg" width="600" height="427" border="0">
+          <img src="../images/screenshots/desktop_1.jpg" width="600" height="427" border="0">
         </div>
         
         <div id="sidebar">
@@ -116,17 +116,17 @@ a:hover#mac_toggle, a:hover#pc_toggle {
         
         <div class="three_column" style="margin:40px 10px 0 0;">
           <h1>Bring Tracks to Life</h1>
-            <img src="images/screenshots/desktop_2.jpg" width="310" height="200" style="margin:10px 0" border="0">
+            <img src="../images/screenshots/desktop_2.jpg" width="310" height="200" style="margin:10px 0" border="0">
             MashTape scours the Web to bring you videos, photos and more for every song. 
         </div>
         <div class="three_column" style="margin:40px 10px 0 0;">
           <h1>Catch the Show</h1>
-            <img src="images/screenshots/desktop_3.jpg" width="310" height="200" style="margin:10px 0" border="0">
+            <img src="../images/screenshots/desktop_3.jpg" width="310" height="200" style="margin:10px 0" border="0">
             Get notified and purchase tickets when your favorite bands come to town. 
         </div>
         <div class="three_column" style="margin:40px 0px 0 0;">
           <h1>Get Tracks to Go</h1>
-            <img src="images/screenshots/desktop_4.jpg" width="310" height="200" style="margin:10px 0" border="0">
+            <img src="../images/screenshots/desktop_4.jpg" width="310" height="200" style="margin:10px 0" border="0">
             Purchase albums and songs directly through Songbird from 7digital. 
         </div>
         
@@ -135,13 +135,13 @@ a:hover#mac_toggle, a:hover#pc_toggle {
     </div><!--content -->
 <div class="clearfix"></div>
 
-  <?php include('includes/footer.php'); ?>
+  <?php include('../includes/footer.php'); ?>
 
 <div class="clearfix"></div>
 </div><!--container -->
 
 <!-- include Google Analytics Tracking Code -->
-<?php include('includes/ga.php'); ?>
+<?php include('../includes/ga.php'); ?>
 <!-- End GA Include -->
 </body>
 </html>
