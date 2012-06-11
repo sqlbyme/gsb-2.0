@@ -14,7 +14,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Songbird</title>
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
 <meta name="viewport" content="width=1000">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript">
@@ -45,7 +45,7 @@
   clear:both;
 }
 #pc li, #mac li {
-  background:url(images/pink_bullet.gif) no-repeat bottom left;
+  background:url(../images/pink_bullet.gif) no-repeat bottom left;
   list-style:none;
   padding:0 0 0 15px;
 }
@@ -62,10 +62,10 @@ a:hover#mac_toggle, a:hover#pc_toggle {
 <body class="sub">
 <div id="container">
   <div id="header">
-    <a href="index.php" id="logo"></a>
+    <a href="/" id="logo"></a>
     <a href="http://www.songbird.me/" id="web_active"></a>
-    <a href="mobile.php" id="mobile_active"></a>
-    <a href="desktop.php" id="desktop_active"></a>
+    <a href="/mobile/" id="mobile_active"></a>
+    <a href="/desktop/" id="desktop_active"></a>
   </div>
   <div id="content">
     <h1>Get SONGBIRD &amp; Get Going.</h1>
@@ -74,12 +74,12 @@ a:hover#mac_toggle, a:hover#pc_toggle {
         <div class="clearfix"></div>
         
         <div id="left_column">
-          <img src="images/screenshots/desktop_1.jpg" width="600" height="427" border="0">
+          <img src="../images/screenshots/desktop_1.jpg" width="600" height="427" border="0">
         </div>
         
         <div id="sidebar">
           Keep me up to date with SONGBIRD news, software updates, and the latest information on products and services.
-            <input type="text" name="email"  value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Arial, Helvetica, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;">
+            <input type="text" name="email"  value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Helvetica, Arial, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;">
             <a href="http://market.android.com/details?id=com.songbirdnest.mediaplayer" id="free_android"></a>
             <a href="http://www.songbird.me" id="web_app"></a>
             
@@ -98,13 +98,13 @@ a:hover#mac_toggle, a:hover#pc_toggle {
     </div><!--content -->
 <div class="clearfix"></div>
 
-  <?php include('includes/footer.php'); ?>
+  <?php include('../includes/footer.php'); ?>
 
 <div class="clearfix"></div>
 </div><!--container -->
 
 <!-- include Google Analytics Tracking Code -->
-<?php include('includes/ga.php'); ?>
+<?php include('../includes/ga.php'); ?>
 <!-- End GA Include -->
 </body>
 </html>

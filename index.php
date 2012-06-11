@@ -75,13 +75,12 @@ jQuery(function(){
     <div id="bottom-content">
       <div id="video"><a href="video.php" class="nyroModal"><img src="images/video.jpg" width="178" height="100" alt="video" border="0" /></a></div>
         <div id="experience">
-          <a href="products.php" class="button"></a>
+          <a href="/products/" class="button"></a>
           <div id="product">
             <a href="http://www.songbird.me/" class="web"></a>
-            <a href="mobile.php" class="mobile"></a>
-            <a href="desktop.php" class="desktop"></a>
+            <a href="/mobile/" class="mobile"></a>
+            <a href="/desktop/" class="desktop"></a>
           </div>
-          <!-- <p>Also free for <a href="desktop.php" class="pink">Desktop</a> &amp; <a href="mobile.php" class="pink">Mobile</a></p> -->
       </div>
     </div><!--bottom-content -->
   </div><!--main-content -->
@@ -92,7 +91,7 @@ jQuery(function(){
 
 <ul id="ticker01">
   <li>
-    <strong>Songbird</strong> is giving away <strong>$1000</strong> to see your favorite music live! <a class="pink" href="promotions/leadtheflock/enter/">Click here</a> for info!</p></span>
+    <strong>Songbird</strong> is giving away <strong>$1500</strong> to see your favorite music live! <a class="pink" href="promotions/leadtheflock/enter/">Click here</a> for info!</p></span>
   </li>
 </ul>    
 
