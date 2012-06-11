@@ -40,7 +40,8 @@
 	
 	<header>
 		<div class="container">
-			<div class="span-24 center">
+<div class="span-2"><a href="/"><img src="../images/logo.png" /></a></div>
+			<div class="span-20 center last">
 				<h2>Lead the Flock with Songbird and Win!</h2>
 			</div>
 		</div>
@@ -107,7 +108,7 @@
 			<div class="span-7">
 				<h3 class="subhead">Download to Win</h3>
 
-				<h5>If your friends download Songbird here from one of your shares, you'll get another game entry and so will they! So share and download to earn even more entries toward our $1000 grand prize.</h5>
+				<h5>If your friends download Songbird from this page, you'll get another game entry and so will they! So share and download to earn even more entries toward our $1000 grand prize.</h5>
 
 				<div class="center bigBottom">
 					<h3 class="subhead">Web App&nbsp;&#183;&nbsp;Mac/Pc&nbsp;&#183;&nbsp;Android</h3>
@@ -145,28 +146,26 @@
 			</div>
 		</div>
 	</div>
-
-	<div id="footer" style="margin-top: 10px; margin-bottom: 10px;">
+	<div id="footer">
 	  <div id="footer-content">
 	    <p>2012 &copy; All Rights Reserved &nbsp;&nbsp; | &nbsp;</p>
 	      <ul>
-	        <li><a href="/help/">Help</a></li>
-	        <li><a href="/partners/">Partners</a></li>
+	        <li><a href="../help/">Help</a></li>
+	        <li><a href="../partners/">Partners</a></li>
 	        <li><a href="#">Products</a></li>
 	        <li><a href="#">Support</a></li>
-	        <li><a href="/about/overview.php">About Us</a></li>
+	        <li><a href="../about/overview.php">About Us</a></li>
 	        <li><a href="#">Jobs</a></li>
-	        <li><a href="/about/eula.php">License</a></li>
-	        <li><a href="/about/privacy.php">Privacy</a></li>
-	        <li><a href="/about/terms.php">Terms of Use</a></li>
+	        <li><a href="../about/eula.php">License</a></li>
+	        <li><a href="../about/privacy.php">Privacy</a></li>
+	        <li><a href="../about/terms.php">Terms of Use</a></li>
 	      </ul> 
 	    <a class="facebook" href="http://www.facebook.com/Songbird?ref=search&sid=648331437.2719007091..1" target="_blank"></a><a class="twitter" href="https://twitter.com/#!/songbird" target="_blank"></a>
 	  </div><!--footer-content -->
 	  <div class="clearfix"></div>
-	</div><!--root-footer -->
+	</div><!--footer -->
 
-
-<!--	<footer>
+	<!-- <footer>
 		<div class="container">
 			<div class="span-3 last right poweredBy">
 				Powered by<a href="http://totally.awe.sm/" target="_blank"><img class="vCenter" src="../images/awesmlogo.png" alt="awe.sm" height="8" /></a>
