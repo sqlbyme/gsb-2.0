@@ -68,7 +68,7 @@ a#logo span, #logo span, #experience span {
 }
 body {
 	background: #dedede;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Helvetica, Arial, sans-serif;
 }
 #rotator {
 	background: url(../images/headphones.png) no-repeat;
@@ -325,6 +325,26 @@ a#download {
 	width:310px;
 }
 a:hover#download {
+	background-position:0 -59px;
+}
+a#free_android {
+	background:url(../images/btn-info-freeandroid-310x118.png) no-repeat;
+	display:block;
+	height:59px;
+	margin:20px 0 0 0;
+	width:310px;
+}
+a:hover#free_android {
+	background-position:0 -59px;
+}
+a#web_app {
+	background:url(../images/btn-info-gotoweb-310x118.png) no-repeat;
+	display:block;
+	height:59px;
+	margin:16px 0 0 0;
+	width:310px;
+}
+a:hover#web_app {
 	background-position:0 -59px;
 }
 #iphone {
