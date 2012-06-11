@@ -116,17 +116,17 @@ a:hover#mac_toggle, a:hover#pc_toggle {
         
         <div class="three_column" style="margin:40px 10px 0 0;">
           <h1>Bring Tracks to Life</h1>
-            <img src="../images/screenshots/desktop_2.jpg" width="310" height="200" style="margin:10px 0" border="0">
+            <img src="../images/screenshots/desktop_2.jpg" width="310" height="170px" style="margin:10px 0" border="0">
             MashTape scours the Web to bring you videos, photos and more for every song. 
         </div>
         <div class="three_column" style="margin:40px 10px 0 0;">
           <h1>Catch the Show</h1>
-            <img src="../images/screenshots/desktop_3.jpg" width="310" height="200" style="margin:10px 0" border="0">
+            <img src="../images/screenshots/desktop_3.jpg" width="310" height="170px" style="margin:10px 0" border="0">
             Get notified and purchase tickets when your favorite bands come to town. 
         </div>
         <div class="three_column" style="margin:40px 0px 0 0;">
           <h1>Get Tracks to Go</h1>
-            <img src="../images/screenshots/desktop_4.jpg" width="310" height="200" style="margin:10px 0" border="0">
+            <img src="../images/screenshots/desktop_4.jpg" width="310" height="170px" style="margin:10px 0" border="0">
             Purchase albums and songs directly through Songbird from 7digital. 
         </div>
         
