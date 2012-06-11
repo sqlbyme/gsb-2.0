@@ -3,8 +3,8 @@
 /* GENERATE THE QSA KEY FOR S3
 ***********************************************************/
 
-//include_once "s3.php";
-//include_once "/usr/local/AWS/S3_Auth.php";
+include_once "s3.php";
+include_once "/usr/local/AWS/S3_Auth.php";
 
 
 
