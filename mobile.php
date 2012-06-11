@@ -39,11 +39,11 @@
         <div id="sidebar">
         	Keep me up to date with SONGBIRD news, software updates, and the latest information on products and services.
             <input type="text" name="email"  value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Arial, Helvetica, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;">
-            <a href="" id="download"></a>
+            <a href="http://market.android.com/details?id=com.songbirdnest.mediaplayer" id="download"></a>
             
             <div id="iphone">
             	<img src="images/icon_iphone.png" border="0" width="23" height="44" align="left" style="margin:0 10px 0 0;"><strong>IPHONE COMING SOON</strong><br>submit your email to be the first to know about availability.<br>
-                <input type="text" name="email"  value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Arial, Helvetica, sans-serif; margin-top:20px; background:url(images/bg_emailsubmit.png) no-repeat; width:193px; height:17px; border:none"><input type="submit" style="float:right; background:url(images/bg_emailsubmit.png) no-repeat -213px 0; width:37px; height:37px; border:none; margin:20px 0 0 0;" value="">
+                <input type="text" name="email"  value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Helvetica, Arial, sans-serif; margin-top:20px; background:url(images/bg_emailsubmit.png) no-repeat; width:193px; height:17px; border:none"><input type="submit" style="float:right; background:url(images/bg_emailsubmit.png) no-repeat -213px 0; width:37px; height:37px; border:none; margin:20px 0 0 0;" value="">
             </div>
         </div>
         

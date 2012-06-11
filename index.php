@@ -75,7 +75,7 @@ jQuery(function(){
     <div id="bottom-content">
       <div id="video"><a href="video.php" class="nyroModal"><img src="images/video.jpg" width="178" height="100" alt="video" border="0" /></a></div>
         <div id="experience">
-          <a href="#" class="button"></a>
+          <a href="products.php" class="button"></a>
           <div id="product">
             <a href="http://www.songbird.me/" class="web"></a>
             <a href="mobile.php" class="mobile"></a>

@@ -80,7 +80,8 @@ a:hover#mac_toggle, a:hover#pc_toggle {
         <div id="sidebar">
           Keep me up to date with SONGBIRD news, software updates, and the latest information on products and services.
             <input type="text" name="email"  value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Arial, Helvetica, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;">
-            <a href="" id="download"></a>
+            <a href="http://market.android.com/details?id=com.songbirdnest.mediaplayer" id="free_android"></a>
+            <a href="http://www.songbird.me" id="web_app"></a>
             
             <div class="clearfix" style="height:20px"></div>
             
@@ -90,21 +91,7 @@ a:hover#mac_toggle, a:hover#pc_toggle {
         
         <div class="clearfix"></div>
         
-        <div class="three_column" style="margin:40px 10px 0 0;">
-          <h1>Bring Tracks to Life</h1>
-            <img src="images/screenshots/desktop_2.jpg" width="310" height="200" style="margin:10px 0" border="0">
-            MashTape scours the Web to bring you videos, photos and more for every song. 
-        </div>
-        <div class="three_column" style="margin:40px 10px 0 0;">
-          <h1>Catch the Show</h1>
-            <img src="images/screenshots/desktop_3.jpg" width="310" height="200" style="margin:10px 0" border="0">
-            Get notified and purchase tickets when your favorite bands come to town. 
-        </div>
-        <div class="three_column" style="margin:40px 0px 0 0;">
-          <h1>Get Tracks to Go</h1>
-            <img src="images/screenshots/desktop_4.jpg" width="310" height="200" style="margin:10px 0" border="0">
-            Purchase albums and songs directly through Songbird from 7digital. 
-        </div>
+ 
         
         <div class="clearfix"></div>
         
