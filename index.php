@@ -67,8 +67,8 @@ jQuery(function(){
 </head>
 
 <body>
+<div id="logo"><a href="./index.php" onClick="recordOutboundLink(this, 'Logo Clicked', 'Link Location: Home Page');"><span>Songbird</span></a></div>
 <div id="wrapper">
-  <div id="logo"><a href="./index.php" onClick="recordOutboundLink(this, 'Logo Clicked', 'Link Location: Home Page');"><span>Songbird</span></a></div>
   <div id="main-content">
     <div id="rotator">
       <div id="slides">
