@@ -6,7 +6,8 @@ require_once 'inc/config.inc.php'; //contains apikey
   */
 
   $email = $_GET['email_addr'];
-  $listId = "c8c47a06ad"; 
+  $listId = $_GET['list_id'];
+  //$listId = "c8c47a06ad"; 
 
 
   $merges = array('MMERGE1'=>'getsongbird.com',

@@ -16,6 +16,30 @@
 <title>Songbird</title>
 <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
 <meta name="viewport" content="width=1000">
+
+<!-- Start Tracking Action -->
+<script type="text/javascript">
+  function captureEmail () {
+    var emailElement = document.getElementById("email_addr");
+    var optInChecked = document.getElementById("email_optin");
+    if ( emailElement.value.length > 0 ) {
+      $.get(
+	    "../lib/mailchimp/subscribe.php" ,
+	    { email_addr : emailElement.value, list_id : 'c8c47a06ad' }
+	  );
+    };
+   };
+  function captureiPhoneEmail () {
+    var emailElement = document.getElementById("iPhone_email_addr");
+    if ( emailElement.value.length > 0 && optInChecked.checked == true ) {
+      $.get(
+	    "../lib/mailchimp/subscribe.php" ,
+	    { iPhone_email_addr : emailElement.value, list_id : 'e5d8fe17cd' }
+	  );
+    };
+   };
+</script>
+<!-- End Tracking Action -->
 </head>
 
 <body class="sub">
@@ -43,7 +67,7 @@
             
             <div id="iphone">
             	<img src="../images/icon_iphone.png" border="0" width="23" height="44" align="left" style="margin:0 10px 0 0;"><strong>IPHONE COMING SOON</strong><br>submit your email to be the first to know about availability.<br>
-                <input type="text" name="email"  value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Helvetica, Arial, sans-serif; margin-top:20px; background:url(images/bg_emailsubmit.png) no-repeat; width:193px; height:17px; border:none"><input type="submit" style="float:right; background:url(images/bg_emailsubmit.png) no-repeat -213px 0; width:37px; height:37px; border:none; margin:20px 0 0 0;" value="">
+                <input type="text" name="email"  value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Helvetica, Arial, sans-serif; margin-top:20px; background:url(../images/bg_emailsubmit.png) no-repeat; width:193px; height:17px; border:none"><input type="button" onClick="alert('Hello!);captureiPhoneEmail();" id="iPhone_email_addr" name="iPhone_email_addr" style="float:right; background:url(../images/bg_emailsubmit.png) no-repeat -213px 0; width:37px; height:37px; border:none; margin:20px 0 0 0;" >
             </div>
         </div>
         
