@@ -68,8 +68,10 @@ a:hover#mac_toggle, a:hover#pc_toggle {
     <a href="/desktop/" id="desktop_active"></a>
   </div>
   <div id="content">
-    <h1>Get SONGBIRD &amp; Get Going.</h1>
-        Download Songbird for your Mac or PC. Manage your music and videos, build playlists, browse, search, and sort. Then sync your music to your portable music player or phone. Songbird makes it simple.
+    <h1>Songbird. Effortless Music Discovery.</h1>
+        Make the most out of your music experiences with Songbird.me. 
+        <br />
+        Get the latest videos, images, new releases and more directly from the artists you love. Receive your own personalized artist recommendations from over 2 million artists. See what music your friends are into and share music content with them easily.
         
         <div class="clearfix"></div>
         
@@ -94,17 +96,17 @@ a:hover#mac_toggle, a:hover#pc_toggle {
        <div class="three_column" style="margin:40px 10px 0 0;">
         	<h1>Fresh Artist Content</h1>
             <img src="../images/screenshots/info_2.jpeg" width="310" height="170" style="margin:10px 0" border="0">
-            Browse, sort and play your music the way you want. Create,edit and sort playlists. Search through all your music. 
+            Automatically receive updates from <i>your</i> favorites; songs, videos, posts. Delivered to you to save you time & effort of searching.
         </div>
         <div class="three_column" style="margin:40px 10px 0 0;">
         	<h1>Personal Recommendations</h1>
             <img src="../images/screenshots/info_3.jpeg" width="310" height="170" style="margin:10px 0" border="0">
-            See which artists your friends are into. Quickly and easily ‘like’ any song and post to your wall. 
+            Based on music and artists you love, Songbird suggestions are tailor made for <i>you</i>. The more artists you follow, the better your experience! 
         </div>
         <div class="three_column" style="margin:40px 0px 0 0;">
         	<h1>See Your Friends Music</h1>
             <img src="../images/screenshots/info_4.jpeg" width="310" height="170" style="margin:10px 0" border="0">
-            Matching homescreen and lockscreen widgets with album art. Headset, bluetooth car audio and Last.fm support. 
+            Discover and follow new artists; on-click sharing with your friends. 
         </div>
  
         
