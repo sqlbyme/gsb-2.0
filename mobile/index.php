@@ -87,7 +87,7 @@
         <div class="three_column" style="margin:40px 10px 0 0;">
         	<h1>Discover New Music</h1>
             <img src="../images/screenshots/mobile_3.jpg" width="310" height="170px" style="margin:10px 0" border="0">
-            See which artists your friends are into. Quickly and easily ‘like’ any song and post to your wall. 
+            See which artists your friends are into. “Like” any track, follow any artist.  Share with friends quickly and easily – all with one click, in the same app! 
         </div>
         <div class="three_column" style="margin:40px 0px 0 0;">
         	<h1>Unique to You</h1>
