@@ -52,7 +52,7 @@
 <div id="container">
 	<div id="header">
     	<a href="/" id="logo"></a>
-        <a href="http://www.songbird.me/" id="web"></a>
+        <a href="http://www.songbird.me/" id="web" target="_blank" ></a>
         <div id="mobile_active"></div>
         <a href="/desktop/" id="desktop"></a>
     </div>
@@ -69,7 +69,7 @@
         <div id="sidebar">
         	<input type="checkbox" id="email_optin" name="email_optin" checked="true">Keep me up to date with SONGBIRD news, software updates, and the latest information on products and services.</input>
             <input type="text" name="email"  value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Helvetica, Arial, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;">
-            <a href="http://market.android.com/details?id=com.songbirdnest.mediaplayer" id="download"></a>
+            <a href="http://market.android.com/details?id=com.songbirdnest.mediaplayer" id="download" target="_blank" ></a>
             
             <div id="iphone">
             	<img src="../images/icon_iphone.png" border="0" width="23" height="44" align="left" style="margin:0 10px 0 0;"><strong>IPHONE COMING SOON</strong><br>submit your email to be the first to know about availability.<br>
