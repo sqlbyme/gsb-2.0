@@ -113,7 +113,7 @@
 				<div class="center bigBottom">
 					<h3 class="subhead">Web App&nbsp;&#183;&nbsp;Mac/Pc&nbsp;&#183;&nbsp;Android</h3>
 					<a class="convert-exit" data-goal="goal_1" href="http://www.songbird.me/" target="_blank"><img src="../images/sbm.png" height="20px" /></a>
-					<a class="convert-exit" data-goal="goal_2" href="http://getsongbird.com/product/songbird-desktop.php" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/desktop.png" height="20px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a class="convert-exit" data-goal="goal_2" href="/products/" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/desktop.png" height="20px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<a class="convert-exit" data-goal="goal_3" href="https://play.google.com/store/apps/details?id=com.songbirdnest.mediaplayer" target="_blank"><img src="../images/google.png" height="20px" /></a>
 				</div>
 			</div>
