@@ -32,8 +32,8 @@ else if (strpos($ua, "Intel Mac")) {
 function get_dl($platform = "", $arch = "unknown", $key = "url") {
 
 	$dl = array(
-		'version' => '1.10.3', /* UPDATE ME */
-		'build'   => '2288', /* UPDATE ME */
+		'version' => '2.0.0', /* UPDATE ME */
+		'build'   => '2311', /* UPDATE ME */
 		'platform' => $platform,
 		'arch' => $arch,
 		'suffix' => '',
