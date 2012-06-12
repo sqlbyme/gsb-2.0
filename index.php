@@ -97,7 +97,7 @@ jQuery(function(){
 
 <ul id="ticker01">
   <li>
-    <strong>Songbird</strong> is giving away <strong>$1500</strong> to see your favorite music live! <a class="pink" href="promotions/leadtheflock/enter/" onClick="recordOutboundLink(this, 'Promotion Clicked', 'Link Location: Home Page Ticker'); return false;">Click here</a> for info!</p></span>
+    <strong>Songbird</strong> is giving away <strong>$1500</strong> to see your favorite music live! <a class="pink" href="promotions/leadtheflock/enter/" onClick="recordOutboundLink(this, 'Promotion Clicked', 'Link Location: Home Page Ticker');">Click here</a> for info!</p></span>
   </li>
 </ul>    
 
