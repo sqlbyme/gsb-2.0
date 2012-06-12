@@ -89,8 +89,8 @@ a:hover#mac_toggle, a:hover#pc_toggle {
     <div id="desktop_active"></div>
   </div>
   <div id="content">
-    <h1>Get SONGBIRD &amp; Get Going.</h1>
-        Download Songbird for your Mac or PC. Manage your music and videos, build playlists, browse, search, and sort. Then sync your music to your portable music player or phone. Songbird makes it simple.
+    <h1>Songbird. Effortless music discovery on your Desktop!</h1>
+        Used by millions of fans to access, manage and play all their music. Let Songbird be your desktop media hub! Now includes Songbird.me so that you can easily discover new music that’s personalized and delivered straight to you. Share your music interests with your friends. Download Songbird for your Mac or PC.
         
         <div class="clearfix"></div>
         
@@ -137,19 +137,19 @@ a:hover#mac_toggle, a:hover#pc_toggle {
         <div class="clearfix"></div>
         
         <div class="three_column" style="margin:40px 10px 0 0;">
-          <h1>Bring Tracks to Life</h1>
+          <h1>Personal Media Hub</h1>
             <img src="../images/screenshots/desktop_2.jpg" width="310" height="170px" style="margin:10px 0" border="0">
-            MashTape scours the Web to bring you videos, photos and more for every song. 
+             Manage your music and videos, build playlists, browse, and sort. Then sync your music to your portable music player or phone.
         </div>
         <div class="three_column" style="margin:40px 10px 0 0;">
-          <h1>Catch the Show</h1>
+          <h1>Discover New Music</h1>
             <img src="../images/screenshots/desktop_3.jpg" width="310" height="170px" style="margin:10px 0" border="0">
-            Get notified and purchase tickets when your favorite bands come to town. 
+            Songbird suggests new artists and new music based solely on those you already love.  It’s personal, unique to you and your tastes. See which artists your Facebook friends are into. 
         </div>
         <div class="three_column" style="margin:40px 0px 0 0;">
           <h1>Get Tracks to Go</h1>
             <img src="../images/screenshots/desktop_4.jpg" width="310" height="170px" style="margin:10px 0" border="0">
-            Purchase albums and songs directly through Songbird from 7digital. 
+            Purchase albums and songs directly through Songbird from 7digital; easily sync to your mobile devices.
         </div>
         
         <div class="clearfix"></div>
