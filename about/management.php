@@ -62,6 +62,7 @@ a {color: #e6317e;}
             <a href="board.php">Board</a>
             <a href="mangement.php" class="active">Management</a>
             <a href="press.php">Press</a>
+            <a href="jobs.php">Jobs</a>
         </div>
     </div>
     <div id="content">

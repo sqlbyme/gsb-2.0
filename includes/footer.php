@@ -7,7 +7,7 @@
         <li><a href="/products/" onClick="recordOutboundLink(this, 'Products Clicked', 'Link Location: Page Footer');">Products</a></li>
         <li><a href="http://getsatisfaction.com/songbird" onClick="recordOutboundLink(this, 'Support Clicked', 'Link Location: Page Footer'); return false;" target="_blank" >Support</a></li>
         <li><a href="../about/overview.php" onClick="recordOutboundLink(this, 'About Clicked', 'Link Location: Page Footer');">About Us</a></li>
-        <li><a href="#" onClick="recordOutboundLink(this, 'Jobs Clicked', 'Link Location: Page Footer');">Jobs</a></li>
+        <li><a href="../about/jobs.php" onClick="recordOutboundLink(this, 'Jobs Clicked', 'Link Location: Page Footer');">Jobs</a></li>
         <li><a href="../about/eula.php" onClick="recordOutboundLink(this, 'License Clicked', 'Link Location: Page Footer');">License</a></li>
         <li><a href="../about/privacy.php" onClick="recordOutboundLink(this, 'Privacy Clicked', 'Link Location: Page Footer');">Privacy</a></li>
         <li><a href="../about/terms.php" onClick="recordOutboundLink(this, 'Terms Clicked', 'Link Location: Page Footer');">Terms of Use</a></li>

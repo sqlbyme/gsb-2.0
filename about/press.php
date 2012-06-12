@@ -38,6 +38,7 @@ ul#bullets li {
             <a href="board.php">Board</a>
             <a href="management.php">Management</a>
             <a href="press.php" class="active">Press</a>
+            <a href="jobs">Jobs</a>
         </div>
     </div>
     <div id="content">

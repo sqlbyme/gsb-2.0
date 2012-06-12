@@ -155,7 +155,7 @@
 	        <li><a href="/products/">Products</a></li>
 	        <li><a href="http://getsatisfaction.com/songbird" target="_blank" >Support</a></li>
 	        <li><a href="/about/overview.php">About Us</a></li>
-	        <li><a href="#">Jobs</a></li>
+	        <li><a href="/about/jobs.php">Jobs</a></li>
 	        <li><a href="/about/eula.php">License</a></li>
 	        <li><a href="/about/privacy.php">Privacy</a></li>
 	        <li><a href="/about/terms.php">Terms of Use</a></li>
