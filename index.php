@@ -83,9 +83,9 @@ jQuery(function(){
         <div id="experience">
           <a href="/products/" class="button" onClick="recordOutboundLink(this, 'Learn More Clicked', 'Link Location: Home Page');"></a>
           <div id="product">
-            <a href="http://www.songbird.me/" class="web" onClick="recordOutboundLink(this, 'Web Icon Clicked', 'Link Location: Home Page');return false;" target="_blank"></a>
-            <a href="/mobile/" class="mobile" onClick="recordOutboundLink(this, 'Mobile Icon Clicked', 'Link Location: Home Page');return false;"></a>
-            <a href="/desktop/" class="desktop" onClick="recordOutboundLink(this, 'Desktop Icon Clicked', 'Link Location: Home Page'); return false;"></a>
+            <a href="http://www.songbird.me/" class="web" target="_blank" onClick="recordOutboundLink(this, 'Web Icon Clicked', 'Link Location: Home Page'); " ></a>
+            <a href="/mobile/" class="mobile" onClick="recordOutboundLink(this, 'Mobile Icon Clicked', 'Link Location: Home Page');"></a>
+            <a href="/desktop/" class="desktop" onClick="recordOutboundLink(this, 'Desktop Icon Clicked', 'Link Location: Home Page');"></a>
           </div>
       </div>
     </div><!--bottom-content -->
