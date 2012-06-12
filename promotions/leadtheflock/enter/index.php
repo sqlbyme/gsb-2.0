@@ -68,14 +68,8 @@
 
 			<h2>Share a Little</h2>
 
-			<h3>Be entered in a random drawing for one of two <strong>$250 Ticketmaster Gift Cards!</strong></h3>
-
-<h5>From June 12 to July 11, every time you share Songbird with your flock you are entered to win one of our prizes.
-<br /> Follow us on Facebook and Twitter for more daily chances to enter!<br />
-				3 winners will be announced on July 12, 2012.</h5>
-<img src="../images/gamepic1.png"> <br />
-<h2>How to Play</h2>
-
+			<h3>Be entered in a random drawing for one of two <strong>$250 Ticketmaster Gift Cards!</strong><br><br>
+3 winners will be announced on July 12, 2012.</h3>
 
 </div>
 		<div class="span-23 prepend-1">
@@ -136,6 +130,7 @@
 			</div>
 
 			<div class="span-23 bigBottom center">
+<img src="../images/gamepic1.png"> 
 				<h3 class="subhead">Front row seats to your dream concert? General admission to intimate shows?<br />
 				Songbird will get you there!<br />
 				Now <strong>that's</strong> effortless music discovery!</h3>
