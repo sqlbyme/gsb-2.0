@@ -73,12 +73,12 @@ Seth Rosenblatt, <a href="http://download.cnet.com/Songbird/3000-2141_4-10500669
         <div id="sidebar" style="margin-top:0">
         	<h1>Contact</h1>
             
-            Maura Lafferty<br>
+            Angela Trahan<br>
             Spiral Group<br>
-            <a href="mailto:maural@spiralgroup.com" class="pink" target="_blank">maural@spiralgroup.com</a><br>
-            1.415.869.8579 x714<br><br>
+            <a href="mailto:marketing@spiralgroup.com" class="pink" target="_blank">Marketing@SongbirdNest.com</a><br>
+            415.347.1431<br><br>
             
-            <a href="mailto:media@songbirdnest.com" class="pink" target="_blank">media@songbirdnest.com</a>
+            
             
             <h1 style="margin:40px 0 10px 0;">Media Resources</h1>
             
