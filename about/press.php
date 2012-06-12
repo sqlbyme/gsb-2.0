@@ -82,20 +82,27 @@ Seth Rosenblatt, <a href="http://download.cnet.com/Songbird/3000-2141_4-10500669
             
             <h1 style="margin:40px 0 10px 0;">Media Resources</h1>
             
-            Songbird Screen Shot<br>
-            <a href="http://getsongbird.com/images/songbird_screen.jpg" class="pink" target="_blank">Download (283k) »</a> <br><br>
+            Android Artists<br>
+            <a href="/images/Android-artists.png" class="pink" target="_blank">Download (586k) »</a> <br><br>
             
-            Songbird MiniPlayer Screen<br>
-            <a href="http://getsongbird.com/images/SB_MiniPlayer3.jpg" class="pink" target="_blank">Download (12k) »</a> <br><br>
+            Android Feed<br>
+            <a href="/images/Android-feed.png" class="pink" target="_blank">Download (552k) »</a> <br><br>
             
-            Songbird Logo (on white)<br>
-            <a href="http://getsongbird.com/images/SB_logo.png" class="pink" target="_blank">Download (20k) »</a> <br><br>
+            Android Friends<br>
+            <a href="/images/Android-friends.png" class="pink" target="_blank">Download (586k) »</a> <br><br>
             
-            Songbird only (on white)<br>
-            <a href="http://getsongbird.com/images/SB_bird.png" class="pink" target="_blank">Download (102k) »</a> <br><br>
+            Android Homescreen<br>
+            <a href="/images/Android-homescreen.png" class="pink" target="_blank">Download (300k) »</a> <br><br>
             
-            Songbird Logo (on purple)<br>
-            <a href="http://getsongbird.com/images/sb_logo_ro.png" class="pink target="_blank"">Download (29k) »</a><br><br>
+            Songbird.me Artist Feed<br>
+            <a href="/images/songbird-artist.png" class="pink" target="_blank">Download (984k) »</a> <br><br>
+
+            Songbird.me What's New Feed<br>
+            <a href="/images/songbird-followingfeed.png" class="pink" target="_blank">Download (1.2MB) »</a> <br><br>
+
+            Songbird.me Video<br>
+            <a href="/images/songbird-video.png" class="pink" target="_blank">Download (264k) »</a> <br><br>
+
             
         </div>
         
