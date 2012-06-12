@@ -14,11 +14,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Songbird</title>
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
 <meta name="viewport" content="width=1000">
 <style>
 ul#bullets li {
-	background:url(images/pink_bullet_lg.gif) no-repeat top left;
+	background:url(../images/pink_bullet_lg.gif) no-repeat top left;
 	list-style:none;
 	padding:0 0 0 15px;
 	font-size:14px;
@@ -30,13 +30,15 @@ ul#bullets li {
 <body class="sub">
 <div id="container">
 	<div id="header">
-    	<a href="index.php" id="logo"></a>
+    	<a href="../index.php" id="logo"></a>
         <div id="nav_about">
         	About
-            <img src="images/divider.jpg" border="0" width="1" height="31" style="position:relative; top:10px; margin:0 0 0 45px">
+            <img src="../images/divider.jpg" border="0" width="1" height="31" style="position:relative; top:10px; margin:0 0 0 45px">
             <a href="overview.php" class="active">Overview</a>
             <a href="board.php">Board</a>
+            <a href="management.php">Management</a>
             <a href="press.php">Press</a>
+            <a href="jobs.php">Jobs</a>
         </div>
     </div>
     <div id="content">
@@ -71,7 +73,7 @@ ul#bullets li {
             2 Shaw Alley, 2nd Floor<br>
             San Francisco, CA 94105<br>
             
-            <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=2+Shaw+Alley+san+francisco&sll=37.788969,-122.398568&sspn=0.006902,0.011555&ie=UTF8&hq=&hnear=2+Shaw+Alley,+San+Francisco,+California+94105&z=17&iwloc=A" target="_blank"><img src="images/map.png" border="0" width="229" height="229" style="margin:12px 0 12px 0;"></a><br>
+            <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=2+Shaw+Alley+san+francisco&sll=37.788969,-122.398568&sspn=0.006902,0.011555&ie=UTF8&hq=&hnear=2+Shaw+Alley,+San+Francisco,+California+94105&z=17&iwloc=A" target="_blank"><img src="../images/map.png" border="0" width="229" height="229" style="margin:12px 0 12px 0;"></a><br>
             
             <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=2+Shaw+Alley+san+francisco&sll=37.788969,-122.398568&sspn=0.006902,0.011555&ie=UTF8&hq=&hnear=2+Shaw+Alley,+San+Francisco,+California+94105&z=17&iwloc=A" class="pink" target="_blank">Get directions/View map</a>
             
@@ -81,22 +83,14 @@ ul#bullets li {
         
     </div><!--content -->
     <div class="clearfix"></div>
-    <div id="footer">
-        <p>2012 &copy; SONGBIRD All Rights Reserved &nbsp;&nbsp; | &nbsp;</p>
-            <ul>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Partners</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="overview.php">About</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms of Use</a></li>
-            </ul> 
-        <a class="facebook" href="http://www.facebook.com/Songbird?ref=search&sid=648331437.2719007091..1" target="_blank"></a><a class="twitter" href="https://twitter.com/#!/songbird" target="_blank"></a>       
-    </div>
+
+<?php include('../includes/footer.php'); ?>
+
     <div class="clearfix"></div>
 </div><!--container -->
+
+<!-- include Google Analytics Tracking Code -->
+<?php include('../includes/ga.php'); ?>
+<!-- End GA Include -->
 </body>
 </html>

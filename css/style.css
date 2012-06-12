@@ -23,7 +23,8 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-weight: normal;
+	font: helvetica, arial, sans-serif;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -48,6 +49,7 @@ table {
 }
 #logo {
 	float: left;
+	display: inline;
 	width: 180px;
 	padding-top: 30px;
 }
@@ -60,9 +62,6 @@ table {
 a#logo span, #logo span, #experience span {
 	display: none;
 }
-#experience span.pink {
-	display:inline;	
-}
 #wrapper {
 	width: 1230px;
 	margin: 0 auto;
@@ -71,7 +70,7 @@ a#logo span, #logo span, #experience span {
 }
 body {
 	background: #dedede;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Helvetica, Arial, sans-serif;
 }
 #rotator {
 	background: url(../images/headphones.png) no-repeat;
@@ -81,12 +80,12 @@ body {
 }
 #main-content {
 	width: 944px;
-	float: left;
+  margin-left: 150px;
 }
 h1 {
-	font-size: 24px;
+	font-size: 22px;
 	color: #e6317e;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Helvetica, Arial, sans-serif;
 	margin:0 0 5px 0;
 	padding:0;
 }
@@ -138,14 +137,14 @@ strong {
 #experience a.button {
 	display: block;
 	width: 603px;
-	height: 100px;
-	background: url(../images/experience.png) top left;
+	height: 60px;
+	background: url(../images/learn-603x120-sprite.png) top left;
 }
 #experience a.button:hover {
 	display: block;
 	width: 603px;
-	height: 100px;
-	background: url(../images/experience.png) bottom left;
+	height: 60px;
+	background: url(../images/learn-603x120-sprite.png) bottom left;
 }
 #experience {
 	float: left;
@@ -156,6 +155,63 @@ strong {
 	text-align: center;
 	font-size: 16px;
 	padding-top: 10px;
+}
+#product {
+	float: left;
+	display: inline;
+	width: 603px;
+	height: 36px;
+	margin-top: 4px;
+	margin-bottom: 25px;
+	background: url(../images/iconrow-base-603x36.png) top left;
+}
+#product a.web {
+	display: inline;
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 35px;
+	margin-left: 153px;
+	background: url(../images/icon-web-150x70-sprite.png) top left;
+}
+#product a.web:hover {
+	display: inline;
+	width: 150px;
+	height: 35px;
+	margin-left: 153px;
+	background: url(../images/icon-web-150x70-sprite.png) bottom left;
+}
+#product a.mobile {
+	position: relative;
+	float: left;
+	display: inline;
+	width: 150px;
+	height: 35px;
+	margin-left: auto;
+	background: url(../images/icon-mobile-150x70-sprite.png) top left;
+}
+#product a.mobile:hover {
+	display: inline;
+	width: 150px;
+	height: 35px;
+	margin-left: auto;
+	background: url(../images/icon-mobile-150x70-sprite.png) bottom left;
+}
+#product a.desktop {
+	display: inline;
+	float: left;
+	width: 150px;
+	height: 35px;
+	margin-left: auto;
+	background: url(../images/icon-desktop-150x70-sprite.png) top left;
+}
+#product a.desktop:hover {
+	display: inline;
+	float: left;
+	width: 150px;
+	height: 35px;
+	margin-left: auto;
+	background: url(../images/icon-desktop-150x70-sprite.png) bottom left;
 }
 #bottom-content {
 	margin: 0 auto;
@@ -211,17 +267,17 @@ body.sub {
 	clear:both;
 	height:100px;
 }
-a#web, a#mobile, a#desktop, #mobile_active, #desktop_active {
+a#web, a#mobile, a#desktop, #mobile_active, #desktop_active, #web_active {
 	background:url(../images/icon_sprite.png) no-repeat;
 	float:left;
 	height:72px;
 	margin:16px 0 0 43px;
 }
-a#web {	
+a#web, #web_active {	
 	width:45px;
 	height:71px;
 }
-a:hover#web {
+#web_active, a:hover#web {
 	background-position:-300px 0;
 }
 a#mobile, #mobile_active {
@@ -273,6 +329,26 @@ a#download {
 a:hover#download {
 	background-position:0 -59px;
 }
+a#free_android {
+	background:url(../images/btn-info-freeandroid-310x118.png) no-repeat;
+	display:block;
+	height:59px;
+	margin:20px 0 0 0;
+	width:310px;
+}
+a:hover#free_android {
+	background-position:0 -59px;
+}
+a#web_app {
+	background:url(../images/btn-info-gotoweb-310x118.png) no-repeat;
+	display:block;
+	height:59px;
+	margin:16px 0 0 0;
+	width:310px;
+}
+a:hover#web_app {
+	background-position:0 -59px;
+}
 #iphone {
 	background:#e6e7e9; 
 	padding:30px; 
@@ -292,7 +368,8 @@ body.sub #footer {
 	width:950px;
 	margin:0 auto;	
 	color:#ffffff;
-	padding:300px 0 0 0;
+	padding:240px 0 0 0;
+	border: none;
 }
 #nav_about {
 	float:left;
@@ -337,11 +414,17 @@ a.view {
 /* Footer */
 
 #footer {
-	background: #000000;
+	position: relative;
+	clear: both;
+	margin: 0 auto;
+	width: 1020px;
 	height: 56px;
-	width: 100%;
-	background-size: cover;
-	margin-top: 25px;
+	padding: 0;
+	border: 1px solid #d4d4d4;
+	font-size: 11px;
+	background: #000000;
+	color: #828282;
+	text-align: center;
 }
 #footer a:link, #footer a:active, #footer a:visited {
 	color: #ffffff;
@@ -375,9 +458,9 @@ a.view {
 	padding-top: 22px;
 }
 #footer-content {
-	width: 1050px;
+	width: 850px;
 	margin: 0 auto;
-	padding-left: 180px;
+	/*padding-left: 180px;*/
 	background: #000000;
 }
 a.facebook {

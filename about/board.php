@@ -14,10 +14,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Songbird</title>
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
 <meta name="viewport" content="width=1000">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.expander.min.js"></script>
+<script type="text/javascript" src="../js/jquery.expander.min.js"></script>
 <script>
 $(document).ready(function() {
   var opts = {collapseTimer: 4000};
@@ -54,20 +54,22 @@ a {color: #e6317e;}
 <body class="sub">
 <div id="container">
 	<div id="header">
-    	<a href="index.php" id="logo"></a>
+    	<a href="../index.php" id="logo"></a>
         <div id="nav_about">
         	About
-            <img src="images/divider.jpg" border="0" width="1" height="31" style="position:relative; top:10px; margin:0 0 0 45px">
+            <img src="../images/divider.jpg" border="0" width="1" height="31" style="position:relative; top:10px; margin:0 0 0 45px">
             <a href="overview.php">Overview</a>
             <a href="board.php" class="active">Board</a>
+            <a href="management.php">Management</a>
             <a href="press.php">Press</a>
+            <a href="jobs.php">Jobs</a>
         </div>
     </div>
     <div id="content">
         <div id="left_column" style="width:790px; margin-top:0">
         	<h1>Board of Directors</h1>
         	<div class="board_member expander">
-            	<img src="http://getsongbird.com/images/headshots/mark_jung.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 20px 0">
+            	<img src="../images/headshots/mark_jung.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 20px 0">
                 <h1>Mark Jung</h1>
                 <p>Chairman of the Board Mark Jung has spent the last 20 years as a successful internet media CEO and entrepreneur. Most recently, Mark was the CEO at Vudu, a leading provider of digital home entertainment and interactive television services. Prior to Vudu, Mark was the Chief Operating Officer of Fox Interactive Media (FIM) where he was responsible for all of its internet properties including MySpace, IGN Entertainment, FoxSports.com, AmericanIdol.com, and Scout Media. Prior to Fox Interactive Media, Mark was the co-founder and CEO of IGN Entertainment, an internet media and services company for video-gaming and other forms of digital entertainment that he took public in 2000 and then private in 2003. Mark led IGN's sale to NewsCorp, the parent company of Fox Interactive Media in 2005.</p>
                 
@@ -81,7 +83,7 @@ a {color: #e6317e;}
             <div class="clearfix pink_border"></div>
             
             <div class="board_member expander">
-            	<img src="http://getsongbird.com/images/headshots/jeff_fagnan.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
+            	<img src="../images/headshots/jeff_fagnan.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
                 <h1>Jeff Fagnan</h1>
                 <p>Jeff Fagnan, investor, is a partner in the technology group, and focuses on emerging companies in enterprise and internet infrastructure as well as alternative energy technologies / advanced material science. He works closely with MIT, Harvard University, Boston University and other innovation engines, to commercialize technologies developed in technical labs.</p>
 
@@ -94,7 +96,7 @@ a {color: #e6317e;}
             <div class="clearfix pink_border"></div>
             
             <div class="board_member expander">
-            	<img src="http://getsongbird.com/images/headshots/Jim.png" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
+            	<img src="../images/headshots/Jim.png" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
                 <h1>Jim Pitkow</h1>
                 <p>Jim Pitkow brings wide media connections, deep technology background, and Silicon Valley entrepreneurial experience to his role as Songbird board member. CEO and co-founder of Attributor, Pitkow also serves as the Chairman of Anchor Intelligence. Prior to Attributor, Jim was CEO and Chairman of Moreover Technologies, where he successfully restructured the company through acquisition by VeriSign in October of 2005. Before Moreover, Jim was the President and Chairman of Outride Inc., a spinout from the Xerox Palo Alto Research Center (PARC), which was acquired by Google. Jim received his Ph.D. in Computer Science from the Georgia Institute of Technology and graduated Cum Laude in Psychology from the University of Colorado.</p>
                 <div class="clearfix"></div>
@@ -103,7 +105,7 @@ a {color: #e6317e;}
             <div class="clearfix pink_border"></div>
             
             <div class="board_member expander">  
-            	<img src="http://getsongbird.com/images/headshots/al_ramadan.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 20px 0">
+            	<img src="../images/headshots/al_ramadan.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 20px 0">
                 <h1>Al Ramadan</h1>
                 <p>Al Ramadan, Board Member, is an Australian born American. Al has experienced first hand what it takes to be a leader in the technology industry - from early stage VC backed companies through to mature public companies. He started his career as a Mathematician / Computer Scientist and moved into Executive Management and Leadership positions. He has deep insights into the technology and mobile markets and was selected by TIME as one of the most influential people in the digital economy.</p>
 
@@ -120,7 +122,7 @@ a {color: #e6317e;}
             <div class="clearfix pink_border"></div>
             
             <div class="board_member expander">
-            	<img src="http://getsongbird.com/images/headshots/les_schmidt.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
+            	<img src="../images/headshots/les_schmidt.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
                 <h1>Les Schmidt</h1>
                 <p>Board Member and CEO, Les Schmidt is a seasoned startup/emerging growth company executive. His specialty is growing and scaling companies and has traversed the Venture-backed startup to IPO road four times. Les has over 20 years of experience of technology and emerging growth company experience.</p>
 
@@ -141,7 +143,7 @@ a {color: #e6317e;}
             <div class="clearfix pink_border"></div>
             
             <div class="board_member expander">
-            	<img src="http://getsongbird.com/images/headshots/dan_brongiel.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
+            	<img src="../images/headshots/dan_brongiel.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
                 <h1>Dan Brongiel</h1>
                 <p>Daniel Brongiel brings more than 20 years of global high-tech industry experience to his role as EVP of WorldWide Field Operations and board member of Songbird.  Having lived throughout Asia-Pacific, Japan, and the United States, Daniel brings an extensive background in international business planning and business development.</p>
 
@@ -164,22 +166,14 @@ a {color: #e6317e;}
         
     </div><!--content -->
     <div class="clearfix"></div>
-    <div id="footer">
-        <p>2012 &copy; SONGBIRD All Rights Reserved &nbsp;&nbsp; | &nbsp;</p>
-            <ul>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Partners</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="overview.php">About</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms of Use</a></li>
-            </ul> 
-        <a class="facebook" href="http://www.facebook.com/Songbird?ref=search&sid=648331437.2719007091..1" target="_blank"></a><a class="twitter" href="https://twitter.com/#!/songbird" target="_blank"></a>       
-    </div>
+
+<?php include('../includes/footer.php'); ?>
+
     <div class="clearfix"></div>
 </div><!--container -->
+
+<!-- include Google Analytics Tracking Code -->
+<?php include('../includes/ga.php'); ?>
+<!-- End GA Include -->
 </body>
 </html>

@@ -13,11 +13,15 @@
 <!--<![endif]-->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Song Bird</title>
+<title>Songbird</title>
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 </head>
 
 <body>
-<iframe width="560" height="315" src="http://www.youtube.com/embed/fj2l-emoW2g?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe src="http://player.vimeo.com/video/43857414?autoplay=1" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+<!-- include Google Analytics Tracking Code -->
+<?php include('includes/ga.php'); ?>
+<!-- End GA Include -->
 </body>
 </html>
