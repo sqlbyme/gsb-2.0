@@ -67,8 +67,8 @@
         </div>
         
         <div id="sidebar">
-        	<input type="checkbox" id="email_optin" name="email_optin" checked="true">Keep me up to date with SONGBIRD news, software updates, and the latest information on products and services.</input>
-            <input type="text" name="email"  value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Helvetica, Arial, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;">
+        	<input type="checkbox" id="email_optin" name="email_optin" checked="true">Keep me up to date with Songbird news and software updates.</input>
+            <input type="text" name="email_addr" id="email_addr"  value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Helvetica, Arial, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;">
             <a href="http://market.android.com/details?id=com.songbirdnest.mediaplayer" id="download" target="_blank" ></a>
             
             <div id="iphone">

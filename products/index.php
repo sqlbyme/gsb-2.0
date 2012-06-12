@@ -35,6 +35,22 @@
     });
   });
 </script>
+	<!-- Start Tracking Action -->
+<script type="text/javascript">
+function captureEmail () {
+  var emailElement = document.getElementById("email_addr");
+  var optInChecked = document.getElementById("email_optin");
+  if ( emailElement.value.length > 0 && optInChecked.checked == true && emailElement.disabled != true) {
+    $.get(
+	    "../lib/mailchimp/subscribe.php" ,
+	    { email_addr : emailElement.value, list_id : "c8c47a06ad" }
+	  );
+	  emailElement.value = "Thank You!";
+	  emailElement.disabled = true;
+  };
+};
+</script>
+	<!-- End Tracking Action -->
 <style>
 .requirements {	
   position:absolute;
@@ -80,10 +96,10 @@ a:hover#mac_toggle, a:hover#pc_toggle {
         </div>
         
         <div id="sidebar">
-          Keep me up to date with SONGBIRD news, software updates, and the latest information on products and services.
-            <input type="text" name="email"  value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Helvetica, Arial, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;">
-            <a href="http://market.android.com/details?id=com.songbirdnest.mediaplayer" id="free_android" target="_blank" ></a>
-            <a href="http://www.songbird.me" id="web_app" target="_blank" ></a>
+          <input type="checkbox" id="email_optin" name="email_optin" checked="true">Keep me up to date with Songbird news and software updates.</input>
+            <input type="text" name="email_addr" id="email_addr"  value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Helvetica, Arial, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;">
+            <a href="http://market.android.com/details?id=com.songbirdnest.mediaplayer" id="free_android" onClick="captureEmail();" target="_blank" ></a>
+            <a href="http://www.songbird.me" id="web_app" onClick="captureEmail();" target="_blank" ></a>
             
             <div class="clearfix" style="height:20px"></div>
             

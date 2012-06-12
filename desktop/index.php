@@ -99,7 +99,7 @@ a:hover#mac_toggle, a:hover#pc_toggle {
         </div>
         
         <div id="sidebar">
-          <input type="checkbox" id="email_optin" name="email_optin" checked="true">Keep me up to date with SONGBIRD news, software updates, and the latest information on products and services.</input>
+          <input type="checkbox" id="email_optin" name="email_optin" checked="true">Keep me up to date with Songbird news and software updates.</input>
             
             <input type="text" name="email_addr"  id="email_addr" value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Arial, Helvetica, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;"></input>
             <a href="javascript:void(0);" onclick="recordOutboundLink(this, 'Desktop page download', '/desktop/<?php echo(get_dl($dl_platform, $dl_arch, 'file')); ?>'); captureEmail();" id="download"></a>
