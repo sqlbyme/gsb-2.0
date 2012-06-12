@@ -44,7 +44,7 @@
 	    if ( emailElement.value.length > 0 && optInChecked.checked == true ) {
 	      $.get(
 		    "../lib/mailchimp/subscribe.php" ,
-		    { email_addr : emailElement.value }
+		    { email_addr : emailElement.value, list_id : 'c8c47a06ad' }
 		  );
 	    };
 	    setTimeout('getSongbird()', 1500);

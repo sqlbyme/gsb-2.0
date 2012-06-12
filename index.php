@@ -79,7 +79,7 @@ jQuery(function(){
       </div>
     </div><!--rotator -->
     <div id="bottom-content">
-      <div id="video"><a href="video.php" onClick="recordOutboundLink(this, 'Video Clicked', 'Link Location: Home Page');" class="nyroModal"><img src="images/video.jpg" width="178" height="100" alt="video" border="0" /></a></div>
+      <div id="video"><a href="video.php" class="nyroModal"><img src="images/video.jpg" width="178" height="100" alt="video" border="0" /></a></div>
         <div id="experience">
           <a href="/products/" class="button" onClick="recordOutboundLink(this, 'Learn More Clicked', 'Link Location: Home Page');"></a>
           <div id="product">

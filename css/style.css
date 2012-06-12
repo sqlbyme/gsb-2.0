@@ -49,7 +49,6 @@ table {
 #logo {
 	float: left;
 	display: inline;
-	z-index: 9999;
 	width: 180px;
 	padding-top: 30px;
 }
