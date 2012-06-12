@@ -119,7 +119,23 @@ a {color: #e6317e;}
                 <div class="clearfix"></div>
             </div>
             
-            <div class="clearfix pink_border"></div>
+				            <div class="clearfix pink_border"></div>
+
+				            <div class="board_member expander">
+				            	<img src="../images/headshots/betsey_nelson.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
+				                <h1>Betsey Nelson</h1>
+				                <p>Betsey Nelson brings more than 20 years experience in the technology and digital media market, previously serving as executive vice president, chief financial officer and a member of the Board of Directors at Macromedia until its acquisition by Adobe in December 2005. As chief financial officer, Nelson helped Macromedia grow to more than $500 million in annual revenues and increased its market value tenfold during that period. She was also responsible for leading the company's key operational and administrative functions, including business development, customer care, finance, investor relations, information technology, legal, operations and real estate.</p>
+
+
+				<p>Prior to Macromedia, Nelson spent eight years at Hewlett-Packard, where she held a variety of positions in international finance and corporate development. Before that, she worked as an economist with the firm of Robert Nathan Associates in Washington DC.</p>
+
+
+				<p>Nelson currently serves on the Board of Directors for several public and private companies (Ancestry.com, Brightcove, Nokia, LivingSocial, DAI, and Yodlee). She holds an MBA in Finance with distinction from the Wharton School at the University of Pennsylvania and a BS in Foreign Service from Georgetown University.</p>
+
+				                <div class="clearfix"></div>
+				            </div>
+				
+				<div class="clearfix pink_border"></div>
             
             <div class="board_member expander">
             	<img src="../images/headshots/les_schmidt.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
