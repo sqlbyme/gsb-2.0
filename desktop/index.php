@@ -38,17 +38,19 @@
 </script>
 	<!-- Start Tracking Action -->
 	<script type="text/javascript">
-	  function captureEmail () {
-	    var emailElement = document.getElementById("email_addr");
-	    var optInChecked = document.getElementById("email_optin");
-	    if ( emailElement.value.length > 0 && optInChecked.checked == true ) {
-	      $.get(
-		    "../lib/mailchimp/subscribe.php" ,
-		    { email_addr : emailElement.value, list_id : 'c8c47a06ad' }
-		  );
-	    };
-	    setTimeout('getSongbird()', 1500);
-	  };
+  function captureEmail () {
+    var emailElement = document.getElementById("email_addr");
+    var optInChecked = document.getElementById("email_optin");
+    if ( emailElement.value.length > 0 && optInChecked.checked == true && emailElement.disabled != true) {
+      $.get(
+	    "../lib/mailchimp/subscribe.php" ,
+	    { email_addr : emailElement.value, list_id : "c8c47a06ad" }
+	  );
+	  emailElement.value = "Thank You!";
+	  emailElement.disabled = true;
+    };
+	 setTimeout('getSongbird()', 1500);
+  };
 	  function getSongbird () {
 		   window.location = "<?php echo(get_dl($dl_platform, $dl_arch)); ?>";
 	  };
