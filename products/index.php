@@ -122,7 +122,7 @@ a:hover#mac_toggle, a:hover#pc_toggle {
         <div class="three_column" style="margin:40px 0px 0 0;">
         	<h1>See Your Friends Music</h1>
             <img src="../images/screenshots/info_4.jpeg" width="310" height="170" style="margin:10px 0" border="0">
-            Discover and follow new artists; on-click sharing with your friends. 
+            Discover and follow new artists; one-click sharing with your friends. 
         </div>
  
         
