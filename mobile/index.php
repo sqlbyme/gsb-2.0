@@ -57,8 +57,8 @@
         <a href="/desktop/" id="desktop"></a>
     </div>
     <div id="content">
-    	<h1>Songbird for Android. Make Your Music Connections Personal.</h1>
-        Download for free, directly to your phone or tablet. An elegant player provides the best access to your music collection on your Android device. SONGBIRD. Personal music connections.
+    	<h1>Songbird. Effortless music discovery on your mobile!</h1>
+        An elegant music player, Songbird provides the best access to your music on your mobile device. Discover music your friends love, follow artists to receive the latest music content and enjoy wherever you go. Download for free, directly to your Android phone.
         
         <div class="clearfix"></div>
         
@@ -80,19 +80,19 @@
         <div class="clearfix"></div>
         
         <div class="three_column" style="margin:40px 10px 0 0;">
-        	<h1>Clear &amp; Clear Interface</h1>
+        	<h1>Elegant Music Player</h1>
             <img src="../images/screenshots/mobile_2.jpg" width="310" height="170px" style="margin:10px 0" border="0">
-            Browse, sort and play your music the way you want. Create,edit and sort playlists. Search through all your music. 
+            Clean, sleek design. Browse, sort and play your music the way you want. Create, edit and sort playlists. Search through all your music. Matching homescreen and lockscreen widgets with album art. 
         </div>
         <div class="three_column" style="margin:40px 10px 0 0;">
-        	<h1>Discover &amp; Connect</h1>
+        	<h1>Discover New Music</h1>
             <img src="../images/screenshots/mobile_3.jpg" width="310" height="170px" style="margin:10px 0" border="0">
             See which artists your friends are into. Quickly and easily ‘like’ any song and post to your wall. 
         </div>
         <div class="three_column" style="margin:40px 0px 0 0;">
-        	<h1>Widget, Lockscreen &amp; More</h1>
+        	<h1>Unique to You</h1>
             <img src="../images/screenshots/mobile_4.jpg" width="310" height="170px" style="margin:10px 0" border="0">
-            Matching homescreen and lockscreen widgets with album art. Headset, bluetooth car audio and Last.fm support. 
+            Follow artists to automatically receive the latest updates including songs, videos, posts and more. All delivered to you to save you time and effort from searching.
         </div>
         
         <div class="clearfix"></div>
