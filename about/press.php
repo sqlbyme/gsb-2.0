@@ -117,7 +117,7 @@ ul#bullets li {
             
             Angela Trahan<br>
             Spiral Group<br>
-            <a href="mailto:marketing@spiralgroup.com" class="pink" target="_blank">Marketing@SongbirdNest.com</a><br>
+            <a href="mailto:marketing@songbirdnest.com" class="pink" target="_blank">Marketing@SongbirdNest.com</a><br>
             415.347.1431<br><br>
             
             
