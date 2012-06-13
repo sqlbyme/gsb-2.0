@@ -34,7 +34,7 @@ ul#bullets li {
         <div id="nav_about">
         	About
             <img src="../images/divider.jpg" border="0" width="1" height="31" style="position:relative; top:10px; margin:0 0 0 45px">
-            <a href="overview.php">Overview</a>
+            <a href="index.php">Overview</a>
             <a href="board.php">Board</a>
             <a href="management.php">Management</a>
             <a href="press.php" class="active">Press</a>
