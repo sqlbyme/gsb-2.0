@@ -68,6 +68,7 @@ jQuery(function(){
 
 <body>
 <div id="logo"><a href="./index.php" onClick="recordOutboundLink(this, 'Logo Clicked', 'Link Location: Home Page');"><span>Songbird</span></a></div>
+<div id="promo_box"><a href="promotions/leadtheflock/enter/" onClick="recordOutboundLink(this, 'Promotion Clicked', 'Link Location: Home Page Ticker');"></a></div>
 <div id="wrapper">
   <div id="main-content">
     <div id="rotator">
@@ -95,11 +96,11 @@ jQuery(function(){
 
 <div class="clearfix"></div>
 
-<ul id="ticker01">
+<!-- <ul id="ticker01">
   <li>
     <strong>Songbird</strong> is giving away <strong>$1500</strong> to see your favorite music live! <a class="pink" href="promotions/leadtheflock/enter/" onClick="recordOutboundLink(this, 'Promotion Clicked', 'Link Location: Home Page Ticker');">Click here</a> for info!</p></span>
   </li>
-</ul>    
+</ul>    -->
 
 <div style="clear:both;"></div>
 
