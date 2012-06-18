@@ -48,6 +48,7 @@ table {
 	border-spacing: 0;
 }
 #logo {
+	position: absolute;
 	float: left;
 	display: inline;
 	width: 180px;
@@ -61,6 +62,18 @@ table {
 }
 a#logo span, #logo span, #experience span {
 	display: none;
+}
+#promo_box {
+	float: left;
+	display: inline;
+	width: 193px;
+	padding-top: 140px;
+}
+#promo_box a, a#promo_box {
+	display: block;
+	width: 193px;
+	height: 123px;
+	background: url(../images/promo-boost-193x123.jpg) no-repeat;
 }
 #wrapper {
 	width: 1230px;
