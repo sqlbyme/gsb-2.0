@@ -135,6 +135,15 @@ ul#bullets li {
             
             Android Homescreen<br>
             <a href="/images/Android-homescreen.png" class="pink" target="_blank">Download (300k) »</a> <br><br>
+
+            Desktop Music Library<br>
+            <a href="/images/Desktop-MusicLibrary.png" class="pink" target="_blank">Download (585k) »</a> <br><br>
+
+            Desktop What's New<br>
+            <a href="/images/Desktop-WhatsNew.png" class="pink" target="_blank">Download (608k) »</a> <br><br>
+
+            Icon set zip archive<br>
+            <a href="/images/songbird_icon_set.zip" class="pink" target="_blank">Download (173k) »</a> <br><br>
             
             Songbird.me Artist Feed<br>
             <a href="/images/songbird-artist.png" class="pink" target="_blank">Download (984k) »</a> <br><br>
@@ -142,8 +151,13 @@ ul#bullets li {
             Songbird.me What's New Feed<br>
             <a href="/images/songbird-followingfeed.png" class="pink" target="_blank">Download (1.2MB) »</a> <br><br>
 
+            Songbird Wordmark<br>
+            <a href="/images/songbird-wordmark.png" class="pink" target="_blank">Download (7k) »</a> <br><br>
+
             Songbird.me Video<br>
             <a href="/images/songbird-video.png" class="pink" target="_blank">Download (264k) »</a> <br><br>
+
+            
 
             
         </div>
