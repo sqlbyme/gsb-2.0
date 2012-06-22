@@ -38,18 +38,27 @@
 </script>
 	<!-- Start Tracking Action -->
 	<script type="text/javascript">
-  function captureEmail () {
+  function testClick(button) {
+	console.log (button.id);
+	
+}
+
+  function captureEmail(button) {
     var emailElement = document.getElementById("email_addr");
     var optInChecked = document.getElementById("email_optin");
-    if ( emailElement.value.length > 0 && optInChecked.checked == true && emailElement.disabled != true) {
+    var emailSubmitBtn = document.getElementById("email_submit_btn");
+    if ( emailElement.value.length > 0 && emailElement.value != "Email Address" && optInChecked.checked == true && emailElement.disabled != true) {
       $.get(
 	    "../lib/mailchimp/subscribe.php" ,
 	    { email_addr : emailElement.value, list_id : "c8c47a06ad" }
 	  );
 	  emailElement.value = "Thank You!";
 	  emailElement.disabled = true;
+	  emailElement.style.border = "none";
+	  emailSubmitBtn.style.display = "none";
+	  
     };
-	 setTimeout('getSongbird()', 1500);
+	 if (button.id != "email_submit_btn") { setTimeout('getSongbird()', 1500); }
   };
 	  function getSongbird () {
 		   window.location = "<?php echo(get_dl($dl_platform, $dl_arch)); ?>";
@@ -101,8 +110,8 @@ a:hover#mac_toggle, a:hover#pc_toggle {
         <div id="sidebar">
           <input type="checkbox" id="email_optin" name="email_optin" checked="true">Keep me up to date with Songbird news and software updates.</input>
             
-            <input type="text" name="email_addr"  id="email_addr" value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Arial, Helvetica, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;"></input>
-            <a href="javascript:void(0);" onclick="recordOutboundLink(this, 'Desktop page download', '/desktop/<?php echo(get_dl($dl_platform, $dl_arch, 'file')); ?>'); captureEmail();" id="download"></a>
+            <input type="text" name="email_addr"  id="email_addr" value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Arial, Helvetica, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;"><a href="javascript:void(0);" id="email_submit_btn" onClick="captureEmail(this);" ></a>
+            <a href="javascript:void(0);" onclick="recordOutboundLink(this, 'Desktop page download', '/desktop/<?php echo(get_dl($dl_platform, $dl_arch, 'file')); ?>'); captureEmail(this);" id="download"></a>
             
             <div class="clearfix" style="height:20px"></div>
             
