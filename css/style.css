@@ -24,7 +24,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font-weight: normal;
-	font: helvetica, arial, sans-serif;
+	font-family: helvetica, arial, sans-serif;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -55,6 +55,7 @@ table {
 	padding-top: 30px;
 }
 #logo a, a#logo {
+  
 	display: block;
 	width: 100px;
 	height: 100px;
@@ -64,6 +65,7 @@ a#logo span, #logo span, #experience span {
 	display: none;
 }
 #promo_box {
+	position: relative;
 	float: left;
 	display: inline;
 	width: 193px;
@@ -423,6 +425,62 @@ a.view {
 .pink_border {
 	border-top:1px solid #e6317e;
 	margin-top:14px;
+}
+/* Email Captue Boxes & Buttons */
+#sidebar #email_addr {
+  padding: 10px;
+  color: #999;
+  font-size: 15px;
+  font-family: Helvetica, Arial, sans-serif;
+  border: 1px solid #999;
+  width: 288px;
+  margin-top: 20px;
+}
+#sidebar #email_submit_btn {
+  position: absolute;
+  display: inline-block;
+  background: url(../images/email-capture-38x74-sprite.png) top left;
+  width: 37px;
+  height: 37px;
+  border: none;
+  margin: 21px 0 0 -38px;
+}
+#sidebar #email_submit_btn:hover {
+  position: absolute;
+  display: inline-block;
+  background: url(../images/email-capture-38x74-sprite.png) bottom left;
+  width: 37px;
+  height: 37px;
+  border: none;
+  margin: 21px 0 0 -38px;
+}
+#sidebar #iPhone_email_addr {
+  padding: 10px;
+  color: #999;
+  font-size: 15px;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+  width: 229px;
+  height: 17px;
+  border: 1px solid #999;
+}
+#sidebar #iPhone_email_submit_btn {
+  position: relative;
+  display: block;
+  background: url(../images/email-capture-38x74-sprite.png) top left;
+  width: 37px;
+  height: 37px;
+  border: none;
+  margin: -38px 0 0 213px;
+}
+#sidebar #iPhone_email_submit_btn:hover {
+  position: absolute;
+  display: inline-block;
+  background: url(../images/email-capture-38x74-sprite.png) bottom left;
+  width: 37px;
+  height: 37px;
+  border: none;
+  margin: -38px 0 0 213px;
 }
 /* Footer */
 
