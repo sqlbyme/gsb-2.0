@@ -42,7 +42,7 @@
 		<div class="container">
 <div class="span-2"><a href="/"><img src="../images/logo.png" /></a></div>
 			<div class="span-20 center last">
-				<h2>Lead the Flock with Songbird and Win!</h2>
+				<h2>To thank our fans, we are giving away $1500!</h2>
 			</div>
 		</div>
 	</header>
@@ -60,28 +60,16 @@
 
 
 <div class="span-23 bigBottom center">
-			<h3>From Contest to Concert: 30 days to play & 3 prizes to win!</h3>
 
-			<h2>Share the Most</h2>
+			<h2>Every time you share, tweet, or post Songbird</h2>
+<h2>You are entered to win $1000 in Ticketmaster gift cards!</h2>
+<br>
+			<h3>Lead the biggest flock of your friends to Songbird and win the grand prize.<br>
+Only lead a few followers? <br>You are still entered in our random drawing for one of two $250 prizes!
+</h3>
 
-			<h3>Lead the biggest flock to Songbird and win <strong>$1000 in Ticketmaster Gift Cards!</strong></h3>
-
-			<h2>Share a Little</h2>
-
-			<h3>Be entered in a random drawing for one of two <strong>$250 Ticketmaster Gift Cards!</strong><br><br>
-3 winners will be announced on July 12, 2012.</h3>
-
-</div>
-		<div class="span-23 prepend-1">
-
-		<div class="span-8">
-				<h3 class="subhead">Share to Win</h3>
-
-				<h5><strong>Lead the largest flock to Songbird</strong> by July 11 and win $1000 in Ticketmaster gift cards! Not the Flock Leader? Every time you share, you're still entered to win our random drawing for one of two $250 Ticketmaster prizes.</h5>
-
-				<div class="center bigBottom">
-					<div id="share-user">
-						<h3 class="subhead">email address for game ID:</h3>
+<div id="share-user">
+						<h3 class="subhead">Enter your email address as your ID (we'll only use it to contact you if you win):</h3>
 						<input id="email" name="email" type="text" class="bigInput" /> <input id="email-next" type="button" value="Enter to Play" class="enter" /> <a id="email-skip" href="#skip">Continue without entering</a>
 					</div>
 					
@@ -94,15 +82,15 @@
 							<a id="share-email" href="#">Email</a>
 						</span>
 					</div>
-				</div>
-			</div>
 
 
+</div>
+		<div class="span-23 prepend-1">
 
-			<div class="span-7">
+			<div class="span-11 center">
 				<h3 class="subhead">Download to Win</h3>
 
-				<h5>If your friends download Songbird from this page, you'll get another game entry and so will they! So share and download to earn even more entries toward our $1000 grand prize.</h5>
+				<h5>If your friends download Songbird from this page, you all get more entries!</h5>
 
 				<div class="center bigBottom">
 					<h3 class="subhead">Web App&nbsp;&#183;&nbsp;Mac/Pc&nbsp;&#183;&nbsp;Android</h3>
@@ -114,13 +102,10 @@
 
 	
 
-			<div class="span-8 last">
+			<div class="span-11 center last">
 				<h3 class="subhead">Follow to Win</h3>
-				<h5>"Like" us on Facebook and follow us on Twitter for more entries. Throughout the contest we will also post and tweet music-related mini-challenges to our followers. Winners earn more contest entries towards our prizes! </h5>
-			</div>
-
-			<div class="center bigBottom">
-				<h3 class="subhead">Follow us for daily chances to win</h3>
+				<h5>Get your friends to "Like" us and follow us for even more entries!</h5>
+		
 				
 				<!-- Facebook Like Button -->
 				<div class="fb-like" data-href="https://www.facebook.com/Songbird" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
@@ -129,7 +114,10 @@
 				<a href="https://twitter.com/songbird" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @songbird</a>
 			</div>
 
+
+
 			<div class="span-23 bigBottom center">
+<h3 class="subhead">3 winners will be announced on July 12, 2012.</h3>
 <img src="../images/gamepic1.png"> 
 				<h3 class="subhead">
 Songbird wants to thank you for your loyalty with tickets to your favorite summer shows!<br />
