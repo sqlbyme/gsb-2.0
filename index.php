@@ -73,10 +73,22 @@ jQuery(function(){
   <div id="main-content">
     <div id="rotator">
       <div id="slides">
-        <img src="images/slides/1.png" border="0" style="display: none;">
-        <img src="images/slides/2.png" border="0" style="display: none;">
-        <img src="images/slides/3.png" border="0" style="display: none;">
-        <img src="images/slides/4.png" border="0" style="display: none;">
+        <img src="images/slides/1.png" id="slide1" border="0" style="display: none;"
+          onmouseover="document.getElementById('slide1').style.cursor = 'pointer';"
+          onclick="_gaq.push(['_trackEvent','Image Clicked','Link Location: Slide 1 - mobile']);
+            window.location.assign('/mobile/');">
+        <img src="images/slides/2.png" id="slide2" border="0" style="display: none;"
+          onmouseover="document.getElementById('slide2').style.cursor = 'pointer';"
+          onclick="_gaq.push(['_trackEvent','Image Clicked','Link Location: Slide 2 - songbird.me']);
+            window.location.assign('http://songbird.me');">
+        <img src="images/slides/3.png" id="slide3" border="0" style="display: none;"
+          onmouseover="document.getElementById('slide3').style.cursor = 'pointer';"
+          onclick="_gaq.push(['_trackEvent','Image Clicked','Link Location: Slide 3 - desktop']);
+            window.location.assign('/desktop/');">
+        <img src="images/slides/4.png" id="slide4" border="0" style="display: none;"
+          onmouseover="document.getElementById('slide4').style.cursor = 'pointer';"
+          onclick="_gaq.push(['_trackEvent','Image Clicked','Link Location: Slide 4 - products']);
+            window.location.assign('/products/');">
       </div>
     </div><!--rotator -->
     <div id="bottom-content">
