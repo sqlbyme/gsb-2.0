@@ -32,7 +32,7 @@ ul#bullets li {
 	<div id="header">
     	<a href="/" id="logo"></a>
         <div id="nav_about">
-        	Partners
+        	
            
         </div>
     </div>
