@@ -32,7 +32,7 @@ ul#bullets li {
 	<div id="header">
     	<a href="../index.php" id="logo"></a>
         <div id="nav_about">
-        	Information
+        	
             <img src="../images/divider.jpg" border="0" width="1" height="31" style="position:relative; top:10px; margin:0 0 0 45px">
             <a href="eula.php">End User License Agreement</a>
             <a href="privacy.php" class="active">Privacy Policy</a>

@@ -5,7 +5,7 @@
         <li><a href="../help/" onClick="recordOutboundLink(this, 'Help Clicked', 'Link Location: Page Footer');">Help</a></li>
         <li><a href="../partners/" onClick="recordOutboundLink(this, 'Partners Clicked', 'Link Location: Page Footer');">Partners</a></li>
         <li><a href="/products/" onClick="recordOutboundLink(this, 'Products Clicked', 'Link Location: Page Footer');">Products</a></li>
-        <li><a href="http://getsatisfaction.com/songbird" onClick="recordOutboundLink(this, 'Support Clicked', 'Link Location: Page Footer');" target="_blank" >Support</a></li>
+        <li><a href="http://getsatisfaction.com/songbird" onClick="recordOutboundLink(this, 'Support Clicked', 'Link Location: Page Footer');return false;" target="_blank" >Support</a></li>
         <li><a href="../about/" onClick="recordOutboundLink(this, 'About Clicked', 'Link Location: Page Footer');">About Us</a></li>
         <li><a href="../about/jobs.php" onClick="recordOutboundLink(this, 'Jobs Clicked', 'Link Location: Page Footer');">Jobs</a></li>
         <li><a href="../about/eula.php" onClick="recordOutboundLink(this, 'License Clicked', 'Link Location: Page Footer');">License</a></li>
