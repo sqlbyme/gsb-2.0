@@ -2,7 +2,7 @@
 <script type="text/javascript">
   function recordOutboundLink(link, category, action) {
     _gaq.push(['_trackEvent', category, action]);
-    //setTimeout('document.location = "' + link.href + '"', 100);
+    setTimeout('window.open("' + link.href + '")', 100);
   }
 </script>
 

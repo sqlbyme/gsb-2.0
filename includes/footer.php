@@ -12,7 +12,7 @@
         <li><a href="../about/privacy.php" onClick="recordOutboundLink(this, 'Privacy Clicked', 'Link Location: Page Footer');">Privacy</a></li>
         <li><a href="../about/terms.php" onClick="recordOutboundLink(this, 'Terms Clicked', 'Link Location: Page Footer');">Terms of Use</a></li>
       </ul> 
-    <a class="facebook" href="http://www.facebook.com/Songbird" target="_blank" onClick="recordOutboundLink(this, 'Facebook Clicked', 'Link Location: Page Footer');"></a><a class="twitter" href="https://twitter.com/#!/songbird" target="_blank" onClick="recordOutboundLink(this, 'Twitter Clicked', 'Link Location: Page Footer');"></a>
+    <a class="facebook" href="http://www.facebook.com/Songbird" target="_blank" onClick="recordOutboundLink(this, 'Facebook Clicked', 'Link Location: Page Footer');return false"></a><a class="twitter" href="https://twitter.com/#!/songbird" target="_blank" onClick="recordOutboundLink(this, 'Twitter Clicked', 'Link Location: Page Footer'); return false;"></a>
   </div><!--footer-content -->
   <div class="clearfix"></div>
 </div><!--footer -->
