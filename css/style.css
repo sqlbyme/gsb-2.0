@@ -48,7 +48,6 @@ table {
 	border-spacing: 0;
 }
 #logo {
-	position: absolute;
 	float: left;
 	display: inline;
 	width: 180px;
@@ -65,9 +64,9 @@ a#logo span, #logo span, #experience span {
 	display: none;
 }
 #promo_box {
-	position: relative;
+	position: absolute;
 	float: left;
-	display: inline;
+	display: block;
 	width: 193px;
 	padding-top: 140px;
 }
