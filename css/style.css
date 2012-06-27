@@ -281,6 +281,7 @@ body.sub {
 #header {
 	clear:both;
 	height:100px;
+	margin-bottom: 30px;
 }
 a#web, a#mobile, a#desktop, #mobile_active, #desktop_active, #web_active {
 	background:url(../images/icon_sprite.png) no-repeat;
