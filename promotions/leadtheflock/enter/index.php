@@ -124,6 +124,7 @@ Songbird wants to thank you for your loyalty with tickets to your favorite summe
 				Now <strong>that's</strong> effortless music discovery!</h3>
 			</div>
 
+         <div class="gilligan" style="position: relative; float: right; margin-right: 55px;"><a href="http://goo.gl/maps/Ovzr" target="_blank" ><img src="../images/gilligansisland.png" alt="Gilligans Island Icon" style="width: 40px; height: 40px;"></a></div>
 			<div class="span-8 smallBottom">
 				<p>Please read our contest <a href="../rules/index.html">Rules and Regulations</a>.</p>
 			</div>
