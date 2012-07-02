@@ -3,7 +3,7 @@
     <p>2012 &copy; All Rights Reserved &nbsp;&nbsp; | &nbsp;</p>
       <ul>
         <li><a href="../help/" onClick="recordOutboundLink(this, 'Help Clicked', 'Link Location: Page Footer');">Help</a></li>
-        <li><a href="../partners/" onClick="recordOutboundLink(this, 'Partners Clicked', 'Link Location: Page Footer');">Partners</a></li>
+        <!-- <li><a href="../partners/" onClick="recordOutboundLink(this, 'Partners Clicked', 'Link Location: Page Footer');">Partners</a></li> -->
         <li><a href="/products/" onClick="recordOutboundLink(this, 'Products Clicked', 'Link Location: Page Footer');">Products</a></li>
         <li><a href="http://getsatisfaction.com/songbird" onClick="recordOutboundLink(this, 'Support Clicked', 'Link Location: Page Footer');return false;" target="_blank" >Support</a></li>
         <li><a href="../about/" onClick="recordOutboundLink(this, 'About Clicked', 'Link Location: Page Footer');">About Us</a></li>
