@@ -111,7 +111,7 @@ a {color: #e6317e;}
                 <p>Prior to Songbird, Dave headed up mobile software development as VP of Client Engineering at Cellmania, a global provider of content and app ecosystems infrastructure for mobile operators, and joined Research In Motion through its acquisition of the company in 2010.  Earlier, in 2005, he became an advisor and then executive at mobile experience technology start-up MSX, leading product development and operations as VP of Engineering.  Cellmania acquired MSX in 2008.</p>
                 <p>Before MSX, Dave held key engineering roles at Macromedia including VP of Engineering, Director of Engineering, Software Architect, and Principal Engineer, spanning the company's evolution from start-up through IPO to a mature, highly successful public company.  Here, he developed his passion for creating rich media technologies and platforms, having spent over a dozen years building the company’s pioneering and widely acclaimed products including Director, Shockwave, and Central -- the Flash Platform-based precursor to Adobe AIR.  (Macromedia was subsequently acquired by Adobe Systems.)</p>
                 <p>Earlier, at Oracle, Dave helped engineer the company's 1.0 enterprise solutions as part of Oracle's newly-established Applications Division.</p>
-                <p>Earlier, at Oracle, Dave helped engineer the company's 1.0 enterprise solutions as part of Oracle's newly-established Applications Division.</p>
+                <p>Dave has a B.S. in Information and Decision Systems, Computer Science Concentration from Carnegie Mellon University.</p>
                 
                 <div class="clearfix"></div>
             </div>    
