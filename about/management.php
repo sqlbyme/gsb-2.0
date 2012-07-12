@@ -68,26 +68,18 @@ a {color: #e6317e;}
     <div id="content">
         <div id="left_column" style="width:790px; margin-top:0">
         	<h1>Senior Management</h1>
-             <div class="board_member expander">
-            	<img src="../images/headshots/les_schmidt.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
-                <h1>Les Schmidt</h1>
-                <p>Board Member and CEO, Les Schmidt is a seasoned startup/emerging growth company executive. His specialty is growing and scaling companies and has traversed the Venture-backed startup to IPO road four times. Les has over 20 years of experience of technology and emerging growth company experience.</p>
+             	<div class="board_member expander">
+	            	<img src="../images/headshots/ewittman_headshot_color_small.png" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
+	                <h1>Eric Wittman</h1>
+	                <p>Eric Wittman has worked in the technology industry for over 20 years satisfying his hunger to create products that are loved by everyone. When people are passionate about the products they use, companies are successful and the teams that build those products are proud of their accomplishments. </p>
+                   <p>As CEO and President of Songbird, Eric is responsible for driving the strategy, vision and creation of a next generation social music experience. He’s blessed to be working with an exceptionally talented team who have decades of experience building successful products. He works tirelessly to ensure great product experiences and businesses are created and does whatever it takes to keep the team inspired so that they can continue create the next great thing.</p>
+                   <p>Growing up in Silicon Valley, Eric was exposed many new technologies at an early age which fueled his passion for building products. His early entrepreneurial spirit started at age seven when he began delivering three newspaper routes (doing so through a revenue share with a 14 year old neighbor because he was legally too young) and learned early on to always strive to create great experiences for his customers. His official career in technology began right after high school when he joined an intriguing startup called Macromedia. The biggest attraction to Macromedia was not only the innovative products but also the company’s tagline, “Experience Matters”, which mirrored his product development philosophy.</p>
+                   <p>With 20 years of tech experience under his belt, Eric has been involved in creating some of the industries most groundbreaking products including Director (the standard for multimedia CD-ROM development), Shockwave (the first multimedia technology for the web), Dreamweaver (de facto standard for WYSIWYG HTML editing) and Flash. Flash was the most significant experience for Eric where he led the business and product strategy and took an acquired animation technology (FutureSplash) and turned it into the de facto standard for rich experiences on the web which amassed a base of over 3 million developers, install base of over 2 billion computers and devices and inspired the development of HTML 5.</p>
 
-
-<p>He joined Songbird to lead the transformation of the Company’s products into a rich music experience platform. Prior to taking on the CEO role at POTI Inc (dba. Songbird), Les was the Chief Operating Officer of GlobalEnglish. In this role, Schmidt lead the design and development of next-generation, world class SaaS elearning services for the Global 2000 customers that need English to sustain and expand their ability to compete globally.</p>
-
-
-<p>Recently, Les was the vice president of worldwide Custom Solutions and business operations for the Mobile and Devices business unit of Adobe Systems. In this role, Schmidt was responsible for the successful launch of Adobe’s mobile solutions for wireless operators around the world, working with Verizon, TMobile, DoCoMo, ChungHua Telecom, Telenor and others to create better user experiences on mobile devices. Schmidt joined Adobe when Macromedia was acquired in 2005. Schmidt joined Macromedia in 2003 to lead the redesign of the macromedia.com website to coincide with the launch of the MX 2004 products.</p>
-
-
-<p>His other experiences included: founding The Information Privacy Company (consumer identity theft protection), COO for the San Francisco 49ers, executive vice president and chief financial officer for Quokka Sports (digital sports entertainment), president and CEO of MECON, Inc. (health care information services), COO of The Learning Company (educational software) and CFO for Applied Immune Services (aphaeresis devices).</p>
-
-
-<p>Schmidt graduated from Antioch College with a degree in political science and economics in 1976. He earned his master’s degree in taxation from Golden Gate University in 1981. Schmidt was elected to the Board of Trustees of Golden Gate University in 2004 and served as Chairman of the Board from 2007 to 2011. </p>
-                <div class="clearfix"></div>
-            </div>
-            
-            <div class="clearfix pink_border"></div>
+                 <div class="clearfix"></div>
+	            </div>
+	 
+	         <div class="clearfix pink_border"></div>
             
             <div class="board_member expander">
             	<img src="../images/headshots/dan_brongiel.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
@@ -111,23 +103,18 @@ a {color: #e6317e;}
         <div class="clearfix pink_border"></div>
         
         <div class="clearfix"></div>
-		            <div class="board_member expander">
-		            	<img src="../images/headshots/ewittman_headshot_color_small.png" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
-		                <h1>Eric Wittman</h1>
-		                <p>Eric Wittman has worked in the technology industry for over 20 years satisfying his hunger to create products that are loved by everyone. When products are loved, companies can be successful and the teams that build the products can be proud of their accomplishments. </p>
-
-
-		<p>As Senior Vice President of Product, Eric is responsible for shaping the strategy and vision for creating differentiated product experiences. Overseeing the user experience design through development, he orchestrates the product development organization to successfully deliver on that strategy. He works tirelessly to ensure great product experiences are created and keeps the teams inspired so that they can continue create the next great thing.</p>
-
-
-		<p>Growing up in Silicon Valley, Eric was exposed to a lot of new technology at an early age and fueled a passion for building products. His early entrepreneurial spirit started at age seven when he began delivering three newspaper routes (doing so through a revenue share with a 14 year old neighbor because he was legally too young) and learned early on to always strive to create great experiences for his customers. His official career in technology began right after high school when he joined an intriguing startup called Macromedia. The biggest attraction to Macromedia was not only the innovative products but also the company’s tagline, “Experience Matters”, which mirrored his product development philosophy.</p>
-
-
-		<p>With 20 years of tech experience under his belt, Eric has been involved in creating some of the industries most groundbreaking products including Director (the standard for multimedia CD-ROM development), Shockwave (the first multimedia technology for the web), Dreamweaver (de facto standard for WYSIWYG HTML editing) and Flash. Flash was the most significant experience for Eric where he led the product strategy and took an acquired animation technology (FutureSplash) and turned it into the de facto standard for rich experiences on the web which amassed a base of over 3 million developers, install base of over 2 billion computers and devices and inspired the development of HTML 5.
-		</p>
-
-		                <div class="clearfix"></div>
-		            </div>
+		        <div class="board_member expander">
+            	<img src="../images/headshots/calaprice_bio_pic.png" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
+                <h1>Dave Calaprice</h1>
+                <p>Dave Calaprice has been building innovative, industry-leading products, services, and teams for over 22 years.  With a hands-on approach and comprehensive technical background in digital media and mobile development, Dave has helped start-ups and established companies successfully navigate the rapidly-changing software and web technology landscape with cutting-edge solutions and experiences. The resulting products and services have been enjoyed by hundreds of millions of users worldwide. </p>
+                <p>As VP of Engineering & CTO at Songbird, Dave is responsible for product development and engineering direction for the company's new music discovery platform encompassing mobile, cloud, and desktop.</p>
+                <p>Prior to Songbird, Dave headed up mobile software development as VP of Client Engineering at Cellmania, a global provider of content and app ecosystems infrastructure for mobile operators, and joined Research In Motion through its acquisition of the company in 2010.  Earlier, in 2005, he became an advisor and then executive at mobile experience technology start-up MSX, leading product development and operations as VP of Engineering.  Cellmania acquired MSX in 2008.</p>
+                <p>Before MSX, Dave held key engineering roles at Macromedia including VP of Engineering, Director of Engineering, Software Architect, and Principal Engineer, spanning the company's evolution from start-up through IPO to a mature, highly successful public company.  Here, he developed his passion for creating rich media technologies and platforms, having spent over a dozen years building the company’s pioneering and widely acclaimed products including Director, Shockwave, and Central -- the Flash Platform-based precursor to Adobe AIR.  (Macromedia was subsequently acquired by Adobe Systems.)</p>
+                <p>Earlier, at Oracle, Dave helped engineer the company's 1.0 enterprise solutions as part of Oracle's newly-established Applications Division.</p>
+                <p>Earlier, at Oracle, Dave helped engineer the company's 1.0 enterprise solutions as part of Oracle's newly-established Applications Division.</p>
+                
+                <div class="clearfix"></div>
+            </div>    
 		        </div>
 
 		        <div class="clearfix"></div>        
