@@ -160,7 +160,7 @@ a {color: #e6317e;}
 	  <p>Daniel leads Songbird’s sales and marketing efforts to capitalize on long-term growth opportunities and align the company with key strategic partners. In this role, he is responsible for the strategy and direction of Songbird’s sales and marketing operations, including all customer-facing functions such as field marketing, go-to-market partners, e-commerce, and customer support.</p>
 	  <p>Prior to joining Songbird, Daniel held executive level positions across a diverse range of business’s during his 12 years at Adobe Systems, Inc. During his successful tenure at Adobe, he was responsible for leading the overall strategy, including go-to-market plans, marketing, business development, and sales execution for Adobe’s North American Education business, WorldWide OEM/Bundle business, and Mobile & Device Business Unit. Daniel led teams of people up to 50 staff and $350m annual revenue.</p>
 	  <p>Prior to Adobe, Daniel held a sales management position with a startup, Andromedia Inc. and held various roles within EMC and Computer Associates with a focus on sales, business development, and global account management.</p>
-	  <p>Daniel holds a BS in Electrical Engineering and Technology from Sothern Illinois University, and has completed several executive programs focused on strategy, planning, operations, and sales. He is also active with his local charities and education groups in IL. </p>
+	  <p>Daniel holds a BS in Electrical Engineering and Technology from Southern Illinois University, and has completed several executive programs focused on strategy, planning, operations, and sales. He is also active with his local charities and education groups in IL. </p>
 	<div class="clearfix"></div>
 	</div>
 	</div>
