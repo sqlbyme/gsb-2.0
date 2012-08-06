@@ -43,7 +43,7 @@ ul#bullets li {
     </div>
     <div id="content">
         <div id="left_column" style="margin-top:0">
-        	<h1 style="margin:0 0 10px 0;">Songbird is hiring!</h1>
+        	<h1 style="margin:0 0 10px 0;">Jobs at Songbird</h1>
             <p>At Songbird we're as passionate about music as you are. Your music is the soundtrack to your life. Our unique technology merges your music with all the devices in your world. From your computer to your smartphone, tablet or TV, Songbird media players pioneer the way you listen, acquire, manage, discover, and share your music experience. </p>
             
             <p>Songbird's open, flexible platform integrates various Internet e-commerce and media services with our next-generation media software, to provide our partners and users with this incredible entertainment experience. In fact, Songbird has been named to FastCompany's Top 10 Music companies for Innovation.<a href="http://www.fastcompany.com/most-innovative-companies/2011/top-10-music.php" class="pink" target="_blank">Check out the story.</a></p>
