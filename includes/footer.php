@@ -2,18 +2,18 @@
   <div id="footer-content">
     <p>2012 &copy; All Rights Reserved &nbsp;&nbsp; | &nbsp;</p>
       <ul>
-        <li><a href="../help/" onClick="recordOutboundLink(this, 'Help Clicked', 'Link Location: Page Footer');">Help</a></li>
+        <li><a href="../help/" onClick="_gaq.push(['_trackEvent', 'Help Clicked', 'Link Location: Page Footer']);" target="_self">Help</a></li>
         <!-- <li><a href="../partners/" onClick="recordOutboundLink(this, 'Partners Clicked', 'Link Location: Page Footer');">Partners</a></li> -->
-        <li><a href="/products/" onClick="recordOutboundLink(this, 'Products Clicked', 'Link Location: Page Footer');">Products</a></li>
+        <li><a href="/products/" onClick="_gaq.push(['_trackEvent', 'Products Clicked', 'Link Location: Page Footer');" target="_self">Products</a></li>
         <li><a href="http://getsatisfaction.com/songbird" onClick="recordOutboundLink(this, 'Support Clicked', 'Link Location: Page Footer');return false;" target="_blank" >Support</a></li>
-        <li><a href="../about/" onClick="recordOutboundLink(this, 'About Clicked', 'Link Location: Page Footer');">About Us</a></li>
+        <li><a href="../about/" onClick="_gaq.push(['_trackEvent', 'About Clicked', 'Link Location: Page Footer');" target="_self">About Us</a></li>
         <li><a href="http://blog.songbirdnest.com" onClick="recordOutboundLink(this, 'Blog Clicked', 'Link Location: Page Footer');return false;" target="_blank">Blog</a></li>
-        <li><a href="../about/jobs.php" onClick="recordOutboundLink(this, 'Jobs Clicked', 'Link Location: Page Footer');">Jobs</a></li>
-        <li><a href="../about/eula.php" onClick="recordOutboundLink(this, 'License Clicked', 'Link Location: Page Footer');">License</a></li>
-        <li><a href="../about/privacy.php" onClick="recordOutboundLink(this, 'Privacy Clicked', 'Link Location: Page Footer');">Privacy</a></li>
-        <li><a href="../about/terms.php" onClick="recordOutboundLink(this, 'Terms Clicked', 'Link Location: Page Footer');">Terms of Use</a></li>
+        <li><a href="../about/jobs.php" onClick="_gaq.push(['_trackEvent', 'Jobs Clicked', 'Link Location: Page Footer');" target="_self">Jobs</a></li>
+        <li><a href="../about/eula.php" onClick="_gaq.push(['_trackEvent', 'License Clicked', 'Link Location: Page Footer');" target="_self">License</a></li>
+        <li><a href="../about/privacy.php" onClick="_gaq.push(['_trackEvent', 'Privacy Clicked', 'Link Location: Page Footer');" target="_self">Privacy</a></li>
+        <li><a href="../about/terms.php" onClick="_gaq.push(['_trackEvent', 'Terms Clicked', 'Link Location: Page Footer');" target="_self">Terms of Use</a></li>
       </ul> 
-    <a class="facebook" href="http://www.facebook.com/Songbird" target="_blank" onClick="recordOutboundLink(this, 'Facebook Clicked', 'Link Location: Page Footer');return false"></a><a class="twitter" href="https://twitter.com/#!/songbird" target="_blank" onClick="recordOutboundLink(this, 'Twitter Clicked', 'Link Location: Page Footer'); return false;"></a>
+    <a class="facebook" href="http://www.facebook.com/Songbird" target="_blank" onClick="recordOutboundLink(this, 'Facebook Clicked', 'Link Location: Page Footer');return false;"></a><a class="twitter" href="https://twitter.com/#!/songbird" target="_blank" onClick="recordOutboundLink(this, 'Twitter Clicked', 'Link Location: Page Footer'); return false;"></a>
   </div><!--footer-content -->
   <div class="clearfix"></div>
 </div><!--footer -->
