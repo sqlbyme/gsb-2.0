@@ -16,6 +16,36 @@
 <title>Songbird</title>
 <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
 <meta name="viewport" content="width=1000">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery.expander.min.js"></script>
+<script>
+$(document).ready(function() {
+  var opts = {collapseTimer: 4000};
+
+  $.each(['beforeExpand', 'afterExpand', 'onCollapse'], function(i, callback) {
+    opts[callback] = function(byUser) {
+      var by, msg = '<div class="success">' + callback;
+
+      if (callback == 'onCollapse') {
+        msg += ' (' + (byUser ? 'user' : 'timer') + ')';
+      }
+      msg += '</div>';
+
+      $(this).parent().parent().append(msg)
+    }
+  });
+
+  $('div.expander').expander({
+  	slicePoint: 280, 
+	expandEffect: 'show',  
+	expandSpeed: 0,
+    collapseEffect: 'hide',
+    collapseSpeed: 0,
+	lessClass: 'pink'
+	});
+});
+
+</script>
 <style>
 ul#bullets li {
 	background:url(../images/pink_bullet_lg.gif) no-repeat top left;
@@ -53,94 +83,32 @@ ul#bullets li {
             <p>We're building an extraordinary team to help us craft the technology behind our next-generation entertainment platform. If you love music, video and creating products used by millions of people across multiple devices, then Songbird is the place for you.</p>
 
         <div class="clearfix pink_border"></div>
-				<!-- BEGIN JOBVITE CODE -->
-		<iframe id="jobviteframe" src="http://www.jobvite.com/CompanyJobs/Careers.aspx?c=qiX9Vfw3&jvresize=http://getsongbird.com/jobs/frameresize.html" 
-		width="100%" height="500px" scrolling="yes" frameborder="0">Sorry, iframes are not supported.</iframe>
-
-		<script type="text/javascript">
-
-		      var l = location.href;
-
-		      var args = '';
-
-		      var k = '';
-
-		      var iStart = l.indexOf('?jvk=');
-
-		      if (iStart == -1) iStart = l.indexOf('&jvk=');
-
-		      if (iStart != -1)
-
-		      {
-
-		            iStart += 5;
-
-		            var iEnd = l.indexOf('&', iStart);
-
-		            if (iEnd == -1) iEnd = l.length;
-
-		            k = l.substring(iStart, iEnd);
-
-		      }
-
-		      iStart = l.indexOf('?jvi=');
-
-		      if (iStart == -1) iStart = l.indexOf('&jvi=');
-
-		      if (iStart != -1) {
-
-		            iStart += 5;
-
-		            var iEnd = l.indexOf('&', iStart);
-
-		            if (iEnd == -1) iEnd = l.length;
-
-		            args += '&j=' + l.substring(iStart, iEnd);
-
-		            if (!k.length) args += '&k=Job';
-
-		            var iStart = l.indexOf('?jvs=');
-
-		            if (iStart == -1) iStart = l.indexOf('&jvs=');
-
-		            if (iStart != -1)
-
-		            {
-
-		                  iStart += 5;
-
-		                  var iEnd = l.indexOf('&', iStart);
-
-		                  if (iEnd == -1) iEnd = l.length;
-
-		                  args += '&s=' + l.substring(iStart, iEnd);
-
-		            }
-
-		      }
-
-		      if (k.length) args += '&k=' + k;
-
-		      if (args.length) document.getElementById('jobviteframe').src += args;
-
-
-
-		      function resizeFrame(height, scrollToTop)
-
-		      {
-
-		            if (scrollToTop) window.scrollTo(0, 0);
-
-		            var oFrame = document.getElementById('jobviteframe');
-
-		            if (oFrame) oFrame.height = height;
-
-		      }
-
-		</script>
-
-		<!--END JOBVITE CODE -->            
-        </div>
+				<div>
+					<br />
+					<h1>We're Hiring!</h1>
+					<br />
+					<div style="text-transform:uppercase; font-weight:bold;">Current Openings</div>
+					<div class="board_member expander">
+					<p style="text-transform:uppercase; font-weight:normal;">Senior Developer - Songbird Cloud Platform </p>
+					<p>We are looking for a talented and creative Senior Developer to join the team developing the next generation of Songbird’s social music platform. </p>
+					<p>Responsibilities:</p>
+					<p>Technical lead and subject matter expert for the development of cloud based API's and software applications including high-availability, consumer-facing web applications using web frameworks and technologies including Ruby on Rails, MongoDB, MySQL, Redis, JavaScript, jQuery, HTML, CSS, and AWS (EC2 and S3). Research and evaluate software and hardware, and work with product management team to define features and identify innovative solutions. Leverage test driven development with test frameworks such as Rspec and Cucumber. Use knowledge of different caching layers including HTTP and proxy caching, and agile processes such as Scrum, to drive development activities. Mentor and coach junior engineers and contract development engineers.</p>
+					<p>Required Skills and Experience:
+					  <ul style="list-style: circle; font-size: 14px;">
+					    <li>Bachelor of Science in Computer Science or a related technical field, and 5 years of progressive experience in job offered.</li>
+						<li>Proven technical leadership skills architecting and building complex systems.</li>
+						<li>Can design and implement elegant, consistent, and highly performing web service APIs -- to be consumed by multiple web, mobile, and desktop clients.</li>
+						<li>Thrives in a challenging, fast-paced environment.</li>
+						</ul>
+					</p>
+					</div>
+					<p>Interested? Click <a href="mailto:rails-jobs@songbirdnest.com">here</a> to send us an email.</p>
+					
+				</div>
+				<div class="clearfix pink_border"></div>
+				<br />           
+        
+</div>
         
         <div id="sidebar" style="margin-top:0">
         	<h1 style="margin:0 0 10px 0;">Contact</h1>            
