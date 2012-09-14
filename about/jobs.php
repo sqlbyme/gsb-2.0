@@ -74,13 +74,15 @@ ul#bullets li {
     <div id="content">
         <div id="left_column" style="margin-top:0">
         	<h1 style="margin:0 0 10px 0;">Jobs at Songbird</h1>
-            <p>At Songbird we're as passionate about music as you are. Your music is the soundtrack to your life. Our unique technology merges your music with all the devices in your world. From your computer to your smartphone, tablet or TV, Songbird media players pioneer the way you listen, acquire, manage, discover, and share your music experience. </p>
+            <p>At Songbird, music is our passion and we work tirelessly to create products that people love. </p>
             
-            <p>Songbird's open, flexible platform integrates various Internet e-commerce and media services with our next-generation media software, to provide our partners and users with this incredible entertainment experience. In fact, Songbird has been named to FastCompany's Top 10 Music companies for Innovation.<a href="http://www.fastcompany.com/most-innovative-companies/2011/top-10-music.php" class="pink" target="_blank">Check out the story.</a></p>
+            <p>Right now we are working on an exciting new generation of music experiences that will help fans and artists connect in a new era of digital music. Our products are music-focused, consumer-oriented, socially-driven, and chock filled with cutting-edge new technology.</p>
             
-            <p>At Songbird, our team is small and focused, working closely with music technology enthusiasts and experts. Our environment is collegial and open, a place where everyone's opinion and contribution matters. Our atmosphere is relaxed and flexible, but our energy is high. And our kitchen is stocked, so you'll immediately feel like you're working in a startup. </p>
+            <p>At Songbird, our team is small, filled with rock star talent and focused on frequently shipping products. We work closely with music fans, artists, industry luminaries and consumer electronics companies to build products that are used by millions of people. </p>
             
-            <p>We're building an extraordinary team to help us craft the technology behind our next-generation entertainment platform. If you love music, video and creating products used by millions of people across multiple devices, then Songbird is the place for you.</p>
+            <p>Our work environment is open, fun and a place where everyone's opinion and contribution matters. Our office is located in one of the coolest buildings in the SOMA district of San Francisco.</p>
+
+            <p>Want to make a big impact with an awesome team developing the next big consumer music experience? Join us!</p>
 
         <div class="clearfix pink_border"></div>
 				<div>
