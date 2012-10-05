@@ -92,15 +92,12 @@ jQuery(function(){
       </div>
     </div><!--rotator -->
     <div id="bottom-content">
-      <div id="video"><a href="video.php" class="nyroModal"><img src="images/video.jpg" width="178" height="100" alt="video" border="0" /></a></div>
-        <div id="experience">
-          <a href="/products/" class="button" onClick="recordOutboundLink(this, 'Learn More Clicked', 'Link Location: Home Page');"></a>
-          <div id="product">
-            <a href="http://www.songbird.me/" class="web" target="_blank" onClick="recordOutboundLink(this, 'Web Icon Clicked', 'Link Location: Home Page'); return false; " ></a>
-            <a href="/mobile/" class="mobile" onClick="recordOutboundLink(this, 'Mobile Icon Clicked', 'Link Location: Home Page');"></a>
-            <a href="/desktop/" class="desktop" onClick="recordOutboundLink(this, 'Desktop Icon Clicked', 'Link Location: Home Page');"></a>
-          </div>
-      </div>
+      <!-- <div id="video"><a href="video.php" class="nyroModal"><img src="images/video.jpg" width="178" height="100" alt="video" border="0" /></a></div> -->
+        <div id="product">
+          <a href="http://www.songbird.me/" class="web" target="_blank" onClick="recordOutboundLink(this, 'Web Icon Clicked', 'Link Location: Home Page'); return false; " ></a>
+            <a href="/mobile/android/" class="android" onClick="recordOutboundLink(this, 'Android Icon Clicked', 'Link Location: Home Page');"></a>
+            <a href="/mobile/iOS/" class="iOS" onClick="recordOutboundLink(this, 'iOS Icon Clicked', 'Link Location: Home Page');"></a>
+      </div><!-- product -->
     </div><!--bottom-content -->
   </div><!--main-content -->
 <div class="clearfix"></div>

@@ -148,84 +148,62 @@ strong {
 #ticker a {
 	text-decoration: none;
 }
-#experience a.button {
-	display: block;
-	width: 603px;
-	height: 60px;
-	background: url(../images/learn-603x120-sprite.png) top left;
-}
-#experience a.button:hover {
-	display: block;
-	width: 603px;
-	height: 60px;
-	background: url(../images/learn-603x120-sprite.png) bottom left;
-}
-#experience {
-	float: left;
-	width: 603px;
-	margin-bottom: 25px;
-}
-#experience p {
-	text-align: center;
-	font-size: 16px;
-	padding-top: 10px;
-}
 #product {
 	float: left;
 	display: inline;
-	width: 603px;
-	height: 36px;
+	width: 790px;
+	height: 99px;
 	margin-top: 4px;
-	margin-bottom: 25px;
-	background: url(../images/iconrow-base-603x36.png) top left;
+	margin-bottom: 78px;
+	background: url(../images/iconrow-base-790x99.jpg) top left;
 }
 #product a.web {
 	display: inline;
 	position: relative;
 	float: left;
-	width: 150px;
-	height: 35px;
-	margin-left: 153px;
-	background: url(../images/icon-web-150x70-sprite.png) top left;
+	width: 205px;
+	height: 99px;
+	margin-left: 215px;
+	background: url(../images/icon-web-205x198-sprite.png) top left;
 }
 #product a.web:hover {
 	display: inline;
-	width: 150px;
-	height: 35px;
-	margin-left: 153px;
-	background: url(../images/icon-web-150x70-sprite.png) bottom left;
+	width: 205px;
+	height: 99px;
+	margin-left: 215px;
+	background: url(../images/icon-web-205x198-sprite.png) bottom left;
 }
-#product a.mobile {
+#product a.android {
 	position: relative;
 	float: left;
 	display: inline;
-	width: 150px;
-	height: 35px;
+	width: 185px;
+	height: 99px;
 	margin-left: auto;
-	background: url(../images/icon-mobile-150x70-sprite.png) top left;
+	background: url(../images/icon-android-185x198-sprite.png) top left;
 }
-#product a.mobile:hover {
+#product a.android:hover {
 	display: inline;
-	width: 150px;
-	height: 35px;
+	width: 185px;
+	height: 99px;
 	margin-left: auto;
-	background: url(../images/icon-mobile-150x70-sprite.png) bottom left;
+	background: url(../images/icon-android-185x198-sprite.png) bottom left;
 }
-#product a.desktop {
-	display: inline;
-	float: left;
-	width: 150px;
-	height: 35px;
-	margin-left: auto;
-	background: url(../images/icon-desktop-150x70-sprite.png) top left;
-}
-#product a.desktop:hover {
+#product a.iOS {
 	display: inline;
 	float: left;
-	width: 150px;
-	height: 35px;
+	width: 185px;
+	height: 99px;
 	margin-left: auto;
-	background: url(../images/icon-desktop-150x70-sprite.png) bottom left;
+	background: url(../images/icon-IOS-185x198-sprite.png) top left;
+}
+#product a.iOS:hover {
+	display: inline;
+	float: left;
+	width: 185px;
+	height: 99px;
+	margin-left: auto;
+	background: url(../images/icon-IOS-185x198-sprite.png) bottom left;
 }
 #bottom-content {
 	margin: 0 auto;
