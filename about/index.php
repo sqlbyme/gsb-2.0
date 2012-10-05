@@ -43,23 +43,18 @@ ul#bullets li {
     </div>
     <div id="content">
         <div id="left_column" style="margin-top:0">
-        	<h1 style="margin:0 0 10px 0;">Prepare yourself for the ultimate music discovery experience!</h1>
-            <p>The days of stale playlists, boring genre replays, pay-for-play recommendations are over! You no longer have to settle for music streaming or generic broadcasts from music apps with limited ability to offer truly effortless music discovery. </p>
+        	<h1 style="margin:0 0 10px 0;">Connecting artists and fans worldwide </h1>
+            <p>When we go to a concert, we experience the music in our own unique way along with others who have similar interests. We take photos through our own perspective, await the song that means the most to us and together we enjoy a collective music experience that we share with others. </p>
             
-            <p>You deserve more!</p>
+            <p>However, unlike a concert, today's world of digital music is fragmented across hundreds of sites, applications and services. This makes it challenging to easily connect with artists you love, find new artists you might be interested in, and socialize with other fans who have similar music interests. </p>
             
-            <p>Realizing that your music experience is about so much more than simply playing songs, Songbird takes an entirely new approach to music discovery.  Songbird is actually redefining “music discovery” to make it effortless, personal and social. </p>
-            <ul id="bullets">
-            <li><strong>Effortless discovery.</strong> Songbird delivers new music and new artists straight to you. Songbird’s first-of-its-kind “effortless discovery” feature suggests new artists and new music you’ll love based solely on the artists and music you already love.</li>
-            
-            <li><strong>Get closer to your favorite artists</strong>; get their updates real-time.  With Songbird, you can listen to your music, watch the latest videos from favorite artists, all in one effortless app. Songbird draws from lots of sources such as Facebook posts, YouTube videos, SoundCloud audio tracks, Wikipedia and last.fm bio information, and Flickr images.  Videos, concert news, photos, and more all get delivered into a single music experience. </li>
-            
-            <li><strong>Keep it PERSONAL.</strong>  It’s all about you. Songbird recommends artists based on the music and artists you already know and love. Only updates about artists you care about are delivered directly to you! We’re using the power of the internet to deliver an experience that is unique to YOU.</li>
-            
-            <li><strong>Stay SOCIAL and connected.</strong>  Songbird’s new Facebook-connected apps gives easy insight into friends’ music interests too, ensuring that the music is always fresh, alive and connected to your Facebook friends. When you discover music a friend likes, buy it immediately and/or share the discovery with one click - all right there in the same app! Connect with friends and favorite artists in ways you never thought possible.</li>
-            </ul>
-            
-            <p>Songbird&reg;.  Effortless Music Discovery.</p>
+            <p>Because your music experience is about so much more than simply playing songs, Songbird takes an entirely new approach to connecting fans and artists: by making it personal and social, all in one place. </p>
+                       
+            <p>With Songbird.me, fans can easily express their music interests with millions of people who share their passion or may be looking for something new. Similarly, artists can see who their current super fans are and connect with new listeners in unique, effective ways.</p>
+
+           <p>Experience the new Songbird and connect through the music you love.</p>
+
+           <p>Songbird®. Connecting Fans Everywhere.</p>
 
             
         </div>
