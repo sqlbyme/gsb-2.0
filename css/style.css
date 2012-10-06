@@ -154,7 +154,7 @@ strong {
 	width: 790px;
 	height: 99px;
 	margin-top: 4px;
-	margin-bottom: 78px;
+	margin-bottom: 34px;
 	background: url(../images/iconrow-base-790x99.jpg) top left;
 }
 #product a.web {
@@ -204,6 +204,24 @@ strong {
 	height: 99px;
 	margin-left: auto;
 	background: url(../images/icon-IOS-185x198-sprite.png) bottom left;
+}
+#classicDesktop {
+	position: relative;
+	float: left;
+	display: inline;
+	width: 790px;
+	height: 39px;
+	margin-left: auto;
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+}
+#classicDesktop b {
+	font-weight: bold;
+}
+#classicDesktop a {
+	color: #e6317e;
+	text-decoration: none;
 }
 #bottom-content {
 	margin: 0 auto;
