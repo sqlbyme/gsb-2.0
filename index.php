@@ -99,7 +99,7 @@ jQuery(function(){
             <a href="/mobile/iOS/" class="iOS" onClick="recordOutboundLink(this, 'iOS Icon Clicked', 'Link Location: Home Page');"></a>
       </div><!-- product -->
       <div id="classicDesktop">
-	    Get the <b>Songbird Classic</b> Desktop Media Player <a href="#" target="_blank">here</a>
+	    Get the <b>Songbird Classic</b> Desktop Media Player <a href="/desktop/" onClick="recordOutboundLink(this, 'Desktop Link Clicked', 'Link Location: Home Page');">here</a>
 	  </div>
 	</div><!--bottom-content -->
   </div><!--main-content -->
