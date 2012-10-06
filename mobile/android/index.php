@@ -62,8 +62,8 @@
         <a href="/desktop/" id="desktop"></a>
     </div>
     <div id="content">
-    	<h1>Songbird. Effortless music discovery on your mobile!</h1>
-        An elegant music player, Songbird provides the best access to your music on your mobile device. Discover music your friends love, follow artists to receive the latest music content and enjoy wherever you go. Download for free, directly to your Android phone.
+    	<h1>Songbird. Connecting fans everywhere!</h1>
+        With a focus on fans, Songbird personalizes music content from the artists you love the most. Share your own photos with artists and other fans or discover new artists, all while listening to your music on an Android device. Download for free!
         
         <div class="clearfix"></div>
         
@@ -76,28 +76,25 @@
             <input type="text" name="email_addr" id="email_addr"  value="Email Address" size="24" onFocus="this.value=''" ><a href="javascript:void(0);" id="email_submit_btn" onClick="captureEmail();" ></a>
             <a href="http://market.android.com/details?id=com.songbirdnest.mediaplayer" id="download" target="_blank" ></a>
             
-            <div id="iphone">
-            	<img src="/images/icon_iphone.png" width="23" height="44" style="float: left; margin:0 10px 0 0; border: none;" alt="iPhone icon."><strong>IPHONE COMING SOON</strong><br>submit your email to be the first to know about availability.<br>
-                <input type="text" name="iPhone_email_addr" id="iPhone_email_addr"  value="Email Address" size="24" onFocus="this.value=''"><a href="javascript:void(0);" id="iPhone_email_submit_btn" onClick="captureiPhoneEmail();"></a>
-            </div>
+            
         </div>
         
         <div class="clearfix"></div>
         
         <div class="three_column" style="margin:40px 10px 0 0;">
-        	<h1>Elegant Music Player</h1>
+        	<h1>Connect with Artists</h1>
             <img src="/images/screenshots/mobile_2.jpg" width="310" height="170" style="margin:10px 0 0 0; border: none;"  alt="Mobile Screenshot number 2.">
-            Clean, sleek design. Browse, sort and play your music the way you want. Create, edit and sort playlists. Search through all your music. Matching homescreen and lockscreen widgets with album art. 
+            Personalize your music experience with real-time updates from the artists you care about. Share, like, and add to the feed.
         </div>
         <div class="three_column" style="margin:40px 10px 0 0;">
-        	<h1>Discover New Music</h1>
+        	<h1>Add Your Photos</h1>
             <img src="/images/screenshots/mobile_3.jpg" width="310" height="170" style="margin:10px 0 0 0; border: none;" alt="Mobile Screenshot number 3.">
-            See which artists your friends are into. “Like” any track, follow any artist.  Share with friends quickly and easily – all with one click, in the same app! 
+            Do you have great concert photos, memorabilia, fan art or music memes? Easily contribute to your favorite artist’s feed. 
         </div>
         <div class="three_column" style="margin:40px 0px 0 0;">
-        	<h1>Unique to You</h1>
+        	<h1>Listen and More</h1>
             <img src="/images/screenshots/mobile_4.jpg" width="310" height="170" style="margin:10px 0 0 0; border: none;"  alt="Mobile screenshot number 4.">
-            Follow artists to automatically receive the latest updates including songs, videos, posts and more. All delivered to you to save you time and effort from searching.
+            As you listen to your favorite tracks, see what artists are posting and talking about without skipping a beat.
         </div>
         
         <div class="clearfix"></div>
