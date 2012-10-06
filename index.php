@@ -95,8 +95,8 @@ jQuery(function(){
       <!-- <div id="video"><a href="video.php" class="nyroModal"><img src="images/video.jpg" width="178" height="100" alt="video" border="0" /></a></div> -->
         <div id="product">
           <a href="http://www.songbird.me/" class="web" target="_blank" onClick="recordOutboundLink(this, 'Web Icon Clicked', 'Link Location: Home Page'); return false; " ></a>
-            <a href="/mobile/android/" class="android" onClick="recordOutboundLink(this, 'Android Icon Clicked', 'Link Location: Home Page');"></a>
-            <a href="/mobile/iOS/" class="iOS" onClick="recordOutboundLink(this, 'iOS Icon Clicked', 'Link Location: Home Page');"></a>
+            <a href="/mobile/android/" class="android" onClick="_gaq.push(['trackEvent', 'Android Icon Clicked', 'Link Location: Home Page']);"></a>
+            <a href="/mobile/iOS/" class="iOS" onClick="_gaq.push(['_trackEvent', 'iOS Icon Clicked', 'Link Location: Home Page']);"></a>
       </div><!-- product -->
       <div id="classicDesktop">
 	    Get the <b>Songbird Classic</b> Desktop Media Player <a href="/desktop/" onClick="_gaq.push(['_trackEvent', 'Desktop Link Clicked', 'Link Location: Home Page']);">here</a>
