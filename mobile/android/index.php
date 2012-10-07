@@ -83,17 +83,17 @@
         
         <div class="three_column" style="margin:40px 10px 0 0;">
         	<h1>Connect with Artists</h1>
-            <img src="/images/screenshots/mobile_2.jpg" width="310" height="170" style="margin:10px 0 0 0; border: none;"  alt="Mobile Screenshot number 2.">
+            <img src="/images/screenshots/android_1.png" width="310" height="170" style="margin:10px 0 0 0; border: none;"  alt="Mobile Screenshot number 2.">
             Personalize your music experience with real-time updates from the artists you care about. Share, like, and add to the feed.
         </div>
         <div class="three_column" style="margin:40px 10px 0 0;">
         	<h1>Add Your Photos</h1>
-            <img src="/images/screenshots/mobile_3.jpg" width="310" height="170" style="margin:10px 0 0 0; border: none;" alt="Mobile Screenshot number 3.">
+            <img src="/images/screenshots/android_2.png" width="310" height="170" style="margin:10px 0 0 0; border: none;" alt="Mobile Screenshot number 3.">
             Do you have great concert photos, memorabilia, fan art or music memes? Easily contribute to your favorite artist’s feed. 
         </div>
         <div class="three_column" style="margin:40px 0px 0 0;">
         	<h1>Listen and More</h1>
-            <img src="/images/screenshots/mobile_4.jpg" width="310" height="170" style="margin:10px 0 0 0; border: none;"  alt="Mobile screenshot number 4.">
+            <img src="/images/screenshots/android_3.png" width="310" height="170" style="margin:10px 0 0 0; border: none;"  alt="Mobile screenshot number 4.">
             As you listen to your favorite tracks, see what artists are posting and talking about without skipping a beat.
         </div>
         
