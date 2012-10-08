@@ -69,7 +69,7 @@
         <div class="clearfix"></div>
         
         <div id="left_column">
-        	<img src="/images/screenshots/mobile_1.jpg" width="600" height="427" style="border: none;" alt="Mobile Screen Shot number 1.">
+        	<img src="/images/screenshots/ios_1.jpg" width="600" height="427" style="border: none;" alt="Mobile Screen Shot number 1.">
         </div>
         
         <div id="sidebar">
