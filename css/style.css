@@ -330,6 +330,16 @@ a#desktop {
 	width:310px;
 	font-size:14px;
 }
+a#download {
+  background:url(../images/btn_download.png) no-repeat;
+  display:block;
+	height:59px;
+	margin:20px 0 0 0;
+	width:310px;
+}
+a:hover#download {
+  background-position:0 -59px;
+}
 a#download_pc {
 	background:url(../images/btn_download_pc.png) no-repeat;
 	display:block;
