@@ -105,8 +105,8 @@ a:hover#mac_toggle, a:hover#pc_toggle {
     </div>
   </div>
   <div id="content">
-    <h1>Songbird. Effortless music discovery on your Desktop!</h1>
-        Used by millions of fans to access, manage and play all their music. Let Songbird be your desktop media hub! Now includes Songbird.me so that you can easily discover new music that’s personalized and delivered straight to you. Share your music interests with your friends. Download Songbird for your Mac or PC.
+    <h1>Songbird. Connecting Fans Everywhere!</h1>
+        With a focus on fans, Songbird personalizes music content from the artists you love the most. Share your own photos with artists and other fans or discover new artists, all while listening to your music on your computer. Download to your Mac of PC for free!
         
         <div class="clearfix"></div>
         
@@ -155,14 +155,14 @@ a:hover#mac_toggle, a:hover#pc_toggle {
              Manage your music and videos, build playlists, browse, and sort. Then sync your music to your portable music player or phone.
         </div>
         <div class="three_column" style="margin:40px 10px 0 0;">
-          <h1>Discover New Music</h1>
+          <h1>Connect with Artists</h1>
             <img src="../images/screenshots/desktop_3.jpg" width="310" height="170px" style="margin:10px 0" border="0">
-            Songbird suggests new artists and new music based solely on those you already love.  It’s personal, unique to you and your tastes. See which artists your Facebook friends are into. 
+            Personalize your music experience with real-time updates from the artists you care about. Share, like, and add your own photos to the feed too.
         </div>
         <div class="three_column" style="margin:40px 0px 0 0;">
-          <h1>Get Tracks to Go</h1>
+          <h1>Play Your Music Anywhere</h1>
             <img src="../images/screenshots/desktop_4.jpg" width="310" height="170px" style="margin:10px 0" border="0">
-            Purchase albums and songs directly through Songbird from 7digital; easily sync to your mobile devices.
+            Push music to your wireless devices, like speakers and TVs, or act as a media server allowing wireless devices to pull from your Songbird library.
         </div>
         
         <div class="clearfix"></div>
