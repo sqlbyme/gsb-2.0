@@ -95,7 +95,7 @@
         <div class="three_column" style="margin:40px 0px 0 0;">
         	<h1>Like, Share, and Save</h1>
             <img src="/images/screenshots/ios_4.jpg" width="310" height="170" style="margin:10px 0 0 0; border: none;"  alt="Mobile screenshot number 4.">
-            Get social, see what your friends are sharing and who they are following, and even save favorite posts to your profile.
+            Get social with other fans, see what your friends are sharing and "like" favorite posts to save them to your profile.
         </div>
         
         <div class="clearfix"></div>
