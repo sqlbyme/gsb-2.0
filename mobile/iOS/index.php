@@ -75,7 +75,7 @@
         <div id="sidebar">
         	<input type="checkbox" id="email_optin" name="email_optin" checked="checked">Keep me up to date with Songbird news and software updates.
             <input type="text" name="email_addr" id="email_addr"  value="Email Address" size="24" onFocus="this.value=''" ><a href="javascript:void(0);" id="email_submit_btn" onClick="captureEmail();" ></a>
-            <span style="background:url('/images/coming-soon-362x90.jpg');display:block;width:362px;height:90px" />
+            <span style="background:url('/images/coming-soon-362x90.jpg');display:block;width:362px;height:90px;margin-top:20px;" />
             <!-- <a href="http://market.android.com/details?id=com.songbirdnest.mediaplayer" id="download" target="_blank" ></a> -->
             
             
