@@ -330,15 +330,25 @@ a#desktop {
 	width:310px;
 	font-size:14px;
 }
-a#download {
-	background:url(../images/btn_download.png) no-repeat;
+a#download_pc {
+	background:url(../images/btn_download_pc.png) no-repeat;
 	display:block;
 	height:59px;
 	margin:20px 0 0 0;
 	width:310px;
 }
-a:hover#download {
-	background-position:0 -59px;
+a:hover#download_pc {
+	background-position:0 -60px;
+}
+a#download_mac {
+	background:url(../images/btn_download_mac.png) no-repeat;
+	display:block;
+	height:59px;
+	margin:4px 0 0 0;
+	width:310px;
+}
+a:hover#download_mac {
+	background-position:0 -60px;
 }
 a#free_android {
 	background:url(../images/btn-info-freeandroid-310x118.png) no-repeat;
