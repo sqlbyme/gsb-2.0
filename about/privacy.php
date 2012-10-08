@@ -55,7 +55,7 @@ ul#bullets li {
 			</p>
 			<p>
 			Like all website and web service operators, POTI receives, gathers, manages, analyzes, and transfers information. POTI does so in order to operate and maintain its current websites and services as well as its future innovative offerings. For example, POTI may receive, gather, manage, analyze, and transfer:
-			<ul>
+			<ul style="font-family: helvetica, arial, sans-serif; font-size: 14px; color: black; margin-left: 15px;">
 				<li>non-personally identifying information such as browser type, location, language preference, referring site, and the date and time of use of its websites and services;</li>
 
 				<li>information that it receives from third parties (for example, Facebook) or that its users have themselves provided to POTI or made public;</li>
