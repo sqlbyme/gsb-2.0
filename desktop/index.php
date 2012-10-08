@@ -58,10 +58,15 @@
 	  emailSubmitBtn.style.display = "none";
 	  
     };
-	 if (button.id != "email_submit_btn") { setTimeout('getSongbird()', 1500); }
+	 if (button.id != "email_submit_btn") { setTimeout(getSongbird(button.id), 1500); }
   };
-	  function getSongbird () {
-		   window.location = "<?php echo(get_dl($dl_platform, $dl_arch)); ?>";
+	  function getSongbird (button) {
+       if (button == "download_pc"){
+	      window.location = "<?php echo(get_dl('windows', 'i686-msvc8')); ?>";
+       }
+       if (button == "download_mac"){
+         window.location = "<?php echo(get_dl('macosx', 'i686')); ?>";
+       }
 	  };
 	</script>
 	<!-- End Tracking Action -->
@@ -111,8 +116,9 @@ a:hover#mac_toggle, a:hover#pc_toggle {
           <input type="checkbox" id="email_optin" name="email_optin" checked="true">Keep me up to date with Songbird news and software updates.</input>
             
             <input type="text" name="email_addr"  id="email_addr" value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Arial, Helvetica, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;"><a href="javascript:void(0);" id="email_submit_btn" onClick="captureEmail(this);" ></a>
-            <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', '/desktop/<?php echo(get_dl($dl_platform, $dl_arch, 'file')); ?>']); captureEmail(this);" id="download"></a>
-            
+            <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', '/desktop/<?php echo(get_dl($dl_platform, $dl_arch, 'file')); ?>']); captureEmail(this);" id="download_pc"></a>
+            <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', '/desktop/<?php echo(get_dl($dl_platform, $dl_arch, 'file')); ?>']); captureEmail(this);" id="download_mac"></a>
+				
             <div class="clearfix" style="height:20px"></div>
             
             Minimum Requirements<br>
@@ -126,8 +132,6 @@ a:hover#mac_toggle, a:hover#pc_toggle {
                     <li>Mac OS X 10.5 or later</li>
                     <li>Macintosh computer with an Intel x86 processor</li>
                     <li>At least 512 MB of physical RAM</li>
-                    <li>At least 100 MB of available space</li>
-                    <li>Speakers or headphones</li>
                 </div>                      
             </div>     
             <div id="pc">                	
@@ -136,8 +140,6 @@ a:hover#mac_toggle, a:hover#pc_toggle {
                     <li>Windows XP SP3, Windows Vista, Windows 7</li>
                     <li>1.5 GHz Pentium 4 or comparable</li>
                     <li>At least 512 MB of physical RAM</li>
-                    <li>At least 150 MB of available space</li>
-                    <li>Speakers or headphones</li>
                 </div>                	 
             </div>
             

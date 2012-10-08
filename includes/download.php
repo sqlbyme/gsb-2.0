@@ -46,17 +46,6 @@ function get_dl($platform = "", $arch = "unknown", $key = "url") {
 		$dl['display'] = 'Windows XP/Vista';
 		$dl['filesize'] = '17.6 MB'; /* UPDATE ME TOO */
 	}
-	else if ($dl['platform'] == 'linux') {
-		$dl['suffix'] = 'tar.gz';
-		if ($dl['arch'] == 'i686') {
-			$dl['display'] = 'Linux i686';
-			$dl['filesize'] = '21.3 MB'; /* UPDATE ME THREE */
-		}
-		else if ($dl['arch'] == 'x86_64') {
-			$dl['display'] = 'Linux x86_64';
-			$dl['filesize'] = '20.0 MB'; /* UPDATE ME FOUR */
-		}
-	}
 	else if ($dl['platform'] == 'macosx') {
 		$dl['suffix'] = 'dmg';
 		if ($dl['arch'] == 'i686') {
@@ -71,9 +60,9 @@ function get_dl($platform = "", $arch = "unknown", $key = "url") {
 	}
 	else {
 		$dl['file'] = 'Songbird_' . $dl['version'] . '-' . $dl['build'] . '_' . $dl['platform'] . '-' . $dl['arch'] . '.' . $dl['suffix'];
-		//$dl['uri'] = 'installer/' . $dl['platform'] . '/' . $dl['arch'] . '/' . $dl['file'];
-		//$dl['url'] = S3::getAuthenticatedURL("download.songbirdnest.com", $dl['uri'], 300, false, false); 
-		$dl['url'] = 'http://download.songbirdnest.com/installer/' . $dl['platform'] . '/' . $dl['arch'] . '/' . $dl['file'];
+		$dl['uri'] = 'installer/' . $dl['platform'] . '/' . $dl['arch'] . '/' . $dl['file'];
+		$dl['url'] = S3::getAuthenticatedURL("download.songbirdnest.com", $dl['uri'], 300, false, false); 
+		//$dl['url'] = 'http://download.songbirdnest.com/installer/' . $dl['platform'] . '/' . $dl['arch'] . '/' . $dl['file'];
 	}
 	
 	return $dl[$key];
