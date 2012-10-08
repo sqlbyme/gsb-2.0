@@ -67,7 +67,7 @@ jQuery(function(){
 </head>
 
 <body>
-<div id="logo"><a href="./index.php" onClick="recordOutboundLink(this, 'Logo Clicked', 'Link Location: Home Page');"><span>Songbird</span></a></div>
+<div id="logo"><a href="/index.php" onClick="_gaq.push(['trackEvent', 'Logo Clicked', 'Link Location: Home Page']);"><span>Songbird</span></a></div>
 <!-- <div id="promo_box"><a href="promotions/leadtheflock/enter/" onClick="recordOutboundLink(this, 'Promotion Clicked', 'Link Location: Home Page Ticker');"></a></div> -->
 <div id="wrapper">
   <div id="main-content">
