@@ -63,6 +63,19 @@ table {
 a#logo span, #logo span, #experience span {
 	display: none;
 }
+#logo_sm {
+	float: left;
+	display: inline;
+	width: 180px;
+	padding-top: 30px;
+}
+#logo_sm a, a#logo_sm {
+  
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: url(../images/sblogo-90x90.png) no-repeat;
+}
 #promo_box {
 	position: absolute;
 	float: left;
@@ -286,32 +299,33 @@ body.sub {
 }
 a#web {	
 	display:block;
-	background:url(../images/web-nav-link-44x146.png) top left;
-	width:44px;
+	background:url(../images/web-nav-link-63x146.png) top left;
+	width:63px;
 	height:73px;
+	margin:6px 0px 0px 0px;
 }
 a:hover#web {
-	background:url(../images/web-nav-link-44x146.png) bottom left;
+	background:url(../images/web-nav-link-63x146.png) bottom left;
 }
 a#android, #android_active  {
 	display:block;
-	background:url(../images/android-nav-link-67x146.png) top left;
-	width:67px;
+	background:url(../images/android-nav-link-66x146.png) top left;
+	width:66px;
 	height:73px;
-    margin:-73px 0px 0px 80px;	
+    margin:-73px 0px 0px 100px;	
 }
 a:hover#android, #android_active {
-	background:url(../images/android-nav-link-67x146.png) bottom left;
+	background:url(../images/android-nav-link-66x146.png) bottom left;
 }
 a#iOS, #iOS_active  {
 	display:block;
-	background:url(../images/ios-nav-link-25x146.png) top left;
-	width:25px;
+	background:url(../images/ios-nav-link-34x146.png) top left;
+	width:34px;
 	height:73px;
-    margin:-73px 0px 0px 190px;	
+    margin:-73px 0px 0px 206px;	
 }
 a:hover#iOS, #iOS_active {
-	background:url(../images/ios-nav-link-25x146.png) bottom left;
+	background:url(../images/ios-nav-link-34x146.png) bottom left;
 }
 #content {
 	color:#666666;

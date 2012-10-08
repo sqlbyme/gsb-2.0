@@ -97,7 +97,7 @@ a:hover#mac_toggle, a:hover#pc_toggle {
 <body class="sub">
 <div id="container">
   <div id="header">
-    <a href="/" id="logo"></a>
+    <a href="/" id="logo_sm"></a>
     <div id="header_nav">
 	  <a href="http://www.songbird.me/" id="web" target="_blank" ></a>
       <a href="/mobile/android/" id="android"></a>

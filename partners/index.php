@@ -30,7 +30,7 @@ ul#bullets li {
 <body class="sub">
 <div id="container">
 	<div id="header">
-    	<a href="/" id="logo"></a>
+    	<a href="/" id="logo_sm"></a>
         <div id="nav_about">
         	
            

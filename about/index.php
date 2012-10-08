@@ -30,7 +30,7 @@ ul#bullets li {
 <body class="sub">
 <div id="container">
 	<div id="header">
-    	<a href="../index.php" id="logo"></a>
+    	<a href="../index.php" id="logo_sm"></a>
         <div id="nav_about">
         	About
             <img src="../images/divider.jpg" border="0" width="1" height="31" style="position:relative; top:10px; margin:0 0 0 45px">
