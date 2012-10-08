@@ -98,9 +98,11 @@ a:hover#mac_toggle, a:hover#pc_toggle {
 <div id="container">
   <div id="header">
     <a href="/" id="logo"></a>
-    <a href="http://www.songbird.me/" id="web" target="_blank" ></a>
-    <a href="/mobile/" id="mobile"></a>
-    <div id="desktop_active"></div>
+    <div id="header_nav">
+	  <a href="http://www.songbird.me/" id="web" target="_blank" ></a>
+      <a href="/mobile/android/" id="android"></a>
+      <a href="/mobile/iOS/" id="iOS"></a>
+    </div>
   </div>
   <div id="content">
     <h1>Songbird. Effortless music discovery on your Desktop!</h1>

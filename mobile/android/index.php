@@ -57,9 +57,11 @@
 <div id="container">
 	<div id="header">
     	<a href="/" id="logo"></a>
-        <a href="http://www.songbird.me/" id="web" target="_blank" ></a>
-        <div id="mobile_active"></div>
-        <a href="/desktop/" id="desktop"></a>
+        <div id="header_nav">
+		  <a href="http://www.songbird.me/" id="web" target="_blank" ></a>
+          <div id="android_active"></div>
+          <a href="/mobile/iOS/" id="iOS"></a>
+        </div>
     </div>
     <div id="content">
     	<h1>Songbird. Connecting fans everywhere!</h1>

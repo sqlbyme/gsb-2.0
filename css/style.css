@@ -278,38 +278,41 @@ body.sub {
 	height:100px;
 	margin-bottom: 30px;
 }
-a#web, a#mobile, a#desktop, #mobile_active, #desktop_active, #web_active {
-	background:url(../images/icon_sprite.png) no-repeat;
+#header_nav {
 	float:left;
-	height:72px;
-	margin:16px 0 0 43px;
+	height:73px;
+	width:500px;
+	margin:8px 0px 0px 30px;
 }
-a#web, #web_active {	
-	width:45px;
-	height:71px;
+a#web {	
+	display:block;
+	background:url(../images/web-nav-link-44x146.png) top left;
+	width:44px;
+	height:73px;
 }
-#web_active, a:hover#web {
-	background-position:-300px 0;
+a:hover#web {
+	background:url(../images/web-nav-link-44x146.png) bottom left;
 }
-a#mobile, #mobile_active {
-	width:54px;
+a#android, #android_active  {
+	display:block;
+	background:url(../images/android-nav-link-67x146.png) top left;
+	width:67px;
+	height:73px;
+    margin:-73px 0px 0px 80px;	
 }
-a#mobile {
-	background-position:-48px 0;
+a:hover#android, #android_active {
+	background:url(../images/android-nav-link-67x146.png) bottom left;
 }
-#mobile_active, a:hover#mobile {
-	background-position:-105px 0;
+a#iOS, #iOS_active  {
+	display:block;
+	background:url(../images/ios-nav-link-25x146.png) top left;
+	width:25px;
+	height:73px;
+    margin:-73px 0px 0px 190px;	
 }
-a#desktop, #desktop_active {
-	width:66px;
+a:hover#iOS, #iOS_active {
+	background:url(../images/ios-nav-link-25x146.png) bottom left;
 }
-a#desktop {
-	background-position:-162px 0;
-}
-#desktop_active, a:hover#desktop {
-	background-position:-231px 0;
-}
-
 #content {
 	color:#666666;
 	clear:both;
