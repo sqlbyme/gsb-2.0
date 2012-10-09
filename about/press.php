@@ -62,7 +62,7 @@ ul#bullets li {
         <div id="sidebar" style="margin-top:0">
         	<h1>Contact</h1>
             Songbird Media Relations
-			<a href="mailto:media@songbirdnest.com" class="pink" target="_blank">Media@SongbirdNest.com</a><br>
+			<a href="mailto:media@songbirdnest.com" class="pink" target="_blank">media@songbirdnest.com</a><br>
             415.357.9800<br><br>
             
             
