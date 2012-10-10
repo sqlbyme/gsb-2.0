@@ -106,7 +106,7 @@ a:hover#mac_toggle, a:hover#pc_toggle {
   </div>
   <div id="content">
     <h1>Songbird. Connecting Fans Everywhere!</h1>
-        With a focus on fans, Songbird personalizes music content from the artists you love the most. Share your own photos with artists and other fans or discover new artists, all while listening to your music on your computer. Download to your Mac of PC for free!
+        With a focus on fans, Songbird personalizes music content from the artists you love the most. Share your own photos with artists and other fans or discover new artists, all while listening to your music on your computer. Free download for Mac or PC!
         
         <div class="clearfix"></div>
         
