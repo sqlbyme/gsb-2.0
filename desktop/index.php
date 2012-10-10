@@ -118,8 +118,8 @@ a:hover#mac_toggle, a:hover#pc_toggle {
           <input type="checkbox" id="email_optin" name="email_optin" checked="true">Keep me up to date with Songbird news and software updates.</input>
             
             <input type="text" name="email_addr"  id="email_addr" value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Arial, Helvetica, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;"><a href="javascript:void(0);" id="email_submit_btn" onClick="captureEmail(this);" ></a>
-            <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', '/desktop/<?php echo(get_dl($dl_platform, $dl_arch, 'file')); ?>']); captureEmail(this);" id="download_pc"></a>
-            <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', '/desktop/<?php echo(get_dl($dl_platform, $dl_arch, 'file')); ?>']); captureEmail(this);" id="download_mac"></a>
+            <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', 'button clicked', 'Free for Pc']); captureEmail(this);" id="download_pc"></a>
+            <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', 'button clicked', 'Free for Mac']); captureEmail(this);" id="download_mac"></a>
 				
             <div class="clearfix" style="height:20px"></div>
             
