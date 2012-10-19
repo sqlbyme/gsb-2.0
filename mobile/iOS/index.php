@@ -35,8 +35,8 @@
     };
    };
   function captureiPhoneEmail () {
-    var emailElement = document.getElementById("iPhone_email_addr");
-    var emailSubmitBtn = document.getElementById("iPhone_email_submit_btn");
+    var emailElement = document.getElementById("email_addr");
+    var emailSubmitBtn = document.getElementById("email_submit_btn");
     if ( emailElement.value.length > 0 ) {
       $.get(
 	    "../../lib/mailchimp/subscribe.php" ,
@@ -75,9 +75,9 @@
         <div id="sidebar">
         	<!-- <input type="checkbox" id="email_optin" name="email_optin" checked="checked">Keep me up to date with Songbird news and software updates. -->
             <input type="checkbox" id="email_optin" name="email_optin" checked="checked">Please notify me when the iOS App is available to download!
-            <input type="text" name="email_addr" id="email_addr"  value="Email Address" size="24" onFocus="this.value=''" ><a href="javascript:void(0);" id="email_submit_btn" onClick="captureiPhoneEmail;" ></a>
+            <input type="text" name="email_addr" id="email_addr"  value="Email Address" size="24" onFocus="this.value=''" ><a href="javascript:void(0);" id="email_submit_btn" onClick="captureiPhoneEmail();" ></a>
             <span style="background:url('/images/coming-soon-362x90.jpg');display:block;width:362px;height:90px;margin-top:20px;" />            
-            <!-- <a href="https://itunes.apple.com/us/app/songbird.me/id561535312?mt=8" id="download_ios" onClick="_gaq.push(['_trackEvent','iOS page download', 'button clicked', 'App Store']); captureEmail();" target="_blank" ></a> --> 
+            <!-- <a href="https://itunes.apple.com/us/app/songbird.me/id561535312?mt=8" id="download_ios" onClick="_gaq.push(['_trackEvent','iOS page download', 'button clicked', 'App Store']); captureiPhoneEmail();" target="_blank" ></a> --> 
             
             
         </div>
