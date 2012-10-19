@@ -19,6 +19,12 @@
 <meta name="viewport" content="width=1000">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript">
+  $(document).keypress(function(e) {
+    if(e.which == 13 && document.activeElement.id == "email_addr") {
+      captureEmail("email_submit_btn");
+    }
+  });
+
   $(function() {
     $("#mac").hide();
     $("#pc").hide();
@@ -47,7 +53,7 @@
     var emailElement = document.getElementById("email_addr");
     var optInChecked = document.getElementById("email_optin");
     var emailSubmitBtn = document.getElementById("email_submit_btn");
-    if ( emailElement.value.length > 0 && emailElement.value != "Email Address" && optInChecked.checked == true && emailElement.disabled != true) {
+    if ( emailElement.value.length > 0 && emailElement.value != "Email Address" && email_optin.checked == true && emailElement.disabled != true) {
       $.get(
 	    "../lib/mailchimp/subscribe.php" ,
 	    { email_addr : emailElement.value, list_id : "c8c47a06ad" }
