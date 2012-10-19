@@ -357,6 +357,16 @@ a#download {
 a:hover#download {
   background-position:0 -59px;
 }
+a#download_ios {
+  background:url(../images/iOS-download-316x118.jpg) no-repeat;
+  display:block;
+	height:59px;
+	margin:20px 0 0 0;
+	width:316px;
+}
+a:hover#download_ios {
+  background-position:0 -59px;
+}
 a#download_pc {
 	background:url(../images/btn_download_pc.png) no-repeat;
 	display:block;
