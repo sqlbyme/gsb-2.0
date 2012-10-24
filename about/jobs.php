@@ -92,15 +92,29 @@ ul#bullets li {
 					<div style="text-transform:uppercase; font-weight:bold;">Current Openings</div>
 					<div class="board_member expander">
 					<p style="text-transform:uppercase; font-weight:normal;">Senior Developer - Songbird Cloud Platform </p>
-					<p>We are looking for a talented and creative Senior Developer to join the team developing the next generation of Songbird’s social music platform. </p>
+					<p>We are looking for a talented and creative senior developer to join the server team building the next generation of Songbird’s social music platform.  We're leveraging the latest frameworks and services including Rails 3, Backbone.js, MongoDB, and Redis. </p>
 					<p>Responsibilities:</p>
-					<p>Technical lead and subject matter expert for the development of cloud based API's and software applications including high-availability, consumer-facing web applications using web frameworks and technologies including Ruby on Rails, MongoDB, MySQL, Redis, JavaScript, jQuery, HTML, CSS, and AWS (EC2 and S3). Research and evaluate software and hardware, and work with product management team to define features and identify innovative solutions. Leverage test driven development with test frameworks such as Rspec and Cucumber. Use knowledge of different caching layers including HTTP and proxy caching, and agile processes such as Scrum, to drive development activities. Mentor and coach junior engineers and contract development engineers.</p>
+					<p>This is a unique opportunity to create a new social music experience platform that will define how people enjoy their music interests with friends anywhere.  As a member of the technical team, you will drive the core architecture for Songbird’s products and participate in all phases of development from product definition to architecture to coding.  You will work closely with product management, experience design, network operations, desktop and mobile teams to design, build and deploy products to millions of users.</p>
 					<p>Required Skills and Experience:
 					  <ul style="list-style: circle; font-size: 14px;">
-					    <li>Bachelor of Science in Computer Science or a related technical field, and 5 years of progressive experience in job offered.</li>
-						<li>Proven technical leadership skills architecting and building complex systems.</li>
-						<li>Can design and implement elegant, consistent, and highly performing web service APIs -- to be consumed by multiple web, mobile, and desktop clients.</li>
-						<li>Thrives in a challenging, fast-paced environment.</li>
+					    <li>5+ years server-side development experience with large scale deployments under your belt</li>
+						<li>2+ years of experience working with Ruby on Rails</li>
+						<li>Proven technical leadership skills involving the architecture and coding of complex back-end systems</li>
+						<li>Deep understanding of web services, service oriented architectures, and the principles which guide key architectural styles</li>
+						<li>Comfortable designing and implementing elegant, consistent, and highly performant web service APIs for consumption by web, mobile, and desktop clients</li>
+						<li>Thorough understanding of network architecture and availability/performance trade-offs</li>
+						<li>Experience working with front-end languages and frameworks such as JavaScript/jQuery/Backbone.js and HTML5</li>
+						<li>Thrives in a challenging, fast-paced startup environment</li>
+						<li>BS or MS in Computer Science or related technical field</li>
+						</ul>
+					</p>
+					<p>Preferred Skills and Experience:
+					  <ul style="list-style: circle; font-size: 14px;">
+					    <li>Familiarity with Facebook or Twitter APIs</li>
+						<li>Experience with Scrum/agile development</li>
+						<li>Strives to stay current on existing and emerging development tools, platforms, and delivery models</li>
+						<li>Passionate about your music and video, at home and on the go</li>
+						<li>Excited about building incredible media experiences for millions of people around the world!</li>
 						</ul>
 					</p>
 					</div>
