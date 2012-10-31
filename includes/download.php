@@ -32,8 +32,8 @@ else if (strpos($ua, "Intel Mac")) {
 function get_dl($platform = "", $arch = "unknown", $key = "url") {
 
 	$dl = array(
-		'version' => '2.0.0', /* UPDATE ME */
-		'build'   => '2311', /* UPDATE ME */
+		'version' => '2.1.0', /* UPDATE ME */
+		'build'   => '2419', /* UPDATE ME */
 		'platform' => $platform,
 		'arch' => $arch,
 		'suffix' => '',
@@ -44,13 +44,13 @@ function get_dl($platform = "", $arch = "unknown", $key = "url") {
 	if ($dl['platform'] == 'windows') {
 		$dl['suffix'] = 'exe';
 		$dl['display'] = 'Windows XP/Vista';
-		$dl['filesize'] = '17.6 MB'; /* UPDATE ME TOO */
+		$dl['filesize'] = '15.6 MB'; /* UPDATE ME TOO */
 	}
 	else if ($dl['platform'] == 'macosx') {
 		$dl['suffix'] = 'dmg';
 		if ($dl['arch'] == 'i686') {
 			$dl['display'] = 'Mac OS X Intel';
-			$dl['filesize'] = '23.3 MB'; /* UPDATE ME FIVE */
+			$dl['filesize'] = '24.5 MB'; /* UPDATE ME FIVE */
 		}
 	}
 	if ($dl['arch'] == 'unknown') {
