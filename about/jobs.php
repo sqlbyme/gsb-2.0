@@ -122,6 +122,33 @@ ul#bullets li {
 					<p>Interested? Click <a href="mailto:rails-jobs@songbirdnest.com">here</a> to send us an email.</p>
 					
 				</div>
+				<div>
+					<div class="board_member expander">
+					<p style="text-transform:uppercase; font-weight:normal;">Senior Front-End Developer  - Songbird Cloud Platform </p>
+					<p>We are looking for a talented and creative senior front-end developer to join the server team building the next generation of Songbird’s social music platform.  We're leveraging the latest frameworks and services including Rails 3, Backbone.js, jQuery, MongoDB, and Redis. </p>
+					<p>Responsibilities:</p>
+					<p>This is a unique opportunity to create new social music applications and an associated platform that will define how people enjoy their music interests with friends anywhere.  As a member of the technical team, you will drive the core architecture for Songbird’s products and participate in all phases of development from product definition to architecture to coding.  You will work closely with product management, experience design, network operations, desktop and mobile teams to design, build and deploy products to millions of users.</p>
+					<p>Required Skills and Experience:
+					  <ul style="list-style: circle; font-size: 14px;">
+					    <li>5+ years front-end web development experience with HTML, CSS and JavaScript</li>
+						<li>1+ years experience working with JS frameworks such as jQuery, Backbone.js, Ember.js, Underscore.js, and Node.js.  </li>
+						<li>Proven technical leadership skills architecting and building complex front-ends</li>
+						<li>Thrives in a challenging, fast-paced environment</li>
+						<li>BS or MS in Computer Science or related technical field</li>
+						</ul>
+					</p>
+					<p>Preferred Skills and Experience:
+					  <ul style="list-style: circle; font-size: 14px;">
+					    <li>Familiarity with Facebook platform and APIs</li>
+						<li>Familiarity with HTML5 and CSS3</li>
+						<li>Comfortable with concepts and structure of Rails-based apps (Ruby coding experience a plus!)</li>
+						<li>Familiarity with testing frameworks and tools including Jasmine and Selenium</li>
+						</ul>
+					</p>
+					</div>
+					<p>Interested? Click <a href="mailto:jobs-fed@songbirdnest.com">here</a> to send us an email.</p>
+					
+				</div>
 				<div class="clearfix pink_border"></div>
 				<br />           
         
