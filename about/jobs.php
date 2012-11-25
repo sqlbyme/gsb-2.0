@@ -147,6 +147,10 @@ ul#bullets li {
 						<li>Familiarity with HTML5 and CSS3</li>
 						<li>Comfortable with concepts and structure of Rails-based apps (Ruby coding experience a plus!)</li>
 						<li>Familiarity with testing frameworks and tools including Jasmine and Selenium</li>
+						<li>Experience with Scrum/agile development</li>
+						<li>Strives to stay current on existing and emerging development tools, platforms, and delivery models</li>
+						<li>Passionate about your music and video, at home and on the go</li>
+						<li>Excited about building incredible media experiences for millions of people around the world!</li>
 						</ul>
 					</p>
 					</div>
