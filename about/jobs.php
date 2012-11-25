@@ -92,7 +92,7 @@ ul#bullets li {
 					<br />
 					<div style="text-transform:uppercase; font-weight:bold;">Current Openings</div>
 					<div class="board_member expander">
-					<p style="text-transform:uppercase; font-weight:normal;">Senior Developer - Songbird Cloud Platform </p>
+					<p style="text-transform:uppercase; font-weight:normal;">Senior Ruby on Rails Developer - Songbird Cloud Platform </p>
 					<p>We are looking for a talented and creative senior developer to join the server team building the next generation of Songbird’s social music platform.  We're leveraging the latest frameworks and services including Rails 3, Backbone.js, MongoDB, and Redis. </p>
 					<p>Responsibilities:</p>
 					<p>This is a unique opportunity to create a new social music experience platform that will define how people enjoy their music interests with friends anywhere.  As a member of the technical team, you will drive the core architecture for Songbird’s products and participate in all phases of development from product definition to architecture to coding.  You will work closely with product management, experience design, network operations, desktop and mobile teams to design, build and deploy products to millions of users.</p>
@@ -112,6 +112,10 @@ ul#bullets li {
 					<p>Preferred Skills and Experience:
 					  <ul style="list-style: circle; font-size: 14px;">
 					    <li>Familiarity with Facebook or Twitter APIs</li>
+						<li>Experience with Scrum/agile development</li>
+						<li>Strives to stay current on existing and emerging development tools, platforms, and delivery models</li>
+						<li>Passionate about your music and video, at home and on the go</li>
+						<li>Excited about building incredible media experiences for millions of people around the world!</li>
 						<li>Experience with Scrum/agile development</li>
 						<li>Strives to stay current on existing and emerging development tools, platforms, and delivery models</li>
 						<li>Passionate about your music and video, at home and on the go</li>
