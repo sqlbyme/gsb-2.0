@@ -62,7 +62,6 @@ ul#bullets li {
         
         <div id="sidebar" style="margin-top:0">
         	<h1 style="margin:0 0 10px 0;">Contact</h1>            
-            <a href="mailto:partners@songbirdnest.com" class="pink">partners@songbirdnest.com</a>
             <a href="mailto:media@songbirdnest.com" class="pink">media@songbirdnest.com</a> <br><br>
             
             <div style="text-transform:uppercase; font-weight:bold;">Songbird</div>
