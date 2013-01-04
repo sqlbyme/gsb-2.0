@@ -1,6 +1,6 @@
 <div id="footer">
   <div id="footer-content">
-    <p>2012 &copy; All Rights Reserved &nbsp;&nbsp; | &nbsp;</p>
+    <p>2013 &copy; All Rights Reserved &nbsp;&nbsp; | &nbsp;</p>
       <ul>
         <li><a href="/help/" onClick="_gaq.push(['_trackEvent', 'Help Clicked', 'Link Location: Page Footer']);" target="_self">Help</a></li>
         <li><a href="http://getsatisfaction.com/songbird" onClick="recordOutboundLink(this, 'Support Clicked', 'Link Location: Page Footer');return false;" target="_blank" >Support</a></li>
