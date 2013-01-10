@@ -1,4 +1,17 @@
 <?php include("../includes/download.php"); ?>
+<?php
+  $qs = $_SERVER['QUERY_STRING'];
+  switch($qs) {
+    case "download=Philips_windows":
+      header("Location: https://s3.amazonaws.com/download.songbirdnest.com/installer/windows/i686-msvc8/Songbird_2.1.0-2419_windows-i686-msvc8.exe");
+      break;
+    
+    case "download=Philips_mac":
+      header("Location: https://s3.amazonaws.com/download.songbirdnest.com/installer/macosx/i686/Songbird_2.1.0-2419_macosx-i686.dmg");
+      break;
+  }
+
+?>
 <!DOCTYPE html>
 <!--[if IE 6]>
 <html id="ie6" dir="ltr" lang="en-US">
@@ -104,7 +117,8 @@ a:hover#mac_toggle, a:hover#pc_toggle {
 </head>
 
 <body class="sub">
-<div id="container">
+  <script> console.log('<?php echo($qs); ?>'); </script
+  <div id="container">
   <div id="header">
     <a href="/" id="logo_sm"></a>
     <div id="header_nav">
@@ -127,8 +141,8 @@ a:hover#mac_toggle, a:hover#pc_toggle {
           <input type="checkbox" id="email_optin" name="email_optin" checked="true">Keep me up to date with Songbird news and software updates.</input>
             
             <input type="text" name="email_addr"  id="email_addr" value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Arial, Helvetica, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;"><a href="javascript:void(0);" id="email_submit_btn" onClick="captureEmail(this);" ></a>
-            <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', 'button clicked', 'Free for Pc'], ['desktop._trackEvent','Installs','Getsongbird Downloads','Free for Pc']); captureEmail(this);" id="download_pc"></a>
-            <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', 'button clicked', 'Free for Mac'], ['desktop._trackEvent','Installs','Getsongbird Downloads','Free for Mac']); captureEmail(this);" id="download_mac"></a>
+            <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', 'button clicked', 'Free for Pc'], ['desktop._trackEvent','Downloads','Getsongbird Downloads','Free for Pc']); captureEmail(this);" id="download_pc"></a>
+            <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', 'button clicked', 'Free for Mac'], ['desktop._trackEvent','Downloads','Getsongbird Downloads','Free for Mac']); captureEmail(this);" id="download_mac"></a>
 				
             <div class="clearfix" style="height:20px"></div>
             
