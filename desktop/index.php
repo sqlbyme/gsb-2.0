@@ -1,5 +1,5 @@
-<?php include("../includes/download.php"); ?>
-<?php
+<?php include("../includes/download.php"); 
+
   $qs = $_SERVER['QUERY_STRING'];
   switch($qs) {
     case "download=Philips_windows":
@@ -117,7 +117,6 @@ a:hover#mac_toggle, a:hover#pc_toggle {
 </head>
 
 <body class="sub">
-  <script> console.log('<?php echo($qs); ?>'); </script
   <div id="container">
   <div id="header">
     <a href="/" id="logo_sm"></a>
