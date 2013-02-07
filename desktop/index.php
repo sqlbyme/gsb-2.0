@@ -84,7 +84,7 @@
 	  function getSongbird (button) {
        if (button == "download_pc"){
 	      //window.location = "<?php echo(get_dl('windows', 'i686-msvc8')); ?>";
-	      window.location = "https://s3.amazonaws.com/download.songbirdnest.com/installer/windows/i686-msvc8/Songbird_2.1.0-2419_windows-i686-msvc8.exe";
+	      window.location = "https://s3.amazonaws.com/download.songbirdnest.com/installer/windows/i686-msvc8/Songbird_2.2.0-2453_windows-i686-msvc8.exe";
        }
        if (button == "download_mac"){
          window.location = "<?php echo(get_dl('macosx', 'i686')); ?>";
