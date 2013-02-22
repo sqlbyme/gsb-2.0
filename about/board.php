@@ -103,18 +103,6 @@ a {color: #e6317e;}
 
 	<div class="clearfix pink_border"></div>
 
-	<div class="board_member expander">  
-	  <img src="../images/headshots/al_ramadan.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 20px 0">
-	  <h1>Al Ramadan</h1>
-	  <p>Al Ramadan is an Australian-born American. Al has experienced first-hand what it takes to be a leader in the technology industry - from early stage VC backed companies through to mature public companies. He started his career as a Mathematician / Computer Scientist before moving into Executive Management and Leadership positions. He has deep insights into the technology and mobile markets, and was selected by TIME as one of the most influential people in the digital economy.</p>
-	  <p>Today he is focused on developing early stage companies into category leaders. He participates as a Board Member, a Strategic Advisor and in some cases an Angel Investor in companies wanting to change the world. He served as senior vice president of the Mobile and Device Solutions Business Unit at Adobe Systems through 2008. Al joined Adobe through the company’s acquisition of Macromedia in 2005. At Macromedia, Al was the executive vice president and general manager of mobile and devices.  He previously served as chief marketing officer at Macromedia from 2002 to 2003. He was a member of Macromedia’s Board of Directors for two years before joining Macromedia in 2001.</p>
-	  <p>Prior to joining Macromedia, Al was chairman co-founder, president and CEO of Quokka Sports from 1996 to 2000. Al served as CTO for the Australia America’s Cup Challenge from 1992-1995, and founded OzWare - an Australian software development company - in 1990.  Prior to 1990, Al was a mathematician and computer scientist at BHP Steel.</p>
-	  <p>Al graduated from Monash University a dual degree in computer science and applied mathematics, and later graduated from Stanford University’s Executive Program for Growing Companies.</p>
-	<div class="clearfix"></div>
-	</div>
-
-	<div class="clearfix pink_border"></div>
-
 	<div class="board_member expander">
 	  <img src="../images/headshots/betsey_nelson.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
 	  <h1>Betsey Nelson</h1>
@@ -142,21 +130,8 @@ a {color: #e6317e;}
 	<div class="clearfix pink_border"></div>
 
 	<div class="board_member expander">
-	  <img src="../images/headshots/les_schmidt.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
-	  <h1>Les Schmidt</h1>
-	  <p>Les Schmidt is a seasoned startup/emerging growth company executive. His specialty is growing and scaling companies, and has traversed the Venture-backed startup to IPO road four times. Les has over 20 years of experience of technology and emerging growth company experience.</p>
-	  <p>He joined Songbird to lead the transformation of the Company’s products into a rich music experience platform. Prior to taking on the CEO role at POTI Inc (dba. Songbird), Les was the Chief Operating Officer of GlobalEnglish. In this role, Les lead the design and development of next-generation, world class SaaS elearning services for the Global 2000 customers that need English to sustain and expand their ability to compete globally.</p>
-	  <p>Recently, Les was the vice president of worldwide Custom Solutions and business operations for the Mobile and Devices business unit of Adobe Systems. In this role, Les was responsible for the successful launch of Adobe’s mobile solutions for wireless operators around the world, working with Verizon, TMobile, DoCoMo, ChungHua Telecom, Telenor and others to create better user experiences on mobile devices. Les joined Adobe when Macromedia was acquired in 2005. Les joined Macromedia in 2003 to lead the redesign of the macromedia.com website to coincide with the launch of the MX 2004 products.</p>
-	  <p>His other experiences include: founding The Information Privacy Company (consumer identity theft protection), COO for the San Francisco 49ers, executive vice president and chief financial officer for Quokka Sports (digital sports entertainment), president and CEO of MECON, Inc. (health care information services), COO of The Learning Company (educational software) and CFO for Applied Immune Services (aphaeresis devices). Les was elected to the Board of Trustees of Golden Gate University in 2004, and served as Chairman of the Board from 2007 to 2011.</p>
-	  <p>Les graduated from Antioch College with a degree in political science and economics in 1976. He earned his master’s degree in taxation from Golden Gate University in 1981.</p>
-	<div class="clearfix"></div>
-	</div>
-
-	<div class="clearfix pink_border"></div>
-
-	<div class="board_member expander">
 	  <img src="../images/headshots/dan_brongiel.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
-	  <h1>Dan Brongiel</h1>
+	  <h1>Dan Brongiel - Advisor</h1>
 	  <p>Daniel Brongiel brings more than 20 years of global high-tech industry experience to his role as EVP of WorldWide Field Operations and board member of POTI Inc (dba. Songbird). Having lived throughout the Asia-Pacific area (including an extended stay in Japan) and the United States, Daniel brings an extensive background in international business planning and business development.</p>
 	  <p>Daniel leads Songbird’s sales and marketing efforts to capitalize on long-term growth opportunities and align the company with key strategic partners. In this role, he is responsible for the strategy and direction of Songbird’s sales and marketing operations, including all customer-facing functions such as field marketing, go-to-market partners, e-commerce, and customer support.</p>
 	  <p>Prior to joining Songbird, Daniel held executive level positions across a diverse range of business’s during his 12 years at Adobe Systems, Inc. During his successful tenure at Adobe, he was responsible for leading the overall strategy, including go-to-market plans, marketing, business development, and sales execution for Adobe’s North American Education business, WorldWide OEM/Bundle business, and Mobile & Device Business Unit. Daniel led teams of people up to 50 staff and $350m annual revenue.</p>
