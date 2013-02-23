@@ -112,17 +112,7 @@ a {color: #e6317e;}
             <div class="clearfix pink_border"></div>
 
             <div class="clearfix"></div>
-            <div class="board_member expander">
-              <img src="../images/headshots/calaprice_bio_pic.png" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
-              <h1>Michael Edwards</h1>
-
-
-            <div class="clearfix"></div>
-            </div>
-               
-		        </div>
-
-		        <div class="clearfix"></div>        
+                 
     </div><!--content -->
     <div class="clearfix"></div>
 
