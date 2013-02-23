@@ -97,9 +97,9 @@
             Personalize your music experience with real-time updates from the artists you care about. Share, like, and add to the feed.
         </div>
         <div class="three_column" style="margin:40px 10px 0 0;">
-        	<h1>Add Your Photos</h1>
+        	<h1>Play Your Musics</h1>
             <img src="/images/screenshots/ios_3.jpg" width="310" height="170" style="margin:10px 0 0 0; border: none;" alt="Mobile Screenshot number 3.">
-            Do you have great concert photos, memorabilia, fan art or music memes? Easily contribute to your favorite artist’s feed.
+            Access and playback your entire library right from Songbird. Stream music to your wireless speakers via AirPlay.
         </div>
         <div class="three_column" style="margin:40px 0px 0 0;">
         	<h1>Like, Share, and Save</h1>
