@@ -80,28 +80,7 @@ a {color: #e6317e;}
                  <div class="clearfix"></div>
 	            </div>
 	 
-	         <div class="clearfix pink_border"></div>
-            
-            <div class="board_member expander">
-            	<img src="../images/headshots/dan_brongiel.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
-                <h1>Dan Brongiel</h1>
-                <p>Daniel Brongiel brings more than 20 years of global high-tech industry experience to his role as EVP of WorldWide Field Operations and board member of POTI Inc (dba. Songbird).  Having lived throughout Asia-Pacific, Japan, and the United States, Daniel brings an extensive background in international business planning and business development.</p>
-
-
-<p>Mr. Brongiel leads Songbird’s sales and marketing efforts to capitalize on long-term growth opportunities and align the company with key strategic partners. In this role he is responsible for the strategy and direction of Songbird’s sales and marketing operations, including all customer-facing functions such as field marketing, go-to-market partners, e-commerce, and customer support.</p>
-
-
-<p>Prior to joining Songbird, Daniel held executive level positions across a diverse range of business’s during his 12 years at Adobe Systems, Inc.  During his successful tenure at Adobe, he was responsible for leading the overall strategy, including go-to-market plans, marketing, business development, and sales execution for Adobe’s North American Education business,  WorldWide OEM/Bundle business, and Mobile & Device Business Unit.  Daniel led teams of people up to 50 staff and $350m annual revenue.</p>
-
-
-<p>Prior to Adobe, Daniel held a sales management position with a startup, Andromedia Inc. and held various roles within EMC and Computer Associates with a focus on sales, business development, and global account management.
-</p>
-
-<p>Daniel holds a BS in Electrical Engineering and Technology from Sothern Illinois University and has completed several executive programs focused on strategy, planning, operations, and sales.  He is also active with his local charities and education groups in IL. </p>
-                <div class="clearfix"></div>
-            </div>
-       
-        <div class="clearfix pink_border"></div>
+	     <div class="clearfix pink_border"></div>
         
         <div class="clearfix"></div>
 		        <div class="board_member expander">
@@ -115,7 +94,32 @@ a {color: #e6317e;}
                 <p>Dave has a B.S. in Information and Decision Systems, Computer Science Concentration from Carnegie Mellon University.</p>
                 
                 <div class="clearfix"></div>
-            </div>    
+            </div> 
+            <div class="clearfix pink_border"></div>
+
+              <div class="clearfix"></div>
+      		        <div class="board_member expander">
+                  	<img src="../images/headshots/mitch-mcalister.jpeg" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
+                      <h1>Mitch McAlister</h1>
+                      <p>Mitch has 15 years of experience creating and managing design, user experience and branding for web, desktop and mobile apps.</p>
+                      <p>As Product Director for Songbird, Mitch is responsible for defining the product roadmap and user experience for the web, desktop, and mobile product lines.</p>
+                      <p>Prior to Songbird, Mitch was involved in building MySpace, one of the worlds fastest growing social networks.  There he was responsible for driving the product strategy, vision, and execution of the social networks Mobile, International, and community product verticals.  While Mitch was at MySpace he had the unique oppertunity to shepherd the growth of the product from 8MM monthly unique visitors to over 125MM monthly uniques accross 32 different territories in 18 different languages.</p>
+                      <p>Prior to MySpace, Mitch was a web developer for various entertainment companies and media companies such as Universal Music, and The Industry Standard.</p>
+                      <p>Mitch holds a BA in Mass Communications from U.C. Berkeley.</p>
+
+                      <div class="clearfix"></div>
+                  </div>
+            <div class="clearfix pink_border"></div>
+
+            <div class="clearfix"></div>
+            <div class="board_member expander">
+              <img src="../images/headshots/calaprice_bio_pic.png" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
+              <h1>Michael Edwards</h1>
+
+
+            <div class="clearfix"></div>
+            </div>
+               
 		        </div>
 
 		        <div class="clearfix"></div>        
