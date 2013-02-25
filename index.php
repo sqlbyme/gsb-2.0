@@ -69,7 +69,7 @@ jQuery(function(){
 
 <body>
 <div id="logo"><a href="/index.php" onClick="_gaq.push(['trackEvent', 'Logo Clicked', 'Link Location: Home Page']);"><span>Songbird</span></a></div>
-<div id="promo_box"><a href="http://www.theappchamp.com/2012/12/04/songbird-android-app/" onClick="recordOutboundLink(this, 'Promotion Clicked', 'Link Location: Home Page Ticker');return false;"></a></div>
+<div id="promo_box"><a href="/desktop/" onClick="_gaq.push(['_trackEvent', 'Desktop Link Promo Clicked', 'Link Location: Home Page']);"></a></div>
 <div id="wrapper">
   <div id="main-content">
     <div id="rotator">
