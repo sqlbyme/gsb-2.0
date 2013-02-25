@@ -112,7 +112,17 @@ a {color: #e6317e;}
             <div class="clearfix pink_border"></div>
 
             <div class="clearfix"></div>
-                 
+               <div class="board_member expander">
+               	<img src="../images/headshots/mike-edwards.jpg" border="0" width="139" height="139" style="float:left; margin:0 20px 10px 0">
+                   <h1>Mike Edwards</h1>
+                   <p>Over the past 20 years Mike has worked to develop the skills and experience necessary to be a leader in todays Information Technology market.  With a broad range of experience, Mike has developed the unique ability to bridge the business and technology divide.</p>
+                   <p>As the Director of Operations and Information Technology for Songbird, Mike has a wide range of duties.  From maintaining all aspects of Songbirds critical cloud infrastructure, to ensuring the daily operational needs of the company are met, Mike is Songbirds' "Swiss Army Knife".  Known for his "get it done" attitude, Mike has been relied upon by all of the product groups at Songbird to help get product features complete and in the hands of users.</p>
+                   <p>Before joining Songbird, Mike served as a Senior Information Technology Analyst for the County of San Mateo.  His duties included project management, application development, database management, system architecture, systems management, data warehouse development and reporting, crime analysis, network design and construction and various other responsibilities.  Working with a small team, Mike was the senior team member responsible for ensuring the one thousand plus user base had 24x7x365 access to the over 200 plus information services utilized by the County.  While working for the County of San Mateo Mike achieved the certification level of a Cisco Certified Network Associate as well as an accredited California Level III Reserve Peace Officer.</p>
+                   <p>Mike has also worked as the Director of Information Systems for Pacific Power Equipment, a medium sized wholesale distribution firm located in the San Francisco Bay Area.  While with Pacific Power, Mike was responsible for the redesign and implementation of a completely new wide area networking infrastructure, migration to a Y2K compliant business system and implementation of an automated material handling system in the warehouse.  Towards the end of his engagement with Pacific Power, Mike was also responsible for the day to day management and operation of the warehousing operation.</p>
+                   <p>Mike values all of his prior work experience and believes it has helped him to build a very successful Information Technology and Operations career over the past 20 years.  Mike very much looks forward to what the next 20 years will bring.</p>
+
+                   <div class="clearfix"></div>
+               </div>  
     </div><!--content -->
     <div class="clearfix"></div>
 
