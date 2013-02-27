@@ -66,33 +66,35 @@ ul#bullets li {
 			<a href="mailto:media@songbirdnest.com" class="pink" target="_blank">media@songbirdnest.com</a><br>
             415.357.9800<br><br>
             
-            
-            
+            <h1 style="margin:40px 0 10px 0;">Songbird In The News</h1>
+            The App Champ<br>
+            <a href="http://www.theappchamp.com/2012/12/04/songbird-android-app/" class="pink" target="_blank">&nbsp;&nbsp;Read Review »</a> <br>
             <h1 style="margin:40px 0 10px 0;">Media Resources</h1>
             
             Android Artists<br>
-            <a href="/images/Android-artists.png" class="pink" target="_blank">Download (586k) »</a> <br><br>
+            <a href="/images/Android-artists.png" class="pink" target="_blank">&nbsp;&nbsp;Download (586k) »</a> <br><br>
+            
             
             Android Feed<br>
-            <a href="/images/Android-feed.png" class="pink" target="_blank">Download (552k) »</a> <br><br>
+            <a href="/images/Android-feed.png" class="pink" target="_blank">&nbsp;&nbsp;Download (552k) »</a> <br><br>
             
             Android Friends<br>
-            <a href="/images/Android-friends.png" class="pink" target="_blank">Download (586k) »</a> <br><br>
+            <a href="/images/Android-friends.png" class="pink" target="_blank">&nbsp;&nbsp;Download (586k) »</a> <br><br>
             
             Android Homescreen<br>
-            <a href="/images/Android-homescreen.png" class="pink" target="_blank">Download (300k) »</a> <br><br>
+            <a href="/images/Android-homescreen.png" class="pink" target="_blank">&nbsp;&nbsp;Download (300k) »</a> <br><br>
 
             Desktop Music Library<br>
-            <a href="/images/Desktop-MusicLibrary.png" class="pink" target="_blank">Download (585k) »</a> <br><br>
+            <a href="/images/Desktop-MusicLibrary.png" class="pink" target="_blank">&nbsp;&nbsp;Download (585k) »</a> <br><br>
 
             Desktop What's New<br>
-            <a href="/images/Desktop-WhatsNew.png" class="pink" target="_blank">Download (608k) »</a> <br><br>
+            <a href="/images/Desktop-WhatsNew.png" class="pink" target="_blank">&nbsp;&nbsp;Download (608k) »</a> <br><br>
 
             Songbird.me Artist Feed<br>
-            <a href="/images/songbird-artist.png" class="pink" target="_blank">Download (984k) »</a> <br><br>
+            <a href="/images/songbird-artist.png" class="pink" target="_blank">&nbsp;&nbsp;Download (984k) »</a> <br><br>
 
             Songbird.me What's New Feed<br>
-            <a href="/images/songbird-followingfeed.png" class="pink" target="_blank">Download (1.2MB) »</a> <br><br>
+            <a href="/images/songbird-followingfeed.png" class="pink" target="_blank">&nbsp;&nbsp;Download (1.2MB) »</a> <br><br>
 
             
             
