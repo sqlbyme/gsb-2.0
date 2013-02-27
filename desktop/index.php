@@ -1,14 +1,108 @@
-<?php include("../includes/download.php"); 
+<?php 
 
+  // GENERATE THE QSA KEY FOR S3
+  include_once "../includes/s3.php";
+  include_once "/usr/local/AWS/S3_Auth.php";
+
+  // Set the windows and mac bucket link uri's
+  $windows = "installer/windows/i686-msvc8/Songbird_2.2.0-2453_windows-i686-msvc8.exe"; // ** ONLY CHANGE ME WHEN A NEW VERSION IS RELEASED **
+  $mac = "installer/macosx/i686/Songbird_2.2.0-2453_macosx-i686.dmg"; // ** ONLY CHANGE ME WHEN A NEW VERSION IS RELEASED **
+
+  // Setup the Service-Side GA Tracker
+  require_once '../lib/php-ga-1.1.1/src/autoload.php';
+  use UnitedPrototype\GoogleAnalytics;
+  $visitor = new GoogleAnalytics\Visitor();
+  $visitor->setIpAddress($_SERVER['REMOTE_ADDRESS']);
+  $visitor->setUserAgent($_SERVER['HTTP_USER_AGENT']);
+  $session = new GoogleAnalytics\Session();
+  $page = new GoogleAnalytics\Page('/desktop/index.php');
+  $page->setTitle('Phillip Referral Download');
+
+  #$tracker->trackPageview($page, $session, $visitor); // we don't need to track the pageview on a referral download.
+  
+  // Deal with a referral download directly instead of loading the page.
   $qs = $_SERVER['QUERY_STRING'];
   switch($qs) {
     case "download=Philips_windows":
-      header("Location: https://s3.amazonaws.com/download.songbirdnest.com/installer/windows/i686-msvc8/Songbird_2.1.0-2419_windows-i686-msvc8.exe");
-      break;
+      // Setup the tracker for this specific event
+      $tracker = new GoogleAnalytics\Tracker("UA-114360-23", "songbirdnest.com");
+      $event = new GoogleAnalytics\Event();
+      $event->setCategory("Downloads");
+      $event->setAction("Philips Downloads");
+      $event->setLabel("Free for Pc");
+      $event->setNoninteraction("true");
+      $tracker->trackEvent($event, $session, $visitor);
+      
+      // Generate a keyed query string url to access the S3 bucket securely.
+      $dl['uri'] = $windows;
+      $dl['url'] = S3::getAuthenticatedURL("download.songbirdnest.com", $dl['uri'], 3300, false, false); 
+      header("Location:" . $dl['url']);
+    break;
     
     case "download=Philips_mac":
-      header("Location: https://s3.amazonaws.com/download.songbirdnest.com/installer/macosx/i686/Songbird_2.1.0-2419_macosx-i686.dmg");
+      $tracker = new GoogleAnalytics\Tracker("UA-114360-23", "songbirdnest.com");
+      $event = new GoogleAnalytics\Event();
+      $event->setCategory("Downloads");
+      $event->setAction("Philips Downloads");
+      $event->setLabel("Free for Mac");
+      $event->setNoninteraction("true");
+      $tracker->trackEvent($event, $session, $visitor);
+      $dl['uri'] = $mac;
+      $dl['url'] = S3::getAuthenticatedURL("download.songbirdnest.com", $dl['uri'], 3300, false, false); 
+      header("Location:" . $dl['url']);
+    break;
+
+      case "download=windows":
+        $tracker = new GoogleAnalytics\Tracker("UA-114360-23", "songbirdnest.com");
+        $event = new GoogleAnalytics\Event();
+        $event->setCategory("Downloads");
+        $event->setAction("Direct");
+        $event->setLabel("Free for Pc");
+        $event->setNoninteraction("true");
+        $tracker->trackEvent($event, $session, $visitor);
+        $dl['uri'] = $windows;
+        $dl['url'] = S3::getAuthenticatedURL("download.songbirdnest.com", $dl['uri'], 3300, false, false); 
+        header("Location:" . $dl['url']);
       break;
+      
+      case "download=mac":
+        $tracker = new GoogleAnalytics\Tracker("UA-114360-23", "songbirdnest.com");
+        $event = new GoogleAnalytics\Event();
+        $event->setCategory("Downloads");
+        $event->setAction("Direct");
+        $event->setLabel("Free for Mac");
+        $event->setNoninteraction("true");
+        $tracker->trackEvent($event, $session, $visitor);
+        $dl['uri'] = $mac;
+        $dl['url'] = S3::getAuthenticatedURL("download.songbirdnest.com", $dl['uri'], 3300, false, false); 
+        header("Location:" . $dl['url']);
+      break;
+      
+      case "download=GSB_windows":
+         $tracker = new GoogleAnalytics\Tracker("UA-114360-23", "songbirdnest.com");
+         $event = new GoogleAnalytics\Event();
+         $event->setCategory("Downloads");
+         $event->setAction("Getsongbird Downloads");
+         $event->setLabel("Free for Pc");
+         $event->setNoninteraction("true");
+         $tracker->trackEvent($event, $session, $visitor);
+         $dl['uri'] = $windows;
+         $dl['url'] = S3::getAuthenticatedURL("download.songbirdnest.com", $dl['uri'], 3300, false, false); 
+         header("Location:" . $dl['url']);
+       break;
+
+       case "download=GSB_mac":
+         $tracker = new GoogleAnalytics\Tracker("UA-114360-23", "songbirdnest.com");
+         $event = new GoogleAnalytics\Event();
+         $event->setCategory("Downloads");
+         $event->setAction("Getsongbird Downloads");
+         $event->setLabel("Free for Mac");
+         $event->setNoninteraction("true");
+         $tracker->trackEvent($event, $session, $visitor);
+         $dl['uri'] = $mac;
+         $dl['url'] = S3::getAuthenticatedURL("download.songbirdnest.com", $dl['uri'], 3300, false, false); 
+         header("Location:" . $dl['url']);
+       break;
   }
 
 ?>
@@ -59,11 +153,6 @@
 	<!-- Start Tracking Action -->
 	<script type="text/javascript">
   
-  function testClick(button) {
-	console.log (button.id);
-	
-}
-
   function captureEmail(button) {
     var emailElement = document.getElementById("email_addr");
     var optInChecked = document.getElementById("email_optin");
@@ -83,11 +172,10 @@
   };
 	  function getSongbird (button) {
        if (button == "download_pc"){
-	      //window.location = "<?php echo(get_dl('windows', 'i686-msvc8')); ?>";
-	      window.location = "https://s3.amazonaws.com/download.songbirdnest.com/installer/windows/i686-msvc8/Songbird_2.2.0-2453_windows-i686-msvc8.exe";
+	      window.location = "http://<?php echo($_SERVER['HTTP_HOST']); ?>/desktop/index.php?download=GSB_windows";
        }
        if (button == "download_mac"){
-         window.location = "<?php echo(get_dl('macosx', 'i686')); ?>";
+         window.location = "http://<?php echo($_SERVER['HTTP_HOST']); ?>/desktop/index.php?download=GSB_mac";
        }
 	  };
 	</script>
@@ -140,8 +228,8 @@ a:hover#mac_toggle, a:hover#pc_toggle {
           <input type="checkbox" id="email_optin" name="email_optin" checked="true">Keep me up to date with Songbird news and software updates.</input>
             
             <input type="text" name="email_addr"  id="email_addr" value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Arial, Helvetica, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;"><a href="javascript:void(0);" id="email_submit_btn" onClick="captureEmail(this);" ></a>
-            <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', 'button clicked', 'Free for Pc'], ['desktop._trackEvent','Downloads','Getsongbird Downloads','Free for Pc']); captureEmail(this);" id="download_pc"></a>
-            <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', 'button clicked', 'Free for Mac'], ['desktop._trackEvent','Downloads','Getsongbird Downloads','Free for Mac']); captureEmail(this);" id="download_mac"></a>
+            <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', 'button clicked', 'Free for Pc']); captureEmail(this);" id="download_pc"></a>
+            <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', 'button clicked', 'Free for Mac']); captureEmail(this);" id="download_mac"></a>
 				
             <div class="clearfix" style="height:20px"></div>
             
@@ -199,10 +287,6 @@ a:hover#mac_toggle, a:hover#pc_toggle {
 
 <!-- include Google Analytics Tracking Code -->
 <?php include('../includes/ga.php'); ?>
-<script type="text/javascript">
-  _gaq.push(['desktop._setAccount', 'UA-114360-23']);
-  _gaq.push(['desktop._trackPageview']);
-</script>
 <!-- End GA Include -->
 </body>
 </html>
