@@ -32,7 +32,7 @@
   });
 </script>
 <style>
-  a {color: #e6317e;}
+  a {color: #e6317e; text-decoration: none;}
   h2 {font-size: 18px; color: #e6317e; font-family: Helvetica, Arial, Sans-Serif; margin: 0 0 5px 0; padding: 0;}
   #faqs h3  { cursor:pointer; margin-left: 10px; font-weight: bold;}
   #faqs div { height:0; overflow:hidden; position:relative; }
@@ -385,6 +385,10 @@
         </div>
 
         <div class="clearfix pink_border"></div>
+        <br>
+        Didn't find what you were looking for, check our <a href="http://getsatisfaction.com/songbird" onClick="recordOutboundLink(this, 'Support Clicked', 'Link Location: Page Footer');return false;" target="_blank" >Community Support Forum.</a>
+        <br>
+        <br>
   <div class="clearfix"></div>
 
   </div><!--content -->
