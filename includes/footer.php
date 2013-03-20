@@ -3,7 +3,6 @@
     <p>2013 &copy; All Rights Reserved &nbsp;&nbsp; | &nbsp;</p>
       <ul>
         <li><a href="/help/" onClick="_gaq.push(['_trackEvent', 'Help Clicked', 'Link Location: Page Footer']);" target="_self">Support</a></li>
-        <!--<li><a href="http://getsatisfaction.com/songbird" onClick="recordOutboundLink(this, 'Support Clicked', 'Link Location: Page Footer');return false;" target="_blank" >Support</a></li> -->
         <li><a href="/about/" onClick="_gaq.push(['_trackEvent', 'About Clicked', 'Link Location: Page Footer');" target="_self">About</a></li>
         <li><a href="http://blog.songbirdnest.com" onClick="recordOutboundLink(this, 'Blog Clicked', 'Link Location: Page Footer');return false;" target="_blank">Blog</a></li>
         <li><a href="/about/jobs.php" onClick="_gaq.push(['_trackEvent', 'Jobs Clicked', 'Link Location: Page Footer');" target="_self">Jobs</a></li>
