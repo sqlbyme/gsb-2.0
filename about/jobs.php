@@ -165,15 +165,13 @@ ul#bullets li {
         <div id="sidebar" style="margin-top:0">
         	<h1 style="margin:0 0 10px 0;">Contact</h1>            
             <br/>
-            <!-- <div style="text-transform:uppercase; font-weight:bold;">Songbird</div>
-            2 Shaw Alley, 2nd Floor<br/>
-            San Francisco, CA 94105<br/> -->
+            <div style="text-transform:uppercase; font-weight:bold;">Songbird</div>
+            PO BOX 322<br/>
+            San Francisco, CA 94114<br/>
             <a href="mailto:jobs@songbirdnest.com" class="pink">jobs@songbirdnest.com</a> <br />
             415.357.9800<br/>
             
-            <!--<a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=2+Shaw+Alley+san+francisco&sll=37.788969,-122.398568&sspn=0.006902,0.011555&ie=UTF8&hq=&hnear=2+Shaw+Alley,+San+Francisco,+California+94105&z=17&iwloc=A" target="_blank"><img src="../images/map.png" border="0" width="229" height="229" style="margin:12px 0 12px 0;"></a><br>
             
-            <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=2+Shaw+Alley+san+francisco&sll=37.788969,-122.398568&sspn=0.006902,0.011555&ie=UTF8&hq=&hnear=2+Shaw+Alley,+San+Francisco,+California+94105&z=17&iwloc=A" class="pink" target="_blank">Get directions/View map</a> -->
             
         </div>
         

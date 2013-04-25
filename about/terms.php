@@ -60,7 +60,7 @@ ul#bullets li {
 			Update of Terms. We may from time to time modify these Terms and our Privacy Policy. You will be deemed to have entered into and accepted these Terms and our Privacy Policy, as may be amended, each time you use any of the Properties. 
 			</p>
 			<p>
-			Contact.  If you have any questions or concerns about these Terms, you may contact us by mail at Pioneers of the Inevitable, Inc., Terms of Service, 2 Shaw Alley, 2nd Floor, San Francisco, CA 94105 or by email at termsofuse@songbirdnest.com.  
+			Contact.  If you have any questions or concerns about these Terms, you may contact us by mail at Pioneers of the Inevitable, Inc., Terms of Service, PO BOX 322, San Francisco, CA 94114 or by email at termsofuse@songbirdnest.com.  
 			</p>
 			<p>
 			1. Requirements; Accounts; Messages.
@@ -243,13 +243,9 @@ ul#bullets li {
 		<p>
 			Copyright Agent<br/>
 			Pioneers of the Inevitable, Inc.<br/>
-			2 Shaw Alley, 2nd Floor<br/>
-			San Francisco, CA 94105<br/>
+			PO BOX 322<br/>
+			San Francisco, CA 94114<br/>
 			USA<br/>
-			</p>
-			<p>
-			By fax: 415-357-9840  
-			<br/>
 			</p>
 			<p>
 			13. Termination.  
@@ -280,7 +276,7 @@ ul#bullets li {
 			14.7. Modification. Except as expressly and specifically set forth in this these Terms, no representations, statements, consents, waivers, or other acts or omissions by POTI shall be deemed a modification of these Terms nor be legally binding unless documented in physical writing, hand signed by you and a duly appointed officer of POTI.
 			</p>
 			<p>
-			14.8 Notices. We may notify you via postings on a Website or via email or any other means to the contact address you provide to us. All notices given by you or required from you under these Terms will be in writing and addressed to: POTI Inc., Attn: LEGAL DEPARTMENT, Two Shaw Alley, 2nd Floor, San Francisco, CA 94105. Any notices that you provide not in compliance with this Section will have no legal effect.
+			14.8 Notices. We may notify you via postings on a Website or via email or any other means to the contact address you provide to us. All notices given by you or required from you under these Terms will be in writing and addressed to: POTI Inc., Attn: LEGAL DEPARTMENT, PO BOX 322, San Francisco, CA 94114. Any notices that you provide not in compliance with this Section will have no legal effect.
 			</p>
         
         <div class="clearfix"></div>

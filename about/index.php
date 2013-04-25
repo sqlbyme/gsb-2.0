@@ -64,16 +64,9 @@ ul#bullets li {
         	<h1 style="margin:0 0 10px 0;">Contact</h1>            
             <a href="mailto:info@songbirdnest.com" class="pink">info@songbirdnest.com</a> <br />
             415.357.9800<br />
-            
-            <!-- <div style="text-transform:uppercase; font-weight:bold;">Songbird</div>
-            645 Harrison Street, 2nd Floor<br /> >
-            <!-- San Francisco, CA 94107<br /><br /> >
-            
-            <!-- <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=2+Shaw+Alley+san+francisco&sll=37.788969,-122.398568&sspn=0.006902,0.011555&ie=UTF8&hq=&hnear=2+Shaw+Alley,+San+Francisco,+California+94105&z=17&iwloc=A" target="_blank"><img src="../images/map.png" border="0" width="229" height="229" style="margin:12px 0 12px 0;"></a><br /> -->
-            <!-- <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=645+Harrison+Street,+San+Francisco,+CA+94107&amp;aq=t&amp;sll=37.790184,-122.398596&amp;sspn=0.039544,0.074673&amp;ie=UTF8&amp;hq=&amp;hnear=645+Harrison+St,+San+Francisco,+California+94107&amp;t=m&amp;ll=37.783604,-122.395935&amp;spn=0.02035,0.025749&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /></small>
-            
-            <a href="http://goo.gl/maps/o6vEC" class="pink" target="_blank">Get directions/View map</a> -->
-            
+            PO BOX 322<br />
+            San Francisco, CA 94114<br />
+                        
         </div>
         
         <div class="clearfix"></div>
