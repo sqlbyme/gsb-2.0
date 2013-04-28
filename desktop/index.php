@@ -5,7 +5,7 @@
   include_once "/usr/local/AWS/S3_Auth.php";
 
   // Set the windows and mac bucket link uri's
-  $windows = "installer/windows/i686-msvc8/Songbird_2.2.0-2453_windows-i686-msvc8.exe"; // ** ONLY CHANGE ME WHEN A NEW VERSION IS RELEASED **
+  $windows = "installer/windows/i686-msvc8/Songbird_2.2.0-2453_windows-i686-msvc8.zip"; // ** ONLY CHANGE ME WHEN A NEW VERSION IS RELEASED **
   $mac = "installer/macosx/i686/Songbird_2.2.0-2453_macosx-i686.dmg"; // ** ONLY CHANGE ME WHEN A NEW VERSION IS RELEASED **
 
   // Setup the Service-Side GA Tracker
