@@ -1,4 +1,4 @@
-<?php include('../includes/download.php'); ?>
+<?php include('../../includes/download.php'); ?>
 <!DOCTYPE html>
 <!--[if IE 6]>
 <html id="ie6" dir="ltr" lang="en-US">
@@ -14,9 +14,8 @@
 <!--<![endif]-->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="apple-itunes-app" content="app-id=561535312">
 <title>Songbird</title>
-<link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../../css/style.css" type="text/css" media="all" />
 <meta name="viewport" content="width=1000">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript">
@@ -65,10 +64,10 @@
   };
     function getSongbird (button) {
        if (button == "download_pc"){
-        window.location = "http://<?php echo($_SERVER['HTTP_HOST']); ?>/desktop/index.php?download=GSB_windows";
+        window.location = "http://<?php echo($_SERVER['HTTP_HOST']); ?>/philips/desktop/index.php?download=Philips_windows_landing";
        }
        if (button == "download_mac"){
-         window.location = "http://<?php echo($_SERVER['HTTP_HOST']); ?>/desktop/index.php?download=GSB_mac";
+         window.location = "http://<?php echo($_SERVER['HTTP_HOST']); ?>/philips/desktop/index.php?download=Philips_mac_landing";
        }
     };
   </script>
@@ -83,7 +82,7 @@
   clear:both;
 }
 #pc li, #mac li {
-  background:url(../images/pink_bullet.gif) no-repeat bottom left;
+  background:url(../../images/pink_bullet.gif) no-repeat bottom left;
   list-style:none;
   padding:0 0 0 15px;
 }
@@ -94,27 +93,44 @@ a#mac_toggle, a#pc_toggle {
 a:hover#mac_toggle, a:hover#pc_toggle {
   color:#e6317e;
 }
+#sub-header {
+  float: left;
+  margin-bottom: 25px;
+}
+#copy-container {
+  float: left;
+  width: 580px;
+}
+#image-container {
+  float: right;
+  margin-left: 20px;
+}
+h1 {
+  font-size: 20px;
+}
 </style>
 </head>
 
 <body class="sub">
   <div id="container">
-    <div id="header">
-      <a href="/" id="logo_sm"></a>
-      <div id="header_nav">
-        <a href="http://www.songbird.me/" id="web" target="_blank" ></a>
-        <a href="/mobile/android/" id="android"></a>
-        <a href="/mobile/iOS/" id="iOS"></a>
+    <div id="header" style="margin-bottom: 0px; height: 65px;">
+      <img src="../../images/logo-head-philips.png">
+      <div id="image-container">
+        <img src="../../images/gogear-promo.png">
       </div>
     </div>
-  <div id="content">
-    <h1>Songbird. Connecting Fans Everywhere!</h1>
-        With a focus on fans, Songbird personalizes music content from the artists you love the most. Share your own photos with artists and other fans or discover new artists, all while listening to your music on your computer. Free download for Mac or PC!
-
+    <div id="sub-header">
+      <div id="copy-container">
+        <h1>(re)discover music&#0153; with Songbird.</h1>
+        <p style="font-size: 17px;">Your own personalized music experience with photos and videos from the artists you love most.  Discover new music with YouTube playlists hand picked by the Songbird team.  Stream your favorite music to your wireless speakers and televisions.</p>
+      </div>
+    </div>
+  <div id="content" style="margin-bottom: 300px;">
+    
         <div class="clearfix"></div>
 
         <div id="left_column">
-          <img src="../images/screenshots/desktop_1.jpg" width="600" height="427" border="0">
+          <img src="../../images/screenshots/desktop_1.jpg" width="600" height="427" border="0">
         </div>
 
         <div id="sidebar">
@@ -123,7 +139,6 @@ a:hover#mac_toggle, a:hover#pc_toggle {
             <input type="text" name="email_addr"  id="email_addr" value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Arial, Helvetica, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;"><a href="javascript:void(0);" id="email_submit_btn" onClick="captureEmail(this);" ></a>
             <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', 'button clicked', 'Free for Pc']); captureEmail(this);" id="download_pc"></a>
             <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', 'button clicked', 'Free for Mac']); captureEmail(this);" id="download_mac"></a>
-            <a href="http://<?php echo($_SERVER['HTTP_HOST']); ?>/desktop/index.php?download=source" id="source">Click Here</a> to download the latest source code.
             
             <div class="clearfix" style="height:20px"></div>
             Minimum Requirements<br>
@@ -154,17 +169,17 @@ a:hover#mac_toggle, a:hover#pc_toggle {
 
         <div class="three_column" style="margin:40px 10px 0 0;">
           <h1>Personal Media Hub</h1>
-            <img src="../images/screenshots/desktop_2.jpg" width="310" height="170px" style="margin:10px 0" border="0">
+            <img src="../../images/screenshots/desktop_2.jpg" width="310" height="170px" style="margin:10px 0" border="0">
              Manage your music and videos, build playlists, browse, and sort. Then sync your music to your portable music player or phone.
         </div>
         <div class="three_column" style="margin:40px 10px 0 0;">
           <h1>Connect with Artists</h1>
-            <img src="../images/screenshots/desktop_3.jpg" width="310" height="170px" style="margin:10px 0" border="0">
+            <img src="../../images/screenshots/desktop_3.jpg" width="310" height="170px" style="margin:10px 0" border="0">
             Personalize your music experience with real-time updates from the artists you care about. Share, like, and add your own photos to the feed too.
         </div>
         <div class="three_column" style="margin:40px 0px 0 0;">
           <h1>Play Your Music Anywhere</h1>
-            <img src="../images/screenshots/desktop_4.jpg" width="310" height="170px" style="margin:10px 0" border="0">
+            <img src="../../images/screenshots/desktop_4.jpg" width="310" height="170px" style="margin:10px 0" border="0">
             Push music to your wireless devices, like speakers and TVs, or act as a media server allowing wireless devices to pull from your Songbird library.
         </div>
 
@@ -172,17 +187,11 @@ a:hover#mac_toggle, a:hover#pc_toggle {
 
     </div><!--content -->
 <div class="clearfix"></div>
-
-  <?php include('../includes/footer.php'); ?>
-
 <div class="clearfix"></div>
 </div><!--container -->
 
 <!-- include Google Analytics Tracking Code -->
-<?php include('../includes/ga.php'); ?>
+<?php include('../../includes/ga.php'); ?>
 <!-- End GA Include -->
-<!-- include Donate Button -->
-<?php include('../includes/donate.html'); ?>
-<!-- End Donate Button>
 </body>
 </html>
