@@ -4,10 +4,12 @@
   include_once "../includes/s3.php";
   include_once "/usr/local/AWS/S3_Auth.php";
 
-  // Set the windows and mac bucket link uri's
+  // Set the windows, mac and source bucket link uri's - These are the only links that will ever need to be updated for future releases.
   $windows = "installer/windows/i686-msvc8/Songbird_2.2.0-2453_windows-i686-msvc8.exe"; // ** ONLY CHANGE ME WHEN A NEW VERSION IS RELEASED **
   $mac = "installer/macosx/i686/Songbird_2.2.0-2453_macosx-i686.dmg"; // ** ONLY CHANGE ME WHEN A NEW VERSION IS RELEASED **
-
+  $source = "installer/source/Songbird2.2.tar.gz";  // ** ONLY CHANGE ME WHEN A NEW VERSION IS RELEASED **
+  
+  
   // Setup the Service-Side GA Tracker
   require_once '../lib/php-ga-1.1.1/src/autoload.php';
   use UnitedPrototype\GoogleAnalytics;
@@ -103,6 +105,19 @@
          $dl['url'] = S3::getAuthenticatedURL("download.songbirdnest.com", $dl['uri'], 3300, false, false);
          header("Location:" . $dl['url']);
        break;
+       
+       case "download=source":
+          $tracker = new GoogleAnalytics\Tracker("UA-114360-23", "songbirdnest.com");
+          $event = new GoogleAnalytics\Event();
+          $event->setCategory("Downloads");
+          $event->setAction("Getsongbird Downloads");
+          $event->setLabel("Source Code");
+          $event->setNoninteraction("true");
+          $tracker->trackEvent($event, $session, $visitor);
+          $dl['uri'] = $source;
+          $dl['url'] = S3::getAuthenticatedURL("download.songbirdnest.com", $dl['uri'], 3300, false, false);
+          header("Location:" . $dl['url']);
+        break;
   }
 
 ?>
@@ -230,9 +245,9 @@ a:hover#mac_toggle, a:hover#pc_toggle {
             <input type="text" name="email_addr"  id="email_addr" value="Email Address" size="24" onFocus="this.value=''" style="padding:10px; color:#999999; font-size:15px; font-family:Arial, Helvetica, sans-serif; border:1px solid #999999; width:288px; margin-top:20px;"><a href="javascript:void(0);" id="email_submit_btn" onClick="captureEmail(this);" ></a>
             <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', 'button clicked', 'Free for Pc']); captureEmail(this);" id="download_pc"></a>
             <a href="javascript:void(0);" onclick="_gaq.push(['_trackEvent','Desktop page download', 'button clicked', 'Free for Mac']); captureEmail(this);" id="download_mac"></a>
-
+            <a href="http://<?php echo($_SERVER['HTTP_HOST']); ?>/desktop/index.php?download=source" id="source">Click Here</a> to download the latest source code.
+            
             <div class="clearfix" style="height:20px"></div>
-
             Minimum Requirements<br>
             <div class="requirements">
                 <a id="mac_toggle" href="#">Mac</a> | <a id="pc_toggle" href="#">PC</a>
@@ -254,7 +269,7 @@ a:hover#mac_toggle, a:hover#pc_toggle {
                     <li>At least 512 MB of physical RAM</li>
                 </div>
             </div>
-
+            
         </div><!--sidebar -->
 
         <div class="clearfix"></div>

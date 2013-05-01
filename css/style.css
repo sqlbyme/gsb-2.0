@@ -384,6 +384,13 @@ a#download_mac {
 	margin:4px 0 0 0;
 	width:310px;
 }
+a#source {
+	color:#999999;
+	text-decoration:none;
+}
+a:hover#source {
+	color:#e6317e;	
+}
 a:hover#download_mac {
 	background-position:0 -60px;
 }
