@@ -4,6 +4,7 @@
   include_once "../includes/s3.php";
   include_once "/usr/local/AWS/S3_Auth.php";
 
+
   // Set the windows, mac and source bucket link uri's - These are the only links that will ever need to be updated for future releases.
   $windows = "installer/windows/i686-msvc8/Songbird_2.2.0-2453_windows-i686-msvc8.exe"; // ** ONLY CHANGE ME WHEN A NEW VERSION IS RELEASED **
   $mac = "installer/macosx/i686/Songbird_2.2.0-2453_macosx-i686.dmg"; // ** ONLY CHANGE ME WHEN A NEW VERSION IS RELEASED **
