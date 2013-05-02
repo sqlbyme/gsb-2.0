@@ -102,8 +102,9 @@ a:hover#mac_toggle, a:hover#pc_toggle {
   width: 580px;
 }
 #image-container {
-  float: right;
-  margin-left: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 h1 {
   font-size: 20px;
@@ -113,7 +114,7 @@ h1 {
 
 <body class="sub">
   <div id="container">
-    <div id="header" style="margin-bottom: 0px; height: 65px;">
+    <div id="header" style="position: relative; margin-bottom: 0px; height: 65px;">
       <img src="../../images/logo-head-philips.png">
       <div id="image-container">
         <img src="../../images/gogear-promo.png">
