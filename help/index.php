@@ -176,6 +176,13 @@
             </p>
           </div>
           <br>
+          <h3>Where do I find the Songbird Source Code?</h3>
+          <div>
+            <p>Songbird no longer maintains a public SVN server so you will need to download the current release source archive file directly from getsongbird.com.</p>
+            <p>Point your browser to the<a href="http://getsongbird.com/desktop/"> Desktop</a> page and look for the source link right under the "Free For Mac" pink button.</p>
+            <p>Click on that link and your browser will begin to download the latest source archive.  Happy coding!</p>
+          </div>
+          <br>
           <h3>My Iphone (Ipod/Ipad) doesn't show up in Songbird, why?</h3>
           <div>
             <p>Oh, those happy Android phone owners! And unhappy Ipods, Iphones, Ipads users... Unfortunately we don't support sync with those any more.</p>
