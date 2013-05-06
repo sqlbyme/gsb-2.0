@@ -17,57 +17,133 @@
 <title>Songbird</title>
 <meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1"/>
 <style>
-body {
-  font-size: 62.5%;
-}
-body.sub {
-  background-image: none;
-  border: solid;
-  border-color: green;
-}
-#container {
-  position: relative;
-  margin: 0.313em 0 0 0.938em;
-  width: auto;
-  border: solid;
-  border-color: red;
-  background: url('../../images/mobile-logo-header.png') no-repeat;
-  background-size: 100%;
-}
-#header {
-  position: relative;
-  margin-bottom: 0.625em;
-  height: 4.063em;
-  border: solid;
-  
-}
-#sub-header {
-  position: relative;
- 
-}
-#copy-container {
-  position: absolute;
-  top: 0.063em;
-  left: 0.063em;
-  width: 30.000em;
-}
-h1 {
-  font-size: 1.250em;
-}
-@media screen and (max-width: 30.00em) {
 
-	body.sub {
-	  border: none;
+@media screen, handheld and (max-width: 30.00em) {
+  body {
+    font-size: 62.5%;
+  }
+  #container {
+    position: relative;
+    margin: 0.313em 0 0 0;
+    width: auto;
+    height: 6.500em;
+    background: url('../../images/mobile-logo-header.png') no-repeat;
+    background-size: 100%;
+  }
+  #header {
+    position: absolute;
+    top: 3.033em;
+    left: 0.063em;
+    width: 30.000em;
+  }
+  h1 {
+    font-size: 1.250em;
+    color: #e6317e;
+  }
+	#content {
+	  position: relative;
+	  height: 80em;
+	  width: auto;
+	  top: 13.000em;
 	}
-	
-	#container {
-	  border: none;
+	#iPhone-img {
+	  position: absolute;
+	  background: url('../../images/ios-product-shot.png') no-repeat;
+	  background-size: 100%;
+	  top: 1.000em;
+	  width: 14.575em;
+	  height: 26.000em;
 	}
-	
-	#header {
-	  border: none;
-	}
-
+  #Android-img {
+    position: absolute;
+    background: url('../../images/android-product-shot.png') no-repeat;
+    background-size: 95%;
+    left: 15.000em;
+    width: 14.575em;
+    top: 1.225em;
+    height: 28.000em;
+  }
+  #appstore-badge {
+    position: absolute;
+    background: url('../../images/appstore-badge.png') no-repeat;
+    background-size: 95%;
+    top: 27.500em;
+    width: 14.575em;
+    height: 5.000em;
+  }
+  #googleplay-badge {
+    position: absolute;
+    background: url('../../images/googleplay-badge.png') no-repeat;
+    background-size: 95%;
+    left: 15.000em;
+    width: 14.575em;
+    top: 27.500em;
+    height: 5.000em;
+  }
+  #connect_copy {
+    position: absolute;
+    top: 33.000em;
+  }
+  #connect_img {
+    position: absolute;
+    background: url('../../images/connect.png') no-repeat;
+    background-size: 87%;
+    top: 40.000em;
+    left: 1.500em;
+    width: 30.000em;
+    height: 16.450em;
+  }
+  #play_copy {
+    position: absolute;
+    top: 55.575em;
+  }
+  #play_img {
+    position: absolute;
+    background: url('../../images/play.png') no-repeat;
+    background-size: 87%;
+    top: 62.000em;
+    left: 1.500em;
+    width: 30.000em;
+    height: 16.450em;
+  }
+  #like_copy {
+    position: absolute;
+    top: 78.000em;
+  }
+  #like_img {
+    position: absolute;
+    background: url('../../images/like.png') no-repeat;
+    background-size: 87%;
+    top: 85.575em;
+    left: 1.500em;
+    width: 30.000em;
+    height: 16.450em;
+  }
+  #appstore-badge_footer {
+    position: absolute;
+    background: url('../../images/appstore-badge.png') no-repeat;
+    background-size: 95%;
+    top: 104.500em;
+    width: 14.575em;
+    height: 5.000em;
+  }
+  #googleplay-badge_footer {
+    position: absolute;
+    background: url('../../images/googleplay-badge.png') no-repeat;
+    background-size: 95%;
+    left: 15.000em;
+    width: 14.575em;
+    top: 104.500em;
+    height: 5.000em;
+  }
+  #footer_copy{
+    position: absolute;
+    top: 110.000em;
+  }
+  a#footer_link {
+    text-decoration: none;
+    color:#e6317e;
+  }
 }
 </style>
 </head>
@@ -75,19 +151,35 @@ h1 {
 <body class="sub">
   <div id="container">
     <div id="header">
-      <!--<img src="../../images/mobile-logo-header.png">-->
+      <h1>(re)discover music&#0153; with Songbird.</h1>
+      <p>Your own personalized music experience with photos and videos from the artists you love most.  Discover new music with YouTube playlists hand picked by the Songbird team.  Stream your favorite music to your wireless speakers and televisions.</p>
     </div>
-    <div id="sub-header">
-      <div id="copy-container">
-        <h1>(re)discover music&#0153; with Songbird.</h1>
-        <p>Your own personalized music experience with photos and videos from the artists you love most.  Discover new music with YouTube playlists hand picked by the Songbird team.  Stream your favorite music to your wireless speakers and televisions.</p>
-      </div>
+  <div id="content">
+    <div id="iPhone-img"></div>
+    <div id="Android-img"></div>
+    <a href="itms://itunes.com/apps/songbird.me" id="appstore-badge" target="_blank"></a>
+    <a href="http://market.android.com/details?id=com.songbirdnest.mediaplayer" id="googleplay-badge" target="_blank"></a>
+    <div id="connect_copy">
+      <h1>Connect with Artists</h1>
+      <p>Personalize your music experience with real-time updated from the artists you care about.  Share, like, and add to the feed.</p>
     </div>
-  <div id="content" style="margin-bottom: 300px;">
-    
-        
-
-    </div><!--content -->
+    <div id="connect_img"></div>
+    <div id="play_copy">
+      <h1>Play Your Music</h1>
+      <p>Access and playback your entire library right from Songbird.  Stream music to your wireless speakers via Airplay (iOS only).</p>
+    </div>
+    <div id="play_img"></div>
+    <div id="like_copy">
+      <h1>Like, Share, and Save</h1>
+      <p>Get social with other fans, see what your friends are sharing and "like" favorite posts to save them to your profile.</p>
+    </div>
+    <div id="like_img"></div>
+    <a href="itms://itunes.com/apps/songbird.me" id="appstore-badge_footer" target="_blank"></a>
+    <a href="http://market.android.com/details?id=com.songbirdnest.mediaplayer" id="googleplay-badge_footer" target="_blank"></a>
+    <div id="footer_copy">
+      <p>also available for desktop at <a href="http://www.getsongbird.com/desktop/" id="footer_link" target="_blank">getsongbird.com</a>
+    </div>
+  </div><!--content -->
 <div class="clearfix"></div>
 <div class="clearfix"></div>
 </div><!--container -->
