@@ -157,7 +157,7 @@
   <div id="content">
     <div id="iPhone-img"></div>
     <div id="Android-img"></div>
-    <a href="itms://itunes.com/apps/songbird.me" id="appstore-badge" target="_blank"></a>
+    <a href="itms-apps://itunes.com/apps/songbird.me" id="appstore-badge" target="_blank"></a>
     <a href="http://market.android.com/details?id=com.songbirdnest.mediaplayer" id="googleplay-badge" target="_blank"></a>
     <div id="connect_copy">
       <h1>Connect with Artists</h1>
@@ -174,7 +174,7 @@
       <p>Get social with other fans, see what your friends are sharing and "like" favorite posts to save them to your profile.</p>
     </div>
     <div id="like_img"></div>
-    <a href="itms://itunes.com/apps/songbird.me" id="appstore-badge_footer" target="_blank"></a>
+    <a href="itms-apps://itunes.com/apps/songbird.me" id="appstore-badge_footer" target="_blank"></a>
     <a href="http://market.android.com/details?id=com.songbirdnest.mediaplayer" id="googleplay-badge_footer" target="_blank"></a>
     <div id="footer_copy">
       <p>also available for desktop at <a href="http://www.getsongbird.com/desktop/" id="footer_link" target="_blank">getsongbird.com</a>
