@@ -25,7 +25,7 @@
   #container {
     position: relative;
     margin: 0.313em 0 0 0;
-    width: auto;
+    width: 30.000em;
     height: 6.500em;
     background: url('../../images/mobile-logo-header.png') no-repeat;
     background-size: 100%;
@@ -83,6 +83,7 @@
   #connect_copy {
     position: absolute;
     top: 33.000em;
+    width: 30.000em;
   }
   #connect_img {
     position: absolute;
@@ -96,6 +97,7 @@
   #play_copy {
     position: absolute;
     top: 55.575em;
+    width: 30.000em;
   }
   #play_img {
     position: absolute;
@@ -109,6 +111,7 @@
   #like_copy {
     position: absolute;
     top: 78.000em;
+    width: 30.000em;
   }
   #like_img {
     position: absolute;
@@ -139,6 +142,7 @@
   #footer_copy{
     position: absolute;
     top: 110.000em;
+    width: 30.000em;
   }
   a#footer_link {
     text-decoration: none;
