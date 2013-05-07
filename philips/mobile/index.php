@@ -26,16 +26,18 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Songbird</title>
-<meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1"/>
+<meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1, maximum-scale=1"/>
 <style>
 
 @media screen, handheld and (max-width: 30.00em) {
   body {
     font-size: 62.5%;
+    
   }
+ 
   #container {
     position: relative;
-    margin: 0.313em 0 0 0;
+    margin: 0.313em auto;
     width: 30.000em;
     height: 6.500em;
     background: url('../../images/mobile-logo-header.png') no-repeat;
@@ -160,45 +162,50 @@
     color:#e6317e;
   }
 }
-
 </style>
+
 </head>
 
 <body class="sub">
-  <div id="container">
-    <div id="header">
-      <h1>(re)discover music&#0153; with Songbird.</h1>
-      <p>Your own personalized music experience with photos and videos from the artists you love most.  Discover new music with YouTube playlists hand picked by the Songbird team.  Stream your favorite music to your wireless speakers and televisions.</p>
-    </div>
-  <div id="content">
-    <div id="iPhone-img"></div>
-    <div id="Android-img"></div>
-    <a href=<?php echo($iPhone_url); ?> id="appstore-badge" target="_blank"></a>
-    <a href=<?php echo($Android_url); ?> id="googleplay-badge" target="_blank"></a>
-    <div id="connect_copy">
-      <h1>Connect with Artists</h1>
-      <p>Personalize your music experience with real-time updated from the artists you care about.  Share, like, and add to the feed.</p>
-    </div>
-    <div id="connect_img"></div>
-    <div id="play_copy">
-      <h1>Play Your Music</h1>
-      <p>Access and playback your entire library right from Songbird.  Stream music to your wireless speakers via Airplay (iOS only).</p>
-    </div>
-    <div id="play_img"></div>
-    <div id="like_copy">
-      <h1>Like, Share, and Save</h1>
-      <p>Get social with other fans, see what your friends are sharing and "like" favorite posts to save them to your profile.</p>
-    </div>
-    <div id="like_img"></div>
-    <a href=<?php echo($iPhone_url); ?> id="appstore-badge_footer" target="_blank"></a>
-    <a href=<?php echo($Android_url); ?> id="googleplay-badge_footer" target="_blank"></a>
-    <div id="footer_copy">
-      <p>also available for desktop at <a href="http://www.getsongbird.com/desktop/" id="footer_link" target="_blank">getsongbird.com</a>
-    </div>
-  </div><!--content -->
-<div class="clearfix"></div>
-<div class="clearfix"></div>
-</div><!--container -->
+  <div id="autocontainer">
+    
+      <div id="container">
+        <div id="header">
+          <h1>(re)discover music&#0153; with Songbird.</h1>
+          <p>Your own personalized music experience with photos and videos from the artists you love most.  Discover new music with YouTube playlists hand picked by the Songbird team.
+             Stream your favorite music to your wireless speakers and televisions.</p>
+        </div>
+          <div id="content">
+            <div id="iPhone-img"></div>
+            <div id="Android-img"></div>
+            <a href=<?php echo($iPhone_url); ?> id="appstore-badge" target="_blank"></a>
+            <a href=<?php echo($Android_url); ?> id="googleplay-badge" target="_blank"></a>
+            <div id="connect_copy">
+              <h1>Connect with Artists</h1>
+              <p>Personalize your music experience with real-time updated from the artists you care about.  Share, like, and add to the feed.</p>
+            </div>
+            <div id="connect_img"></div>
+            <div id="play_copy">
+              <h1>Play Your Music</h1>
+              <p>Access and playback your entire library right from Songbird.  Stream music to your wireless speakers via Airplay (iOS only).</p>
+            </div>
+            <div id="play_img"></div>
+            <div id="like_copy">
+              <h1>Like, Share, and Save</h1>
+              <p>Get social with other fans, see what your friends are sharing and "like" favorite posts to save them to your profile.</p>
+            </div>
+            <div id="like_img"></div>
+            <a href=<?php echo($iPhone_url); ?> id="appstore-badge_footer" target="_blank"></a>
+            <a href=<?php echo($Android_url); ?> id="googleplay-badge_footer" target="_blank"></a>
+            <div id="footer_copy">
+              <p>also available for desktop at <a href="http://www.getsongbird.com/desktop/" id="footer_link" target="_blank">getsongbird.com</a>
+            </div>
+          </div><!--content -->
+          <div class="clearfix"></div>
+        <div class="clearfix"></div>
+      </div><!--container -->
+    
+  </div><!-- autocontainer -->
 
 <!-- include Google Analytics Tracking Code -->
 <?php include('../../includes/ga.php'); ?>
