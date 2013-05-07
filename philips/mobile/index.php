@@ -1,4 +1,15 @@
-<?php include('../../includes/download.php'); ?>
+<?php 
+
+  $UA = $_SERVER['HTTP_USER_AGENT']; 
+  if (preg_match('/Android/', $UA)) {
+    $iPhone_url = "http://itunes.com/apps/SongbirdMusic";
+    $Android_url = "market://details?id=com.songbirdnest.mediaplayer";
+  } else {
+    $iPhone_url = "itms-apps://itunes.com/apps/SongbirdMusic";
+    $Android_url = "http://market.android.com/details?id=com.songbirdnest.mediaplayer";
+  }
+
+?>
 <!DOCTYPE html>
 <!--[if IE 6]>
 <html id="ie6" dir="ltr" lang="en-US">
@@ -161,8 +172,8 @@
   <div id="content">
     <div id="iPhone-img"></div>
     <div id="Android-img"></div>
-    <a href="itms-apps://itunes.com/apps/SongbirdMusic" id="appstore-badge" target="_blank"></a>
-    <a href="http://market.android.com/details?id=com.songbirdnest.mediaplayer" id="googleplay-badge" target="_blank"></a>
+    <a href=<?php echo($iPhone_url); ?> id="appstore-badge" target="_blank"></a>
+    <a href=<?php echo($Android_url); ?> id="googleplay-badge" target="_blank"></a>
     <div id="connect_copy">
       <h1>Connect with Artists</h1>
       <p>Personalize your music experience with real-time updated from the artists you care about.  Share, like, and add to the feed.</p>
@@ -178,8 +189,8 @@
       <p>Get social with other fans, see what your friends are sharing and "like" favorite posts to save them to your profile.</p>
     </div>
     <div id="like_img"></div>
-    <a href="itms-apps://itunes.com/apps/SongbirdMusic" id="appstore-badge_footer" target="_blank"></a>
-    <a href="http://market.android.com/details?id=com.songbirdnest.mediaplayer" id="googleplay-badge_footer" target="_blank"></a>
+    <a href=<?php echo($iPhone_url); ?> id="appstore-badge_footer" target="_blank"></a>
+    <a href=<?php echo($Android_url); ?> id="googleplay-badge_footer" target="_blank"></a>
     <div id="footer_copy">
       <p>also available for desktop at <a href="http://www.getsongbird.com/desktop/" id="footer_link" target="_blank">getsongbird.com</a>
     </div>
