@@ -2,7 +2,7 @@
 
   $UA = $_SERVER['HTTP_USER_AGENT']; 
   if (preg_match('/Android/', $UA)) {
-    $iPhone_url = "http://itunes.com/apps/SongbirdMusic";
+    $iPhone_url = "https://itunes.apple.com/us/app/songbird.me/id561535312";
     $Android_url = "market://details?id=com.songbirdnest.mediaplayer";
   } else {
     $iPhone_url = "itms-apps://itunes.com/apps/SongbirdMusic";
