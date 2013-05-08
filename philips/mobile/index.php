@@ -30,12 +30,8 @@
 <style>
 
 @media screen, handheld and (max-width: 30.00em) {
-  body {
-    font-size: 62.5%;
-    
-  }
- 
-  #container {
+  
+ #container {
     position: relative;
     margin: 0.313em auto;
     width: 30.000em;
