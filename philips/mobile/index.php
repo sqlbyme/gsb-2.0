@@ -515,6 +515,169 @@
     color:#e6317e;
   }
 }
+@media screen and (max-width: 33.750em) and (orientation: portrait) {
+ body {
+   font-family: Helvetica, Arial, "Times New Roman";
+   font-size: 62.5%;
+ } 
+ #container {
+    position: relative;
+    margin: 0.313em auto;
+    width: 30.000em;
+    height: 6.500em;
+    background: url('../../images/mobile-logo-header.png') no-repeat;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto; 
+    -o-background-size: 100% auto; 
+    background-size: 100% auto;
+  }
+  #header {
+    position: absolute;
+    top: 3.033em;
+    left: 0.063em;
+    width: 30.000em;
+  }
+  h1 {
+    font-size: 1.250em;
+    color: #e6317e;
+  }
+	#content {
+	  position: relative;
+	  height: 80em;
+	  width: auto;
+	  top: 13.000em;
+	}
+	#iPhone-img {
+	  position: absolute;
+	  background: url('../../images/ios-product-shot.png') no-repeat;
+	  -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto; 
+    -o-background-size: 100% auto; 
+    background-size: 100% auto;
+	  top: 1.000em;
+	  width: 14.575em;
+	  height: 26.000em;
+	}
+  #Android-img {
+    position: absolute;
+    background: url('../../images/android-product-shot.png') no-repeat;
+    -webkit-background-size: 95% auto;
+    -moz-background-size: 95% auto; 
+    -o-background-size: 95% auto; 
+    background-size: 95% auto;
+    left: 15.000em;
+    width: 14.575em;
+    top: 1.225em;
+    height: 28.000em;
+  }
+  #appstore-badge {
+    position: absolute;
+    background: url('../../images/appstore-badge.png') no-repeat;
+    -webkit-background-size: 95% auto;
+    -moz-background-size: 95% auto; 
+    -o-background-size: 95% auto; 
+    background-size: 95% auto;
+    top: 27.500em;
+    width: 14.575em;
+    height: 5.000em;
+  }
+  #googleplay-badge {
+    position: absolute;
+    background: url('../../images/googleplay-badge.png') no-repeat;
+    -webkit-background-size: 95% auto;
+    -moz-background-size: 95% auto; 
+    -o-background-size: 95% auto; 
+    background-size: 95% auto;
+    left: 15.000em;
+    width: 14.575em;
+    top: 27.500em;
+    height: 5.000em;
+  }
+  #connect_copy {
+    position: absolute;
+    top: 33.000em;
+    width: 30.000em;
+  }
+  #connect_img {
+    position: absolute;
+    background: url('../../images/connect.png') no-repeat;
+    -webkit-background-size: 87% auto;
+    -moz-background-size: 87% auto; 
+    -o-background-size: 87% auto; 
+    background-size: 87% auto;
+    top: 40.000em;
+    left: 1.500em;
+    width: 30.000em;
+    height: 16.450em;
+  }
+  #play_copy {
+    position: absolute;
+    top: 55.575em;
+    width: 30.000em;
+  }
+  #play_img {
+    position: absolute;
+    background: url('../../images/play.png') no-repeat;
+    -webkit-background-size: 87% auto;
+    -moz-background-size: 87% auto; 
+    -o-background-size: 87% auto; 
+    background-size: 87% auto;
+    top: 62.000em;
+    left: 1.500em;
+    width: 30.000em;
+    height: 16.450em;
+  }
+  #like_copy {
+    position: absolute;
+    top: 78.000em;
+    width: 30.000em;
+  }
+  #like_img {
+    position: absolute;
+    background: url('../../images/like.png') no-repeat;
+    -webkit-background-size: 87% auto;
+    -moz-background-size: 87% auto; 
+    -o-background-size: 87% auto; 
+    background-size: 87% auto;
+    top: 85.575em;
+    left: 1.500em;
+    width: 30.000em;
+    height: 16.450em;
+  }
+  #appstore-badge_footer {
+    position: absolute;
+    background: url('../../images/appstore-badge.png') no-repeat;
+    -webkit-background-size: 95% auto;
+    -moz-background-size: 95% auto; 
+    -o-background-size: 95% auto; 
+    background-size: 95% auto;
+    top: 104.500em;
+    width: 14.575em;
+    height: 5.000em;
+  }
+  #googleplay-badge_footer {
+    position: absolute;
+    background: url('../../images/googleplay-badge.png') no-repeat;
+    -webkit-background-size: 95% auto;
+    -moz-background-size: 95% auto; 
+    -o-background-size: 95% auto; 
+    background-size: 95% auto;
+    left: 15.000em;
+    width: 14.575em;
+    top: 104.500em;
+    height: 5.000em;
+  }
+  #footer_copy{
+    position: absolute;
+    top: 110.000em;
+    width: 30.000em;
+  }
+  a#footer_link {
+    text-decoration: none;
+    color:#e6317e;
+  }
+}
+
 @media screen and (min-width: 21.000em) and (max-width: 50.000em) and (orientation: landscape) {
   body {
     font-family: Helvetica, Arial, "Times New Roman";
@@ -677,7 +840,6 @@
      color:#e6317e;
    }
 }
-
 
 </style>
 
