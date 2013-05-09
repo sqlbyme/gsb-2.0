@@ -29,6 +29,7 @@
 <meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
 <style>
 
+/* For the iPad */
 @media screen and (orientation: portrait) {
  body {
    font-family: Helvetica, Arial, "Times New Roman";
@@ -40,7 +41,10 @@
     width: 30.000em;
     height: 6.500em;
     background: url('../../images/mobile-logo-header.png') no-repeat;
-    background-size: 100%;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto; 
+    -o-background-size: 100% auto; 
+    background-size: 100% auto;
   }
   #header {
     position: absolute;
@@ -61,7 +65,10 @@
 	#iPhone-img {
 	  position: absolute;
 	  background: url('../../images/ios-product-shot.png') no-repeat;
-	  background-size: 100%;
+	  -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto; 
+    -o-background-size: 100% auto; 
+    background-size: 100% auto;
 	  top: 1.000em;
 	  width: 14.575em;
 	  height: 26.000em;
@@ -69,7 +76,10 @@
   #Android-img {
     position: absolute;
     background: url('../../images/android-product-shot.png') no-repeat;
-    background-size: 95%;
+    -webkit-background-size: 95% auto;
+    -moz-background-size: 95% auto; 
+    -o-background-size: 95% auto; 
+    background-size: 95% auto;
     left: 15.000em;
     width: 14.575em;
     top: 1.225em;
@@ -78,7 +88,10 @@
   #appstore-badge {
     position: absolute;
     background: url('../../images/appstore-badge.png') no-repeat;
-    background-size: 95%;
+    -webkit-background-size: 95% auto;
+    -moz-background-size: 95% auto; 
+    -o-background-size: 95% auto; 
+    background-size: 95% auto;
     top: 27.500em;
     width: 14.575em;
     height: 5.000em;
@@ -86,7 +99,10 @@
   #googleplay-badge {
     position: absolute;
     background: url('../../images/googleplay-badge.png') no-repeat;
-    background-size: 95%;
+    -webkit-background-size: 95% auto;
+    -moz-background-size: 95% auto; 
+    -o-background-size: 95% auto; 
+    background-size: 95% auto;
     left: 15.000em;
     width: 14.575em;
     top: 27.500em;
@@ -100,7 +116,10 @@
   #connect_img {
     position: absolute;
     background: url('../../images/connect.png') no-repeat;
-    background-size: 87%;
+    -webkit-background-size: 87% auto;
+    -moz-background-size: 87% auto; 
+    -o-background-size: 87% auto; 
+    background-size: 87% auto;
     top: 40.000em;
     left: 1.500em;
     width: 30.000em;
@@ -114,7 +133,10 @@
   #play_img {
     position: absolute;
     background: url('../../images/play.png') no-repeat;
-    background-size: 87%;
+    -webkit-background-size: 87% auto;
+    -moz-background-size: 87% auto; 
+    -o-background-size: 87% auto; 
+    background-size: 87% auto;
     top: 62.000em;
     left: 1.500em;
     width: 30.000em;
@@ -128,7 +150,10 @@
   #like_img {
     position: absolute;
     background: url('../../images/like.png') no-repeat;
-    background-size: 87%;
+    -webkit-background-size: 87% auto;
+    -moz-background-size: 87% auto; 
+    -o-background-size: 87% auto; 
+    background-size: 87% auto;
     top: 85.575em;
     left: 1.500em;
     width: 30.000em;
@@ -137,7 +162,10 @@
   #appstore-badge_footer {
     position: absolute;
     background: url('../../images/appstore-badge.png') no-repeat;
-    background-size: 95%;
+    -webkit-background-size: 95% auto;
+    -moz-background-size: 95% auto; 
+    -o-background-size: 95% auto; 
+    background-size: 95% auto;
     top: 104.500em;
     width: 14.575em;
     height: 5.000em;
@@ -145,7 +173,10 @@
   #googleplay-badge_footer {
     position: absolute;
     background: url('../../images/googleplay-badge.png') no-repeat;
-    background-size: 95%;
+    -webkit-background-size: 95% auto;
+    -moz-background-size: 95% auto; 
+    -o-background-size: 95% auto; 
+    background-size: 95% auto;
     left: 15.000em;
     width: 14.575em;
     top: 104.500em;
@@ -193,7 +224,10 @@
  	#iPhone-img {
  	  position: absolute;
  	  background: url('../../images/ios-product-shot.png') no-repeat;
- 	  background-size: 100%;
+ 	  -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto; 
+    -o-background-size: 100% auto; 
+    background-size: 100% auto;
  	  top: 1.000em;
  	  width: 14.575em;
  	  height: 26.000em;
@@ -201,7 +235,10 @@
    #Android-img {
      position: absolute;
      background: url('../../images/android-product-shot.png') no-repeat;
-     background-size: 95%;
+     -webkit-background-size: 95% auto;
+     -moz-background-size: 95% auto; 
+     -o-background-size: 95% auto; 
+     background-size: 95% auto;
      left: 15.000em;
      width: 14.575em;
      top: 1.225em;
@@ -210,7 +247,10 @@
    #appstore-badge {
      position: absolute;
      background: url('../../images/appstore-badge.png') no-repeat;
-     background-size: 95%;
+     -webkit-background-size: 95% auto;
+     -moz-background-size: 95% auto; 
+     -o-background-size: 95% auto; 
+     background-size: 95% auto;
      top: 27.500em;
      width: 14.575em;
      height: 5.000em;
@@ -218,7 +258,10 @@
    #googleplay-badge {
      position: absolute;
      background: url('../../images/googleplay-badge.png') no-repeat;
-     background-size: 95%;
+     -webkit-background-size: 95% auto;
+     -moz-background-size: 95% auto; 
+     -o-background-size: 95% auto; 
+     background-size: 95% auto;
      left: 15.000em;
      width: 14.575em;
      top: 27.500em;
@@ -232,7 +275,10 @@
    #connect_img {
      position: absolute;
      background: url('../../images/connect.png') no-repeat;
-     background-size: 87%;
+     -webkit-background-size: 87% auto;
+     -moz-background-size: 87% auto; 
+     -o-background-size: 87% auto; 
+     background-size: 87% auto;
      top: 40.000em;
      left: 1.500em;
      width: 30.000em;
@@ -246,7 +292,10 @@
    #play_img {
      position: absolute;
      background: url('../../images/play.png') no-repeat;
-     background-size: 87%;
+     -webkit-background-size: 87% auto;
+      -moz-background-size: 87% auto; 
+      -o-background-size: 87% auto; 
+      background-size: 87% auto;
      top: 62.000em;
      left: 1.500em;
      width: 30.000em;
@@ -260,7 +309,10 @@
    #like_img {
      position: absolute;
      background: url('../../images/like.png') no-repeat;
-     background-size: 87%;
+     -webkit-background-size: 87% auto;
+      -moz-background-size: 87% auto; 
+      -o-background-size: 87% auto; 
+      background-size: 87% auto;
      top: 85.575em;
      left: 1.500em;
      width: 30.000em;
@@ -269,7 +321,10 @@
    #appstore-badge_footer {
      position: absolute;
      background: url('../../images/appstore-badge.png') no-repeat;
-     background-size: 95%;
+     -webkit-background-size: 95% auto;
+      -moz-background-size: 95% auto; 
+      -o-background-size: 95% auto; 
+      background-size: 95% auto;
      top: 104.500em;
      width: 14.575em;
      height: 5.000em;
@@ -277,7 +332,10 @@
    #googleplay-badge_footer {
      position: absolute;
      background: url('../../images/googleplay-badge.png') no-repeat;
-     background-size: 95%;
+     -webkit-background-size: 95% auto;
+       -moz-background-size: 95% auto; 
+       -o-background-size: 95% auto; 
+       background-size: 95% auto;
      left: 15.000em;
      width: 14.575em;
      top: 104.500em;
@@ -294,6 +352,7 @@
    }
 }
 
+/* For the iPhone */
 @media screen and (max-width: 20.000em) and (orientation: portrait) {
  body {
    font-family: Helvetica, Arial, "Times New Roman";
@@ -305,7 +364,10 @@
     width: 30.000em;
     height: 6.500em;
     background: url('../../images/mobile-logo-header.png') no-repeat;
-    background-size: 100%;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto; 
+    -o-background-size: 100% auto; 
+    background-size: 100% auto;
   }
   #header {
     position: absolute;
@@ -326,7 +388,10 @@
 	#iPhone-img {
 	  position: absolute;
 	  background: url('../../images/ios-product-shot.png') no-repeat;
-	  background-size: 100%;
+	  -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto; 
+    -o-background-size: 100% auto; 
+    background-size: 100% auto;
 	  top: 1.000em;
 	  width: 14.575em;
 	  height: 26.000em;
@@ -334,7 +399,10 @@
   #Android-img {
     position: absolute;
     background: url('../../images/android-product-shot.png') no-repeat;
-    background-size: 95%;
+    -webkit-background-size: 95% auto;
+    -moz-background-size: 95% auto; 
+    -o-background-size: 95% auto; 
+    background-size: 95% auto;
     left: 15.000em;
     width: 14.575em;
     top: 1.225em;
@@ -343,7 +411,10 @@
   #appstore-badge {
     position: absolute;
     background: url('../../images/appstore-badge.png') no-repeat;
-    background-size: 95%;
+    -webkit-background-size: 95% auto;
+    -moz-background-size: 95% auto; 
+    -o-background-size: 95% auto; 
+    background-size: 95% auto;
     top: 27.500em;
     width: 14.575em;
     height: 5.000em;
@@ -351,7 +422,10 @@
   #googleplay-badge {
     position: absolute;
     background: url('../../images/googleplay-badge.png') no-repeat;
-    background-size: 95%;
+    -webkit-background-size: 95% auto;
+    -moz-background-size: 95% auto; 
+    -o-background-size: 95% auto; 
+    background-size: 95% auto;
     left: 15.000em;
     width: 14.575em;
     top: 27.500em;
@@ -365,7 +439,10 @@
   #connect_img {
     position: absolute;
     background: url('../../images/connect.png') no-repeat;
-    background-size: 87%;
+    -webkit-background-size: 87% auto;
+    -moz-background-size: 87% auto; 
+    -o-background-size: 87% auto; 
+    background-size: 87% auto;
     top: 40.000em;
     left: 1.500em;
     width: 30.000em;
@@ -379,7 +456,10 @@
   #play_img {
     position: absolute;
     background: url('../../images/play.png') no-repeat;
-    background-size: 87%;
+    -webkit-background-size: 87% auto;
+    -moz-background-size: 87% auto; 
+    -o-background-size: 87% auto; 
+    background-size: 87% auto;
     top: 62.000em;
     left: 1.500em;
     width: 30.000em;
@@ -393,7 +473,10 @@
   #like_img {
     position: absolute;
     background: url('../../images/like.png') no-repeat;
-    background-size: 87%;
+    -webkit-background-size: 87% auto;
+    -moz-background-size: 87% auto; 
+    -o-background-size: 87% auto; 
+    background-size: 87% auto;
     top: 85.575em;
     left: 1.500em;
     width: 30.000em;
@@ -402,7 +485,10 @@
   #appstore-badge_footer {
     position: absolute;
     background: url('../../images/appstore-badge.png') no-repeat;
-    background-size: 95%;
+    -webkit-background-size: 95% auto;
+    -moz-background-size: 95% auto; 
+    -o-background-size: 95% auto; 
+    background-size: 95% auto;
     top: 104.500em;
     width: 14.575em;
     height: 5.000em;
@@ -410,7 +496,10 @@
   #googleplay-badge_footer {
     position: absolute;
     background: url('../../images/googleplay-badge.png') no-repeat;
-    background-size: 95%;
+    -webkit-background-size: 95% auto;
+    -moz-background-size: 95% auto; 
+    -o-background-size: 95% auto; 
+    background-size: 95% auto;
     left: 15.000em;
     width: 14.575em;
     top: 104.500em;
@@ -426,7 +515,7 @@
     color:#e6317e;
   }
 }
-@media screen and (min-width: 21.000em) and (max-width: 30.000em) and (orientation: landscape) {
+@media screen and (min-width: 21.000em) and (max-width: 50.000em) and (orientation: landscape) {
   body {
     font-family: Helvetica, Arial, "Times New Roman";
     font-size: 87.5%;
@@ -437,7 +526,10 @@
      width: 30.000em;
      height: 6.500em;
      background: url('../../images/mobile-logo-header.png') no-repeat;
-     background-size: 100%;
+     -webkit-background-size: 100% auto;
+     -moz-background-size: 100% auto; 
+     -o-background-size: 100% auto; 
+     background-size: 100% auto;
    }
    #header {
      position: absolute;
@@ -458,7 +550,10 @@
  	#iPhone-img {
  	  position: absolute;
  	  background: url('../../images/ios-product-shot.png') no-repeat;
- 	  background-size: 100%;
+ 	  -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto; 
+    -o-background-size: 100% auto; 
+    background-size: 100% auto;
  	  top: 1.000em;
  	  width: 14.575em;
  	  height: 26.000em;
@@ -466,7 +561,10 @@
    #Android-img {
      position: absolute;
      background: url('../../images/android-product-shot.png') no-repeat;
-     background-size: 95%;
+     -webkit-background-size: 95% auto;
+     -moz-background-size: 95% auto; 
+     -o-background-size: 95% auto; 
+     background-size: 95% auto;
      left: 15.000em;
      width: 14.575em;
      top: 1.225em;
@@ -475,7 +573,10 @@
    #appstore-badge {
      position: absolute;
      background: url('../../images/appstore-badge.png') no-repeat;
-     background-size: 95%;
+     -webkit-background-size: 95% auto;
+     -moz-background-size: 95% auto; 
+     -o-background-size: 95% auto; 
+     background-size: 95% auto;
      top: 27.500em;
      width: 14.575em;
      height: 5.000em;
@@ -483,7 +584,10 @@
    #googleplay-badge {
      position: absolute;
      background: url('../../images/googleplay-badge.png') no-repeat;
-     background-size: 95%;
+     -webkit-background-size: 95% auto;
+     -moz-background-size: 95% auto; 
+     -o-background-size: 95% auto; 
+     background-size: 95% auto;
      left: 15.000em;
      width: 14.575em;
      top: 27.500em;
@@ -497,7 +601,10 @@
    #connect_img {
      position: absolute;
      background: url('../../images/connect.png') no-repeat;
-     background-size: 87%;
+     -webkit-background-size: 87% auto;
+     -moz-background-size: 87% auto; 
+     -o-background-size: 87% auto; 
+     background-size: 87% auto;
      top: 40.000em;
      left: 1.500em;
      width: 30.000em;
@@ -511,7 +618,10 @@
    #play_img {
      position: absolute;
      background: url('../../images/play.png') no-repeat;
-     background-size: 87%;
+     -webkit-background-size: 87% auto;
+     -moz-background-size: 87% auto; 
+     -o-background-size: 87% auto; 
+     background-size: 87% auto;
      top: 62.000em;
      left: 1.500em;
      width: 30.000em;
@@ -525,7 +635,10 @@
    #like_img {
      position: absolute;
      background: url('../../images/like.png') no-repeat;
-     background-size: 87%;
+     -webkit-background-size: 87% auto;
+     -moz-background-size: 87% auto; 
+     -o-background-size: 87% auto; 
+     background-size: 87% auto;
      top: 85.575em;
      left: 1.500em;
      width: 30.000em;
@@ -534,7 +647,10 @@
    #appstore-badge_footer {
      position: absolute;
      background: url('../../images/appstore-badge.png') no-repeat;
-     background-size: 95%;
+     -webkit-background-size: 95% auto;
+     -moz-background-size: 95% auto; 
+     -o-background-size: 95% auto; 
+     background-size: 95% auto;
      top: 104.500em;
      width: 14.575em;
      height: 5.000em;
@@ -542,7 +658,10 @@
    #googleplay-badge_footer {
      position: absolute;
      background: url('../../images/googleplay-badge.png') no-repeat;
-     background-size: 95%;
+     -webkit-background-size: 95% auto;
+     -moz-background-size: 95% auto; 
+     -o-background-size: 95% auto; 
+     background-size: 95% auto;
      left: 15.000em;
      width: 14.575em;
      top: 104.500em;
