@@ -10,7 +10,7 @@
         <li><a href="/about/privacy.php" onClick="_gaq.push(['_trackEvent', 'Privacy Clicked', 'Link Location: Page Footer');" target="_self">Privacy</a></li>
         <li><a href="/about/terms.php" onClick="_gaq.push(['_trackEvent', 'Terms Clicked', 'Link Location: Page Footer');" target="_self">Terms of Use</a></li>
       </ul>
-    <a class="facebook" href="http://www.facebook.com/Songbird" target="_blank" onClick="recordOutboundLink(this, 'Facebook Clicked', 'Link Location: Page Footer');return false;"></a><a class="twitter" href="https://twitter.com/#!/songbird" target="_blank" onClick="recordOutboundLink(this, 'Twitter Clicked', 'Link Location: Page Footer'); return false;"></a>
+    <a class="facebook" href="http://www.facebook.com/Songbird" target="_blank" onClick="recordOutboundLink(this, 'Facebook Clicked', 'Link Location: Page Footer');return false;"></a><a class="twitter" href="https://twitter.com/#!/songbird" target="_blank" onClick="recordOutboundLink(this, 'Twitter Clicked', 'Link Location: Page Footer'); return false;"></a><a class="google" href="//plus.google.com/106161468834265389017?prsrc=3" rel="publisher" target="_blank" style="text-decoration:none;"><img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/></a>
   </div><!--footer-content -->
   <div class="clearfix"></div>
 </div><!--footer -->

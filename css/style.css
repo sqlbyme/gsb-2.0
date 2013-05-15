@@ -604,3 +604,10 @@ a.twitter {
 a.twitter:hover {
 	background: url(../images/social.png) bottom right;
 }
+a.google {
+	margin-top: 15px;
+	width: 56px;
+	height: 56px;
+	display: block;
+	float: right;
+}
