@@ -36,8 +36,8 @@ ul#bullets li {
         	About
             <img src="../images/divider.jpg" border="0" width="1" height="31" style="position:relative; top:10px; margin:0 0 0 45px">
             <a href="index.php" class="active">Overview</a>
-            <a href="board.php">Board</a>
-            <a href="management.php">Management</a>
+            <!-- <a href="board.php">Board</a>
+            <a href="management.php">Management</a> -->
             <a href="press.php">Press</a>
             <a href="jobs.php">Jobs</a>
         </div>
